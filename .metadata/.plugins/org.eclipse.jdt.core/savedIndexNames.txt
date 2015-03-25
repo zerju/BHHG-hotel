@@ -5,7 +5,6 @@ INDEX VERSION 1.127+C:\Users\Dom\Desktop\Faks\RIS_Projekt\BHHG-hotel\.metadata\.
 4041092966.index
 1697886153.index
 1115467115.index
-1924905392.index
 1299022128.index
 4108727661.index
 163172794.index

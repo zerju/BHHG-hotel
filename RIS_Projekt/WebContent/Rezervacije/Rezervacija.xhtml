@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html
+xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<head>
+<meta charset="UTF-8"/>
+<title>Rezervacija sobe</title>
+</head>
+<body>
+<h1>Rezervacija sobe</h1>
+<h:form>
+	<table>
+		<tr><td>Ime: </td><td><h:inputText/></td></tr>
+		<tr><td>Priimek: </td><td><h:inputText/></td></tr>
+		<tr><td>Elektronski naslov: </td><td><h:inputText/></td></tr>
+		<tr><td>Telefonska št.: </td><td><h:inputText/></td></tr>
+		<tr><td>Število oseb:</td><td><h:selectOneMenu>
+				<f:selectItem itemValue="1" itemLabel="1"/>
+				<f:selectItem itemValue="2" itemLabel="2"/>
+				<f:selectItem itemValue="3" itemLabel="3"/>
+				<f:selectItem itemValue="4" itemLabel="4"/>
+				</h:selectOneMenu>
+		</td></tr>
+		<tr><td>Številka kreditne kartice: </td><td><h:inputText/></td></tr>
+		<tr><td>CVV: </td><td><h:inputText/></td></tr>
+		<tr><td><h:commandButton value="Rezerviraj"/></td></tr>
+	</table>
+</h:form>
+</body>
+</html>

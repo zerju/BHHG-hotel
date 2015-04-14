@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14290436871090" configfile="/RIS_Projekt/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="Rezervacije/RezervacijeSob.xhtml" x="261" y="209" id="pf14290439749184" outlinks="pf14290439749185 pf14290458645008" inlinks="pf14290448182647" path="/Rezervacije/RezervacijeSob.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Rezervacije/SobaPodrobno.xhtml" x="588" y="372" id="pf14290439749186" outlinks="pf14290448182647 pf14290458645009" inlinks="pf14290439749185" path="/Rezervacije/SobaPodrobno.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Rezervacije/Rezervacija.xhtml" x="648" y="196" id="pf142904586450010" inlinks="pf14290458645009 pf14290458645008" path="/Rezervacije/Rezervacija.xhtml"/>
+  <links id="pf14290439749185" target="pf14290439749186" source="pf14290439749184" outcome="vec"/>
+  <links id="pf14290448182647" target="pf14290439749184" source="pf14290439749186" outcome="vseSobe"/>
+  <links id="pf14290458645009" target="pf142904586450010" source="pf14290439749186" outcome="rezerviraj"/>
+  <links id="pf14290458645008" target="pf142904586450010" source="pf14290439749184" outcome="rezerviraj"/>
+</pageflow:Pageflow>

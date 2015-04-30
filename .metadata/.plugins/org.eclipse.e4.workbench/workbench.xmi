@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_yB7OwO5kEeSzs_AC9jtt6Q" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_yB7Owe5kEeSzs_AC9jtt6Q" bindingContexts="_yB9E7u5kEeSzs_AC9jtt6Q">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RezervacijeSobe.java&quot; tooltip=&quot;RIS_Projekt/src/rezervacije/RezervacijeSobe.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/src/rezervacije/RezervacijeSobe.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Kr_neka_sajnivazno.java&quot; tooltip=&quot;RIS_Projekt/src/controlers/Kr_neka_sajnivazno.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/src/controlers/Kr_neka_sajnivazno.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Miza.java&quot; tooltip=&quot;RIS_Projekt/src/beani/Miza.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/src/beani/Miza.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Mnenje.java&quot; tooltip=&quot;RIS_Projekt/src/beani/Mnenje.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/src/beani/Mnenje.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;NewFile.html&quot; tooltip=&quot;RIS_Projekt/WebContent/NewFile.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/WebContent/NewFile.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Kr_neka_sajnivazno.java&quot; tooltip=&quot;RIS_Projekt/src/Kr_neka_sajnivazno.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/src/Kr_neka_sajnivazno.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.css.core.csssource.source&quot; name=&quot;style.css&quot; tooltip=&quot;RIS_Projekt/WebContent/WEB-INF/style.css&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/WebContent/WEB-INF/style.css&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.css.core.csssource.source&quot; name=&quot;style.css&quot; tooltip=&quot;RIS_Projekt/WebContent/Rezervacije/style.css&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/WebContent/Rezervacije/style.css&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;templateFooter.xhtml&quot; tooltip=&quot;RIS_Projekt/WebContent/WEB-INF/templateFooter.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/WebContent/WEB-INF/templateFooter.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;RezervacijeSob.xhtml&quot; tooltip=&quot;RIS_Projekt/WebContent/Rezervacije/RezervacijeSob.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/WebContent/Rezervacije/RezervacijeSob.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;SobaPodrobno.xhtml&quot; tooltip=&quot;RIS_Projekt/WebContent/Rezervacije/SobaPodrobno.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/WebContent/Rezervacije/SobaPodrobno.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;Rezervacija.xhtml&quot; tooltip=&quot;RIS_Projekt/WebContent/Rezervacije/Rezervacija.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/WebContent/Rezervacije/Rezervacija.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;RezervirajSobo.xhtml&quot; tooltip=&quot;RIS_Projekt/WebContent/Rezervacije/RezervirajSobo.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/WebContent/Rezervacije/RezervirajSobo.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;MizaPodrobno.xhtml&quot; tooltip=&quot;RIS_Projekt/WebContent/Rezervacije/MizaPodrobno.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/WebContent/Rezervacije/MizaPodrobno.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;RezervirajMizo.xhtml&quot; tooltip=&quot;RIS_Projekt/WebContent/Rezervacije/RezervirajMizo.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/WebContent/Rezervacije/RezervirajMizo.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;RezervacijeMiz.xhtml&quot; tooltip=&quot;RIS_Projekt/WebContent/Rezervacije/RezervacijeMiz.xhtml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/WebContent/Rezervacije/RezervacijeMiz.xhtml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot; name=&quot;web.xml&quot; tooltip=&quot;RIS_Projekt/WebContent/WEB-INF/web.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/WebContent/WEB-INF/web.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.css.core.csssource.source&quot; name=&quot;layout.css&quot; tooltip=&quot;RIS_Projekt/WebContent/WEB-INF/layout.css&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RIS_Projekt/WebContent/WEB-INF/layout.css&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_yB7Owe5kEeSzs_AC9jtt6Q" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_yB7Owu5kEeSzs_AC9jtt6Q" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
@@ -69,6 +69,8 @@
           <tags>persp.actionSet:org.eclipse.wst.ws.explorer.explorer</tags>
           <tags>persp.actionSet:org.jboss.ide.eclipse.archives.ui.actions.Archives</tags>
           <tags>persp.actionSet:org.jboss.tools.jst.web.ui.server.actionSet</tags>
+          <tags>persp.actionSet:com.sap.jvm.profiling.ui.actionSet</tags>
+          <tags>persp.actionSet:com.sap.jvm.profiling.ui.actionSetRun</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_yB7Oxe5kEeSzs_AC9jtt6Q" selectedElement="_yB7Ozu5kEeSzs_AC9jtt6Q" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_yB7Oxu5kEeSzs_AC9jtt6Q" containerData="1987" selectedElement="_yB7OzO5kEeSzs_AC9jtt6Q">
               <children xsi:type="basic:PartStack" xmi:id="_yB7Ox-5kEeSzs_AC9jtt6Q" elementId="topLeft" containerData="5769" selectedElement="_yB7OyO5kEeSzs_AC9jtt6Q">
@@ -132,78 +134,60 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_yB73Be5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.editorss" selectedElement="_yB73Bu5kEeSzs_AC9jtt6Q">
-      <children xsi:type="basic:PartStack" xmi:id="_yB73Bu5kEeSzs_AC9jtt6Q" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_yB73D-5kEeSzs_AC9jtt6Q">
+      <children xsi:type="basic:PartStack" xmi:id="_yB73Bu5kEeSzs_AC9jtt6Q" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_Ml4C8O8zEeSjMp6nOzxKHQ">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <tags>noFocus</tags>
-        <children xsi:type="basic:Part" xmi:id="_yB73B-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Miza.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Miza.java&quot; partName=&quot;Miza.java&quot; title=&quot;Miza.java&quot; tooltip=&quot;RIS_Projekt/src/beani/Miza.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RIS_Projekt/src/beani/Miza.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;316&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="__hZkMO8rEeSFROj0DmgWdw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="templateHeader.xhtml" iconURI="platform:/plugin/org.eclipse.wst.html.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;templateHeader.xhtml&quot; partName=&quot;templateHeader.xhtml&quot; title=&quot;templateHeader.xhtml&quot; tooltip=&quot;RIS_Projekt/WebContent/WEB-INF/templateHeader.xhtml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RIS_Projekt/WebContent/WEB-INF/templateHeader.xhtml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;581&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>org.eclipse.wst.html.core.htmlsource.source</tags>
           <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_yB73CO5kEeSzs_AC9jtt6Q" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_yB73Ce5kEeSzs_AC9jtt6Q" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_yB73Cu5kEeSzs_AC9jtt6Q" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_yB73C-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Kr_neka_sajnivazno.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Kr_neka_sajnivazno.java&quot; partName=&quot;Kr_neka_sajnivazno.java&quot; title=&quot;Kr_neka_sajnivazno.java&quot; tooltip=&quot;RIS_Projekt/src/controlers/Kr_neka_sajnivazno.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RIS_Projekt/src/controlers/Kr_neka_sajnivazno.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_yMbfcO8xEeSjMp6nOzxKHQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="style.css" iconURI="platform:/plugin/org.eclipse.wst.css.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.css.core.csssource.source&quot; name=&quot;style.css&quot; partName=&quot;style.css&quot; title=&quot;style.css&quot; tooltip=&quot;RIS_Projekt/WebContent/Rezervacije/style.css&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RIS_Projekt/WebContent/Rezervacije/style.css&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1808&quot; selectionTopPixel=&quot;1700&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>org.eclipse.wst.css.core.csssource.source</tags>
           <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_yB73DO5kEeSzs_AC9jtt6Q" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_yB73De5kEeSzs_AC9jtt6Q" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_yB73Du5kEeSzs_AC9jtt6Q" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_yB73D-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RezervacijeSobe.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RezervacijeSobe.java&quot; partName=&quot;RezervacijeSobe.java&quot; title=&quot;RezervacijeSobe.java&quot; tooltip=&quot;RIS_Projekt/src/rezervacije/RezervacijeSobe.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RIS_Projekt/src/rezervacije/RezervacijeSobe.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;22&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_MMhu0O8zEeSjMp6nOzxKHQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RezervirajSobo.xhtml" iconURI="platform:/plugin/org.eclipse.wst.html.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;RezervirajSobo.xhtml&quot; partName=&quot;RezervirajSobo.xhtml&quot; title=&quot;RezervirajSobo.xhtml&quot; tooltip=&quot;RIS_Projekt/WebContent/Rezervacije/RezervirajSobo.xhtml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RIS_Projekt/WebContent/Rezervacije/RezervirajSobo.xhtml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;20&quot; selectionOffset=&quot;318&quot; selectionTopPixel=&quot;83&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>org.eclipse.wst.html.core.htmlsource.source</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_Ml4C8O8zEeSjMp6nOzxKHQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Rezervacija.xhtml" iconURI="platform:/plugin/org.eclipse.wst.html.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;Rezervacija.xhtml&quot; partName=&quot;Rezervacija.xhtml&quot; title=&quot;Rezervacija.xhtml&quot; tooltip=&quot;RIS_Projekt/WebContent/Rezervacije/Rezervacija.xhtml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RIS_Projekt/WebContent/Rezervacije/Rezervacija.xhtml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1158&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wst.html.core.htmlsource.source</tags>
           <tags>removeOnHide</tags>
           <tags>active</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_yB73EO5kEeSzs_AC9jtt6Q" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_yB73Ee5kEeSzs_AC9jtt6Q" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_yB73Eu5kEeSzs_AC9jtt6Q" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
+          <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_QC_DAO8zEeSjMp6nOzxKHQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SobaPodrobno.xhtml" iconURI="platform:/plugin/org.eclipse.wst.html.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;SobaPodrobno.xhtml&quot; partName=&quot;SobaPodrobno.xhtml&quot; title=&quot;SobaPodrobno.xhtml&quot; tooltip=&quot;RIS_Projekt/WebContent/Rezervacije/SobaPodrobno.xhtml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RIS_Projekt/WebContent/Rezervacije/SobaPodrobno.xhtml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1552&quot; selectionTopPixel=&quot;151&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wst.html.core.htmlsource.source</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_fqBCQO8zEeSjMp6nOzxKHQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RezervacijeSob.xhtml" iconURI="platform:/plugin/org.eclipse.wst.html.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;RezervacijeSob.xhtml&quot; partName=&quot;RezervacijeSob.xhtml&quot; title=&quot;RezervacijeSob.xhtml&quot; tooltip=&quot;RIS_Projekt/WebContent/Rezervacije/RezervacijeSob.xhtml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RIS_Projekt/WebContent/Rezervacije/RezervacijeSob.xhtml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;439&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wst.html.core.htmlsource.source</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_0tbxsO8zEeSjMp6nOzxKHQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="templateFooter.xhtml" iconURI="platform:/plugin/org.eclipse.wst.html.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;templateFooter.xhtml&quot; partName=&quot;templateFooter.xhtml&quot; title=&quot;templateFooter.xhtml&quot; tooltip=&quot;RIS_Projekt/WebContent/WEB-INF/templateFooter.xhtml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RIS_Projekt/WebContent/WEB-INF/templateFooter.xhtml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;21&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;245&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wst.html.core.htmlsource.source</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_7Y2EUO80EeSjMp6nOzxKHQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="style.css" iconURI="platform:/plugin/org.eclipse.wst.css.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.css.core.csssource.source&quot; name=&quot;style.css&quot; partName=&quot;style.css&quot; title=&quot;style.css&quot; tooltip=&quot;RIS_Projekt/WebContent/WEB-INF/style.css&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RIS_Projekt/WebContent/WEB-INF/style.css&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;6030&quot; selectionTopPixel=&quot;5506&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wst.css.core.csssource.source</tags>
+          <tags>removeOnHide</tags>
         </children>
       </children>
     </sharedElements>
@@ -342,40 +326,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yB8dJe5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dJu5kEeSzs_AC9jtt6Q" elementId="new.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dJ-5kEeSzs_AC9jtt6Q" elementId="newWizardDropDown">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dKO5kEeSzs_AC9jtt6Q" elementId="new.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dKe5kEeSzs_AC9jtt6Q" elementId="save.group" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dKu5kEeSzs_AC9jtt6Q" elementId="save">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dK-5kEeSzs_AC9jtt6Q" elementId="saveAll">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dLO5kEeSzs_AC9jtt6Q" elementId="save.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_yB8dLe5kEeSzs_AC9jtt6Q" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_yB-7wu5kEeSzs_AC9jtt6Q"/>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dLu5kEeSzs_AC9jtt6Q" elementId="print.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dL-5kEeSzs_AC9jtt6Q" elementId="build.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dMO5kEeSzs_AC9jtt6Q" elementId="build.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dMe5kEeSzs_AC9jtt6Q" elementId="additions">
-          <tags>Opaque</tags>
-        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_71I7kO8wEeSjMp6nOzxKHQ" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_yB-7wu5kEeSzs_AC9jtt6Q"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yB8dMu5kEeSzs_AC9jtt6Q" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -383,111 +334,24 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yB8dYu5kEeSzs_AC9jtt6Q" elementId="org.eclipse.debug.ui.launchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dY-5kEeSzs_AC9jtt6Q" elementId="debug">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dZO5kEeSzs_AC9jtt6Q" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dZe5kEeSzs_AC9jtt6Q" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dZu5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yB8dZ-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.jst.j2ee.J2eeMainActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8daO5kEeSzs_AC9jtt6Q" elementId="J2EEMain">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dae5kEeSzs_AC9jtt6Q" elementId="org.eclipse.jst.j2ee.internal.actions.NewJavaEEProject">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dau5kEeSzs_AC9jtt6Q" elementId="org.eclipse.jst.j2ee.internal.actions.NewJavaEEArtifact">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yB8da-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dbO5kEeSzs_AC9jtt6Q" elementId="Search">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dbe5kEeSzs_AC9jtt6Q" elementId="openType">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dbu5kEeSzs_AC9jtt6Q" elementId="org.eclipse.mylyn.tasks.ui.openTask">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8db-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.search.OpenSearchDialogPage">
-          <tags>Opaque</tags>
-        </children>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_yB8dcO5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
+      <children xsi:type="menu:ToolBar" xmi:id="_yB8dcO5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dce5kEeSzs_AC9jtt6Q" elementId="Presentation">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dcu5kEeSzs_AC9jtt6Q" elementId="org.eclipse.jdt.ui.edit.text.java.toggleBreadcrumb">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dc-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.jdt.ui.edit.text.java.toggleMarkOccurrences">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8ddO5kEeSzs_AC9jtt6Q" elementId="org.eclipse.mylyn.java.ui.editor.folding.auto">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dde5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.edit.text.toggleBlockSelectionMode">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8ddu5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dd-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly" visible="false">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yB8deO5kEeSzs_AC9jtt6Q" elementId="org.eclipse.wst.server.ui.internal.webbrowser.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dee5kEeSzs_AC9jtt6Q" elementId="browser">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8deu5kEeSzs_AC9jtt6Q" elementId="org.eclipse.wst.server.ui.internal.webbrowser.action.open">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yB8de-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.wst.ws.explorer.explorer">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dfO5kEeSzs_AC9jtt6Q" elementId="additions">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dfe5kEeSzs_AC9jtt6Q" elementId="org.eclipse.wst.ws.internal.explorer.action.LaunchWSEAction">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yB8dfu5kEeSzs_AC9jtt6Q" elementId="org.jboss.tools.jst.web.ui.server.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8df-5kEeSzs_AC9jtt6Q" elementId="SelectServer">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dgO5kEeSzs_AC9jtt6Q" elementId="org.jboss.tools.jst.web.ui.action.server.SelectServerActionDelegate">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dge5kEeSzs_AC9jtt6Q" elementId="server">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dgu5kEeSzs_AC9jtt6Q" elementId="org.jboss.tools.jst.web.ui.action.server.RunServerActionDelegate">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dg-5kEeSzs_AC9jtt6Q" elementId="org.jboss.tools.jst.web.ui.action.server.DebugServerActionDelegate">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dhO5kEeSzs_AC9jtt6Q" elementId="org.jboss.tools.jst.web.ui.action.server.StopServerActionDelegate">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dhe5kEeSzs_AC9jtt6Q" elementId="org.jboss.tools.jst.web.ui.action.server.ChangeTimeStampActionDelegate">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yB8dhu5kEeSzs_AC9jtt6Q" elementId="group.nav" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -495,34 +359,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yB8diO5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8die5kEeSzs_AC9jtt6Q" elementId="history.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8diu5kEeSzs_AC9jtt6Q" elementId="group.application" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8di-5kEeSzs_AC9jtt6Q" elementId="backardHistory">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8djO5kEeSzs_AC9jtt6Q" elementId="forwardHistory">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dje5kEeSzs_AC9jtt6Q" elementId="pin.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_yB8dju5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_yB-6hu5kEeSzs_AC9jtt6Q"/>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dj-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.edit.text.gotoNextAnnotation">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dkO5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.edit.text.gotoPreviousAnnotation">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dke5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition">
-          <tags>Opaque</tags>
-        </children>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_yB8dku5kEeSzs_AC9jtt6Q" elementId="org.eclipse.jdt.ui.CompilationUnitEditor" visible="false">
-        <tags>Draggable</tags>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_71N0Ee8wEeSjMp6nOzxKHQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_yB-6hu5kEeSzs_AC9jtt6Q"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yB8dk-5kEeSzs_AC9jtt6Q" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -534,12 +371,6 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_yB8dl-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.workbench.help" visible="false">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dmO5kEeSzs_AC9jtt6Q" elementId="group.help">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_yB8dme5kEeSzs_AC9jtt6Q" elementId="group.application" visible="false">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_yB8dmu5kEeSzs_AC9jtt6Q" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
         <tags>stretch</tags>
@@ -607,6 +438,10 @@
     <bindings xmi:id="_yB8dxO5kEeSzs_AC9jtt6Q" keySequence="ALT+PAGE_UP" command="_yB-7Ju5kEeSzs_AC9jtt6Q"/>
     <bindings xmi:id="_yB8dxe5kEeSzs_AC9jtt6Q" keySequence="CTRL+C" command="_yB-6_O5kEeSzs_AC9jtt6Q"/>
     <bindings xmi:id="_yB8dxu5kEeSzs_AC9jtt6Q" keySequence="ALT+PAGE_DOWN" command="_yB-5h-5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OlP8e8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+M" command="_8MC5aO8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8O2VsO8oEeSFROj0DmgWdw" keySequence="ALT+CTRL+W" command="_8L8y2-8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8O4K4O8oEeSFROj0DmgWdw" keySequence="ALT+CTRL+I" command="_8L-A4e8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8PBU0O8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+V" command="_8L9Z2-8oEeSFROj0DmgWdw"/>
   </bindingTables>
   <bindingTables xmi:id="_yB8dx-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.jdt.ui.javaEditorScope" bindingContext="_yB9E-u5kEeSzs_AC9jtt6Q">
     <bindings xmi:id="_yB8dyO5kEeSzs_AC9jtt6Q" keySequence="CTRL+I" command="_yB-7B-5kEeSzs_AC9jtt6Q"/>
@@ -879,7 +714,6 @@
     <bindings xmi:id="_yB9ED-5kEeSzs_AC9jtt6Q" keySequence="ALT+SHIFT+X X" command="_yB-7Du5kEeSzs_AC9jtt6Q"/>
     <bindings xmi:id="_yB9EEO5kEeSzs_AC9jtt6Q" keySequence="ALT+SHIFT+C" command="_yB-53u5kEeSzs_AC9jtt6Q"/>
     <bindings xmi:id="_yB9EEe5kEeSzs_AC9jtt6Q" keySequence="CTRL+SHIFT+B" command="_yB-5m-5kEeSzs_AC9jtt6Q"/>
-    <bindings xmi:id="_yB9EEu5kEeSzs_AC9jtt6Q" keySequence="ALT+CTRL+G" command="_yB-6qe5kEeSzs_AC9jtt6Q"/>
     <bindings xmi:id="_yB9EE-5kEeSzs_AC9jtt6Q" keySequence="CTRL+SHIFT+E" command="_yB-5SO5kEeSzs_AC9jtt6Q"/>
     <bindings xmi:id="_yB9EFO5kEeSzs_AC9jtt6Q" keySequence="ALT+SHIFT+F" command="_yB_gs-5kEeSzs_AC9jtt6Q"/>
     <bindings xmi:id="_yB9EFe5kEeSzs_AC9jtt6Q" keySequence="SHIFT+DEL" command="_yB-7Ee5kEeSzs_AC9jtt6Q"/>
@@ -894,6 +728,19 @@
     <bindings xmi:id="_yB9EHu5kEeSzs_AC9jtt6Q" keySequence="ALT+SHIFT+Y B" command="_yB_ha-5kEeSzs_AC9jtt6Q"/>
     <bindings xmi:id="_yB9EH-5kEeSzs_AC9jtt6Q" keySequence="ALT+SHIFT+Y F" command="_yB_hae5kEeSzs_AC9jtt6Q"/>
     <bindings xmi:id="_yB9EIO5kEeSzs_AC9jtt6Q" keySequence="ALT+SHIFT+Y G" command="_yB_hZ-5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OmeEO8oEeSFROj0DmgWdw" keySequence="ALT+CTRL+T" command="_yB-6qe5kEeSzs_AC9jtt6Q">
+      <tags>locale:sl</tags>
+    </bindings>
+    <bindings xmi:id="_8Ow2IO8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+F3" command="_8MCSUO8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8PEYIO8oEeSFROj0DmgWdw" keySequence="ALT+SHIFT+Q U" command="_yB-6Pe5kEeSzs_AC9jtt6Q">
+      <parameters xmi:id="_8PEYIe8oEeSFROj0DmgWdw" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="com.sap.ndb.studio.modeler.editor.view.Whereuse"/>
+    </bindings>
+    <bindings xmi:id="_8PMT8O8oEeSFROj0DmgWdw" keySequence="ALT+SHIFT+Q G" command="_yB-6Pe5kEeSzs_AC9jtt6Q">
+      <parameters xmi:id="_8PMT8e8oEeSFROj0DmgWdw" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="com.sap.ndb.studio.modeler.editor.view.jobLog"/>
+    </bindings>
+    <bindings xmi:id="_8PRzgO8oEeSFROj0DmgWdw" keySequence="ALT+SHIFT+Q R" command="_yB-6Pe5kEeSzs_AC9jtt6Q">
+      <parameters xmi:id="_8PRzge8oEeSFROj0DmgWdw" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="com.sap.ndb.studiomodeler.history.view"/>
+    </bindings>
   </bindingTables>
   <bindingTables xmi:id="_yB9EIe5kEeSzs_AC9jtt6Q" elementId="org.eclipse.tm.terminal.EditContext" bindingContext="_yB9FGO5kEeSzs_AC9jtt6Q">
     <bindings xmi:id="_yB9EIu5kEeSzs_AC9jtt6Q" keySequence="CTRL+INSERT" command="_yB-5fu5kEeSzs_AC9jtt6Q"/>
@@ -1127,6 +974,210 @@
   <bindingTables xmi:id="_yB9E6-5kEeSzs_AC9jtt6Q" bindingContext="_yB9FW-5kEeSzs_AC9jtt6Q"/>
   <bindingTables xmi:id="_yB9E7O5kEeSzs_AC9jtt6Q" bindingContext="_yB9FXO5kEeSzs_AC9jtt6Q"/>
   <bindingTables xmi:id="_yB9E7e5kEeSzs_AC9jtt6Q" bindingContext="_yB9FXe5kEeSzs_AC9jtt6Q"/>
+  <bindingTables xmi:id="_8OE5oO8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.embeddedTextEditorScope" bindingContext="_8MdJDO8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8OKZMO8oEeSFROj0DmgWdw" keySequence="CTRL+ARROW_DOWN" command="_yB-7vO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OLnUe8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+ARROW_LEFT" command="_yB-5e-5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OPRsO8oEeSFROj0DmgWdw" keySequence="CTRL+ARROW_UP" command="_yB-7wO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OPRse8oEeSFROj0DmgWdw" keySequence="ALT+CTRL+ARROW_UP" command="_yB-5xO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OP4wO8oEeSFROj0DmgWdw" keySequence="ALT+ARROW_DOWN" command="_yB-7hu5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OQf0O8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+DEL" command="_yB-ULu5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8ORG4O8oEeSFROj0DmgWdw" keySequence="ALT+SHIFT+A" command="_yB-7Ve5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OYboO8oEeSFROj0DmgWdw" keySequence="CTRL+ARROW_LEFT" command="_yB-UJO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OZCsO8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+ARROW_RIGHT" command="_yB_gqu5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8Od7MO8oEeSFROj0DmgWdw" keySequence="CTRL+HOME" command="_yB_gSO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OfJUe8oEeSFROj0DmgWdw" keySequence="CTRL+BS" command="_yB-UOO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OfJUu8oEeSFROj0DmgWdw" keySequence="ALT+CTRL+J" command="_yB-5ue5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OfwYO8oEeSFROj0DmgWdw" keySequence="CTRL+END" command="_yB-UAu5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OgXcO8oEeSFROj0DmgWdw" keySequence="SHIFT+END" command="_yB-T4u5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OgXce8oEeSFROj0DmgWdw" keySequence="SHIFT+HOME" command="_yB-7mO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8Og-gu8oEeSFROj0DmgWdw" keySequence="CTRL+D" command="_yB-5LO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8Og-g-8oEeSFROj0DmgWdw" keySequence="CTRL+ARROW_RIGHT" command="_yB_gVe5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8Ohlke8oEeSFROj0DmgWdw" keySequence="CTRL+K" command="_yB_gj-5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OizsO8oEeSFROj0DmgWdw" keySequence="F2" command="_yB-6ne5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8Oko4e8oEeSFROj0DmgWdw" keySequence="CTRL+J" command="_yB-7HO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8Ol3AO8oEeSFROj0DmgWdw" keySequence="SHIFT+CR" command="_yB-7KO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8Ol3Ae8oEeSFROj0DmgWdw" keySequence="ALT+/" command="_yB_gx-5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OnsMO8oEeSFROj0DmgWdw" keySequence="HOME" command="_yB-7T-5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OoTQe8oEeSFROj0DmgWdw" keySequence="END" command="_yB-6S-5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8Or9oO8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+Y" command="_yB-7cO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8Oty0O8oEeSFROj0DmgWdw" keySequence="INSERT" command="_yB-6oO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8O0ggO8oEeSFROj0DmgWdw" keySequence="CTRL+F10" command="_yB-7X-5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8O1HkO8oEeSFROj0DmgWdw" keySequence="CTRL+L" command="_yB-7j-5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8O28we8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+INSERT" command="_yB-5hO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8O9qcO8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+J" command="_yB-7m-5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8O-4kO8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+K" command="_yB-6PO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8O_fou8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+CR" command="_yB-T5u5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8PCi9e8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+X" command="_yB-6Au5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8PDKAO8oEeSFROj0DmgWdw" keySequence="ALT+ARROW_UP" command="_yB-52u5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8PDKAe8oEeSFROj0DmgWdw" keySequence="CTRL+DEL" command="_yB-UGO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8PDxEu8oEeSFROj0DmgWdw" keySequence="ALT+CTRL+ARROW_DOWN" command="_yB-53-5kEeSzs_AC9jtt6Q"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8OLAQO8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.XtextEditorScope" bindingContext="_8MdJAe8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8OLAQe8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+C" command="_8MC5Xe8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OLnUO8oEeSFROj0DmgWdw" keySequence="ALT+SHIFT+ARROW_RIGHT" command="_8L9aGe8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OOqoO8oEeSFROj0DmgWdw" keySequence="ALT+SHIFT+ARROW_DOWN" command="_8L9Z9u8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OQf0e8oEeSFROj0DmgWdw" keySequence="ALT+SHIFT+ARROW_UP" command="_8L8y0O8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OdUIO8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+F" command="_8L9aJO8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OfJUO8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+G" command="_8L9Z6-8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OfwYe8oEeSFROj0DmgWdw" keySequence="ALT+CTRL+H" command="_8L-n8-8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OjaxO8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+P" command="_8MC5ae8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OlP8O8oEeSFROj0DmgWdw" keySequence="ALT+SHIFT+L" command="_8L-n4-8oEeSFROj0DmgWdw">
+      <tags>platform:win32</tags>
+    </bindings>
+    <bindings xmi:id="_8Ol3Be8oEeSFROj0DmgWdw" keySequence="CTRL+T" command="_yB-7De5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OmeEe8oEeSFROj0DmgWdw" keySequence="ALT+SHIFT+R" command="_8MCSQu8oEeSFROj0DmgWdw">
+      <tags>platform:win32</tags>
+    </bindings>
+    <bindings xmi:id="_8OoTQO8oEeSFROj0DmgWdw" keySequence="F4" command="_8MC5fu8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OrWk-8oEeSFROj0DmgWdw" keySequence="CTRL+7" command="_8MC5Xe8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8O1Hku8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+O" command="_8MC5WO8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8O-4ku8oEeSFROj0DmgWdw" keySequence="CTRL+/" command="_8MC5Xe8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8PAGse8oEeSFROj0DmgWdw" keySequence="F3" command="_8L-A8e8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8PCi8-8oEeSFROj0DmgWdw" keySequence="CTRL+O" command="_8MC5XO8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8PDxEe8oEeSFROj0DmgWdw" keySequence="ALT+SHIFT+ARROW_LEFT" command="_8L8yzu8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8OMOYO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.view.ui.editors.ViewMultiPageEditor.context" bindingContext="_8MdJG-8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8OMOYe8oEeSFROj0DmgWdw" keySequence="ALT+D" command="_8L-A8O8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OM1ce8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+A" command="_8L9aA-8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8Oa34O8oEeSFROj0DmgWdw" keySequence="CTRL+F" command="_8L8yvu8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8Oizse8oEeSFROj0DmgWdw" keySequence="CTRL+[" command="_8L-n--8oEeSFROj0DmgWdw">
+      <parameters xmi:id="_8Oizsu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.move.direction" name="com.sap.ndb.studio.bi.uibindings.command.move.direction" value="up"/>
+    </bindings>
+    <bindings xmi:id="_8Ojawe8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+P" command="_8L9aAe8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OzSYO8oEeSFROj0DmgWdw" keySequence="CTRL+-" command="_8L-n9O8oEeSFROj0DmgWdw">
+      <parameters xmi:id="_8OzSYe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.zoom.type" name="com.sap.ndb.studio.bi.uibindings.command.zoom.type" value="out"/>
+    </bindings>
+    <bindings xmi:id="_8O0gge8oEeSFROj0DmgWdw" keySequence="CTRL+L" command="_8L_2C-8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8O28wO8oEeSFROj0DmgWdw" keySequence="CTRL+0" command="_8L_PBO8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8O_foO8oEeSFROj0DmgWdw" keySequence="ALT+SHIFT+0" command="_8L-n9O8oEeSFROj0DmgWdw">
+      <parameters xmi:id="_8O_foe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.zoom.type" name="com.sap.ndb.studio.bi.uibindings.command.zoom.type" value="reset"/>
+    </bindings>
+    <bindings xmi:id="_8PB74e8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+V" command="_8L-n8u8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8PDKAu8oEeSFROj0DmgWdw" keySequence="CTRL+]" command="_8L-n--8oEeSFROj0DmgWdw">
+      <parameters xmi:id="_8PDKA-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.move.direction" name="com.sap.ndb.studio.bi.uibindings.command.move.direction" value="down"/>
+    </bindings>
+    <bindings xmi:id="_8PDKBO8oEeSFROj0DmgWdw" keySequence="CTRL+=" command="_8L-n9O8oEeSFROj0DmgWdw">
+      <parameters xmi:id="_8PDKBe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.zoom.type" name="com.sap.ndb.studio.bi.uibindings.command.zoom.type" value="in"/>
+    </bindings>
+    <bindings xmi:id="_8PDKBu8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+=" command="_8L9Z8u8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8OMOYu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.context.navigatorview" bindingContext="_8MdJIu8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8OM1cO8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+A" command="_8MC5ZO8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OUxQO8oEeSFROj0DmgWdw" keySequence="CTRL+C" command="_8MDgYu8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OaQ0O8oEeSFROj0DmgWdw" keySequence="CTRL+F" command="_8L_2EO8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OiMou8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+N" command="_8L8y1e8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OjawO8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+P" command="_8MDgZO8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OlP8u8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+M" command="_8MCSWe8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8Ol3Au8oEeSFROj0DmgWdw" keySequence="CTRL+N" command="_8L8yze8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OxdMe8oEeSFROj0DmgWdw" keySequence="CTRL+V" command="_8MAdIO8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8O1Hke8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+O" command="_8L9aDu8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8O_fpO8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+T" command="_8L_2Ce8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8PB74O8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+V" command="_8L_O9-8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8PCi8O8oEeSFROj0DmgWdw" keySequence="ALT+SHIFT+V" command="_8L9Z5u8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8PCi8e8oEeSFROj0DmgWdw" keySequence="CTRL+O" command="_8L8yse8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8OM1cu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.contexts.DevWorkbenchPerspectiveContext" bindingContext="_8MdJH-8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8ONcgO8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+A" command="_8L-A3u8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OhlkO8oEeSFROj0DmgWdw" keySequence="CTRL+F2" command="_8MC5Xu8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OrWlO8oEeSFROj0DmgWdw" keySequence="CTRL+F3" command="_8L-n-e8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OwPEO8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+F3" command="_8L_PBe8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8ONcge8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.catalogEditor" bindingContext="_8MdJCe8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8ONcgu8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+A" command="_8L9Z-u8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8Oko4u8oEeSFROj0DmgWdw" keySequence="CTRL+F4" command="_8L9Z8e8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OphYO8oEeSFROj0DmgWdw" keySequence="F8" command="_8L8ywO8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8Oqvge8oEeSFROj0DmgWdw" keySequence="F5" command="_yB-6zO5kEeSzs_AC9jtt6Q"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8ORt8O8oEeSFROj0DmgWdw" elementId="org.eclipse.ui.contexts.dialog" bindingContext="_yB9FIe5kEeSzs_AC9jtt6Q">
+    <bindings xmi:id="_8ORt8e8oEeSFROj0DmgWdw" keySequence="DEL" command="_yB-UBO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8Oko4O8oEeSFROj0DmgWdw" keySequence="CTRL+Y" command="_yB-5uO5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OmeEu8oEeSFROj0DmgWdw" keySequence="NUMPAD_ADD" command="_8L-A5e8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OqvhO8oEeSFROj0DmgWdw" keySequence="CTRL+." command="_8L9aKu8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8Oty0e8oEeSFROj0DmgWdw" keySequence="CTRL+," command="_8L_O8e8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OuZ4O8oEeSFROj0DmgWdw" keySequence="NUMPAD_SUBTRACT" command="_8L-n7u8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8Ow2Ie8oEeSFROj0DmgWdw" keySequence="ARROW_RIGHT" command="_8L9aHu8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8O-4ke8oEeSFROj0DmgWdw" keySequence="ARROW_LEFT" command="_8L8yte8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8PCi9O8oEeSFROj0DmgWdw" keySequence="CTRL+Z" command="_yB-UGe5kEeSzs_AC9jtt6Q"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8OS8EO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.auditPage" bindingContext="_8MdJFO8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8OTjIO8oEeSFROj0DmgWdw" keySequence="CTRL+C" command="_yB-6_O5kEeSzs_AC9jtt6Q"/>
+    <bindings xmi:id="_8OxdMO8oEeSFROj0DmgWdw" keySequence="CTRL+V" command="_yB-6su5kEeSzs_AC9jtt6Q"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8OVYUO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.view.ui.panes.OutputPane.context" bindingContext="_8MdJHO8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8OV_YO8oEeSFROj0DmgWdw" keySequence="CTRL+C" command="_8L-A7u8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OyEQO8oEeSFROj0DmgWdw" keySequence="CTRL+V" command="_8L9Z7-8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8OV_Ye8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.repository.refactoring.ui.refactorcontext" bindingContext="_8MdJGe8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8OXNgO8oEeSFROj0DmgWdw" keySequence="CTRL+C" command="_8L8y5O8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8OeiQO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.repository.whereused.ui.xrefcontext" bindingContext="_8MdJFe8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8OeiQe8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+G" command="_8MBrM-8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8Og-gO8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.editorContext" bindingContext="_8Mch8O8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8Og-ge8oEeSFROj0DmgWdw" keySequence="CTRL+D" command="_8MCSW-8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8O5ZAO8oEeSFROj0DmgWdw" keySequence="CTRL+I" command="_8MAdEu8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8OiMoO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.context" bindingContext="_8MdJAu8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8OiMoe8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+N" command="_8L8y1e8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OkB0O8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+U" command="_8L9aFO8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8O_fo-8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+T" command="_8L_2Ce8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8Ojawu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.cds.datapreview.dataPreviewContext" bindingContext="_8MdJF-8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8Ojaw-8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+P" command="_8L_O_-8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8OkB0u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.planviz.editor.MainEditorFormEditor" bindingContext="_8OkB0e8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8OkB0-8oEeSFROj0DmgWdw" keySequence="F12" command="_8L_2A-8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8Oko4-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.preparedParamContainer" bindingContext="_8MdJDu8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8Oko5O8oEeSFROj0DmgWdw" keySequence="CTRL+F4" command="_8L9Z8e8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8Oo6VO8oEeSFROj0DmgWdw" keySequence="F8" command="_8L8ywO8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8Ol3A-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.executeEditor" bindingContext="_8MdJC-8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8Ol3BO8oEeSFROj0DmgWdw" keySequence="F9" command="_8L8y3-8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8Ol3Bu8oEeSFROj0DmgWdw" keySequence="SHIFT+F8" command="_8MDgZu8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8Oo6Ve8oEeSFROj0DmgWdw" keySequence="F8" command="_8L8ywO8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8PB74u8oEeSFROj0DmgWdw" keySequence="CTRL+SHIFT+V" command="_8L-n8e8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8Oo6UO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.authorizationEditor" bindingContext="_8MdJB-8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8Oo6Ue8oEeSFROj0DmgWdw" keySequence="F8" command="_8L9Z2u8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8OqvgO8oEeSFROj0DmgWdw" keySequence="F5" command="_8L_PGO8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8Oo6Uu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.securityEditor" bindingContext="_8MdJEe8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8Oo6U-8oEeSFROj0DmgWdw" keySequence="F8" command="_yB-7VO5kEeSzs_AC9jtt6Q"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8OphYe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.context.administrationeditor" bindingContext="_8MdJBu8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8OphYu8oEeSFROj0DmgWdw" keySequence="F5" command="_8L-A5u8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8OphY-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.context.logfileeditor" bindingContext="_8MdJEO8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8OphZO8oEeSFROj0DmgWdw" keySequence="F5" command="_8MAdEe8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8OphZe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.context.mergedtraceeditor" bindingContext="_8MdJBe8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8OphZu8oEeSFROj0DmgWdw" keySequence="F5" command="_8L_PCe8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8Oqvgu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.tablepartitioneditor" bindingContext="_8MdJCO8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8Oqvg-8oEeSFROj0DmgWdw" keySequence="F5" command="_yB-6zO5kEeSzs_AC9jtt6Q"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8Oqvhe8oEeSFROj0DmgWdw" elementId="org.eclipse.graphiti.ui.diagramEditor" bindingContext="_8MdJHu8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8OrWkO8oEeSFROj0DmgWdw" keySequence="CTRL+F5" command="_8L8y0-8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8PCi8u8oEeSFROj0DmgWdw" keySequence="CTRL+O" command="_8MAdH-8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8PDxEO8oEeSFROj0DmgWdw" keySequence="SHIFT+DEL" command="_8MDgYO8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8OrWke8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.cds.editor.ui.code" bindingContext="_8MdJDe8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8OrWku8oEeSFROj0DmgWdw" keySequence="CTRL+7" command="_8L9aLe8oEeSFROj0DmgWdw"/>
+    <bindings xmi:id="_8PAGsO8oEeSFROj0DmgWdw" keySequence="F3" command="_8MC5We8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8O1Hk-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.cds.editor.rndWordComplete" bindingContext="_8MdJGu8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8O1uoO8oEeSFROj0DmgWdw" keySequence="TAB" command="_8L_2F-8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_8O1uoe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.parser.rnd.rndWordComplete" bindingContext="_8MdJHe8oEeSFROj0DmgWdw">
+    <bindings xmi:id="_8O1uou8oEeSFROj0DmgWdw" keySequence="TAB" command="_8L9aCu8oEeSFROj0DmgWdw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_90myke8oEeSFROj0DmgWdw" bindingContext="_90mykO8oEeSFROj0DmgWdw"/>
+  <bindingTables xmi:id="_90onwe8oEeSFROj0DmgWdw" bindingContext="_90onwO8oEeSFROj0DmgWdw"/>
+  <bindingTables xmi:id="_90qc8e8oEeSFROj0DmgWdw" bindingContext="_90qc8O8oEeSFROj0DmgWdw"/>
+  <bindingTables xmi:id="_90uHUO8oEeSFROj0DmgWdw" bindingContext="_90tgQO8oEeSFROj0DmgWdw"/>
+  <bindingTables xmi:id="_90vVce8oEeSFROj0DmgWdw" bindingContext="_90vVcO8oEeSFROj0DmgWdw"/>
+  <bindingTables xmi:id="_90xxsO8oEeSFROj0DmgWdw" bindingContext="_90v8gO8oEeSFROj0DmgWdw"/>
   <rootContext xmi:id="_yB9E7u5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">
     <children xmi:id="_yB9E7-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">
       <children xmi:id="_yB9E8O5kEeSzs_AC9jtt6Q" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.platform" name="%bindingcontext.name.bindingView"/>
@@ -1170,6 +1221,9 @@
           <children xmi:id="_yB9FFO5kEeSzs_AC9jtt6Q" elementId="org.eclipse.mylyn.wikitext.tasks.ui.markupSourceContext" name="Task Markup Editor Source Context"/>
         </children>
         <children xmi:id="_yB9FFe5kEeSzs_AC9jtt6Q" elementId="org.eclipse.jst.jsf.facesconfig.editorContext" name="In Faces Config Editor" description="Key binding context when using the Faces Config Editor"/>
+        <children xmi:id="_8MdJAe8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.XtextEditorScope" name="Editing Xtext Source" description="Editing Xtext Source Context"/>
+        <children xmi:id="_8MdJDe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.cds.editor.ui.code" name="Editing CDS DDL Source"/>
+        <children xmi:id="_8MdJHe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.parser.rnd.rndWordComplete" name="Keyword Completion in SQL Studio Editors"/>
       </children>
       <children xmi:id="_yB9FFu5kEeSzs_AC9jtt6Q" elementId="org.eclipse.datatools.sqltools.schemaobjecteditor.schemaediting" name="Schema Object Editor" description="Schema Object Editor"/>
       <children xmi:id="_yB9FF-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.compare.compareEditorScope" name="Comparing in an Editor" description="Comparing in an Editor"/>
@@ -1179,12 +1233,50 @@
         <children xmi:id="_yB9FG-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.debug.ui.memory.abstractasynctablerendering" name="In Table Memory Rendering" description="In Table Memory Rendering"/>
         <children xmi:id="_yB9FHO5kEeSzs_AC9jtt6Q" elementId="org.eclipse.wst.xsl.debug.ui.context" name="XSLT Debugging" description="Context for debugging XSLT"/>
         <children xmi:id="_yB9FHe5kEeSzs_AC9jtt6Q" elementId="org.eclipse.jdt.debug.ui.debugging" name="Debugging Java" description="Debugging Java programs"/>
+        <children xmi:id="_8Mch8e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sqlscript.debugger.ui.debugging" name="SQLScript Debugger" description="SQLScript Debugger Context"/>
+        <children xmi:id="_8MdJFu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.xse.debugger.ui.debugging" name="Debugging XSJS" description="Debugging XSJS"/>
       </children>
       <children xmi:id="_yB9FHu5kEeSzs_AC9jtt6Q" elementId="org.eclipse.debug.ui.memoryview" name="In Memory View" description="In memory view"/>
       <children xmi:id="_yB9FH-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.tm.terminal.TerminalContext" name="Terminal Typing Connected" description="Override ALT+x menu access keys while typing into the Terminal"/>
       <children xmi:id="_yB9FIO5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.console.ConsoleView" name="In Console View" description="In Console View"/>
+      <children xmi:id="_8Mch8O8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.editorContext" name="When In Profiling Editor" description="A context when being in a profiling editor"/>
+      <children xmi:id="_8MdJAO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.planviz.graph.editor.GraphEditor" name="In Graph Editor" description="In Graph Editor"/>
+      <children xmi:id="_8MdJAu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.context" name="SAP HANA" description="SAP HANA">
+        <children xmi:id="_8MdJA-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.context.mergedtracefasteditor" name="Merged Trace Editor" description="Merged Trace Editor"/>
+        <children xmi:id="_8MdJBO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.backup.backupConsole" name="Backup Console Context" description="Context for activating key bindings in the backup console"/>
+        <children xmi:id="_8MdJBe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.context.mergedtraceeditor" name="Merged Trace Editor" description="Merged Trace Editor"/>
+        <children xmi:id="_8MdJBu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.context.administrationeditor" name="Administration Editor" description="Administration Editor"/>
+        <children xmi:id="_8MdJB-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.authorizationEditor" name="Authorization Editor" description="Context for activating key bindings in an authorization editor"/>
+        <children xmi:id="_8MdJCO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.tablepartitioneditor" name="Table Distribution Editor" description="Table Distribution Editor"/>
+        <children xmi:id="_8MdJCe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.catalogEditor" name="SAP HANA Catalog Editor" description="Context for activating key bindings in a Catalog Editor"/>
+        <children xmi:id="_8MdJCu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.joinviewer.context" name="Join Viewer" description="Join Viewer"/>
+        <children xmi:id="_8MdJC-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.executeEditor" name="SAP HANA SQL Console" description="Context for activating key bindings in an SQL Console">
+          <children xmi:id="_8MdJDu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.preparedParamContainer" name="SAP HANA SQL Prepared Parameter Editor" description="Context for activating key bindings in a MultiPage Prepared Parameter Editor"/>
+        </children>
+        <children xmi:id="_8MdJD-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.ui5.context.browser" name="Browser Browser Editor" description="Browser Editor"/>
+        <children xmi:id="_8MdJEO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.context.logfileeditor" name="Log File Editor" description="Log File Editor"/>
+        <children xmi:id="_8MdJEe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.securityEditor" name="SAP HANA Security Editor" description="Context for activating key bindings in the Security editor">
+          <children xmi:id="_8MdJEu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.passwordPage" name="Password Policy Tab" description="Context for activating key bindings in the Security Editor within the Password Policy tab"/>
+          <children xmi:id="_8MdJE-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.persistencePage" name="Data Volume Encryption Tab" description="Context for activating key bindings in the Security editor within Data Volume tab"/>
+          <children xmi:id="_8MdJFO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.auditPage" name="Auditing Tab" description="Context for activating key bindings in the Security editor within the Auditing tab"/>
+        </children>
+        <children xmi:id="_8MdJGO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.lcm.upd.ui.internal.editors.lcmeditor" name="Lifecycle Management Editor" description="Lifecycle Management Editor"/>
+        <children xmi:id="_8MdJG-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.view.ui.editors.ViewMultiPageEditor.context" name="SAP HANA Modeler Editor">
+          <children xmi:id="_8MdJHO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.view.ui.panes.OutputPane.context" name="Output Pane"/>
+        </children>
+        <children xmi:id="_8MdJH-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.contexts.DevWorkbenchPerspectiveContext" name="SAP HANA Development Context" description="SAP HANA Development Context">
+          <children xmi:id="_8MdJIO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.views.repositorybrowser" name="SAP HANA Repositories View Context" description="SAP HANA Repositories View Context"/>
+        </children>
+        <children xmi:id="_8MdJIe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.context.systemmonitoreditor" name="System Monitor" description="System Monitor"/>
+        <children xmi:id="_8MdJIu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.context.navigatorview" name="Navigator" description="Navigator"/>
+      </children>
+      <children xmi:id="_8MdJFe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.repository.whereused.ui.xrefcontext" name="XREF context"/>
+      <children xmi:id="_8MdJF-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.cds.datapreview.dataPreviewContext" name="CDS Data Preview"/>
+      <children xmi:id="_8MdJGe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.repository.refactoring.ui.refactorcontext" name="Refactor context"/>
+      <children xmi:id="_8MdJHu8oEeSFROj0DmgWdw" elementId="org.eclipse.graphiti.ui.diagramEditor" name="Graphiti Diagram"/>
     </children>
     <children xmi:id="_yB9FIe5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.contexts.dialog" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs" description="A dialog is open"/>
+    <children xmi:id="_8MdJDO8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.embeddedTextEditorScope" name="Embedded Xtext Editor context" description="Embedded Xtext Editor is active"/>
   </rootContext>
   <rootContext xmi:id="_yB9FIu5kEeSzs_AC9jtt6Q" elementId="org.eclipse.wst.xsd.ui.editor.designView" name="XSD Editor Design View" description="XSD Editor Design View"/>
   <rootContext xmi:id="_yB9FI-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.contexts.workbenchMenu" name="Workbench Menu" description="When no Workbench windows are active"/>
@@ -1246,6 +1338,14 @@
   <rootContext xmi:id="_yB9FW-5kEeSzs_AC9jtt6Q" elementId="org.jboss.ide.eclipse.archives.ui.actions.Archives" name="Auto::org.jboss.ide.eclipse.archives.ui.actions.Archives"/>
   <rootContext xmi:id="_yB9FXO5kEeSzs_AC9jtt6Q" elementId="org.jboss.tools.jst.web.ui.server.actionSet" name="Auto::org.jboss.tools.jst.web.ui.server.actionSet"/>
   <rootContext xmi:id="_yB9FXe5kEeSzs_AC9jtt6Q" elementId="org.jboss.tools.jmx.ui.MBeanActionSet" name="Auto::org.jboss.tools.jmx.ui.MBeanActionSet"/>
+  <rootContext xmi:id="_8MdJGu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.cds.editor.rndWordComplete" name="CDS DDL Keyword Completion"/>
+  <rootContext xmi:id="_8OkB0e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.planviz.editor.MainEditorFormEditor" name="Auto::com.sap.ndb.planviz.editor.MainEditorFormEditor"/>
+  <rootContext xmi:id="_90mykO8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.ui.actionSet" name="Auto::com.sap.jvm.profiling.ui.actionSet"/>
+  <rootContext xmi:id="_90onwO8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.ui.actionSetRun" name="Auto::com.sap.jvm.profiling.ui.actionSetRun"/>
+  <rootContext xmi:id="_90qc8O8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.ui.workbench.actionSetProfilingNavigation" name="Auto::com.sap.jvm.profiling.ui.workbench.actionSetProfilingNavigation"/>
+  <rootContext xmi:id="_90tgQO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.welcomeActionSet" name="Auto::com.sap.ndb.studio.bi.welcomeActionSet"/>
+  <rootContext xmi:id="_90vVcO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.actionSets.search" name="Auto::com.sap.ndb.studio.dwb.team.ui.actionSets.search"/>
+  <rootContext xmi:id="_90v8gO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.actionSets.team" name="Auto::com.sap.ndb.studio.dwb.team.ui.actionSets.team"/>
   <descriptors xmi:id="_yB9FXu5kEeSzs_AC9jtt6Q" elementId="org.eclipse.e4.ui.compatibility.editor" allowMultiple="true" category="org.eclipse.e4.primaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor">
     <tags>Editor</tags>
   </descriptors>
@@ -1613,6 +1713,135 @@
     <tags>View</tags>
     <tags>categoryTag:JMX</tags>
   </descriptors>
+  <descriptors xmi:id="_8X_qoO8oEeSFROj0DmgWdw" elementId="com.sap.core.tools.eclipse.logging.view.ServerLogsView" label="Server Logs" iconURI="platform:/plugin/com.sap.core.tools.eclipse.logging/icons/logs.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Server</tags>
+  </descriptors>
+  <descriptors xmi:id="_8YNGAO8oEeSFROj0DmgWdw" elementId="com.sap.dataexplorer.ui.views.datapreview" label="Data Explorer" iconURI="platform:/plugin/com.sap.dataexplorer.ui/icons/Small/ViewData.png" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Other</tags>
+  </descriptors>
+  <descriptors xmi:id="_8YOUIO8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.ui.ConfigurationView" label="Profile" iconURI="platform:/plugin/com.sap.jvm.profiling.ui/icons/profiling_exc.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP JVM Profiler</tags>
+  </descriptors>
+  <descriptors xmi:id="_8YwfoO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.planviz.graph.view.NeighborView" label="Neighbor" iconURI="platform:/plugin/com.sap.ndb.planviz.graph/icons/neighbor-icon.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP HANA PlanViz</tags>
+  </descriptors>
+  <descriptors xmi:id="_8Y0KAO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.planviz.graph.perfTraceView" label="Performance Trace" iconURI="platform:/plugin/com.sap.ndb.planviz.graph/icons/wrench-screwdriver.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP HANA PlanViz</tags>
+  </descriptors>
+  <descriptors xmi:id="_8Y5pkO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.planviz.network.views.NetworkView" label="Network" iconURI="platform:/plugin/com.sap.ndb.planviz.network/icons/network-hub-icon.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP HANA PlanViz</tags>
+  </descriptors>
+  <descriptors xmi:id="_8Y63sO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.planviz.timeline.views.TimelineView" label="Timeline" iconURI="platform:/plugin/com.sap.ndb.planviz.timeline/icons/timeline.png" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP HANA PlanViz</tags>
+  </descriptors>
+  <descriptors xmi:id="_8Y8F0O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.comlog.ui.LoggingView" label="SAP HANA Communication Log" iconURI="platform:/plugin/com.sap.ndb.studio.comlog.ui/icons/full/eview16/loggingview.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP HANA</tags>
+  </descriptors>
+  <descriptors xmi:id="_8ZMkgO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.comlog.ui.ResourceChangesView" label="Resource Changes" iconURI="platform:/plugin/com.sap.ndb.studio.comlog.ui/icons/full/eview16/reschangeview.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP HANA</tags>
+  </descriptors>
+  <descriptors xmi:id="_8ZT5QO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.views.repositorybrowser" label="Repositories" iconURI="platform:/plugin/com.sap.ndb.studio.dwb.team.ui/icons/full/eview16/repositorybrowser.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP HANA</tags>
+  </descriptors>
+  <descriptors xmi:id="_8ZVucO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.tools.changetracking.views.ChangeTrackingOverviewView" label="Change Manager" iconURI="platform:/plugin/com.sap.ndb.studio.dwb.tools.changetracking/icons/ChangeTrackingManager.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP HANA</tags>
+  </descriptors>
+  <descriptors xmi:id="_8ZZY0O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.views.R10TableView" label="Operator List" iconURI="platform:/plugin/com.sap.ndb.studio.hampton.r10/icons/operatorList.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP HANA PlanViz</tags>
+  </descriptors>
+  <descriptors xmi:id="_8ZbOAO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.tablesused.views.TablesUsedView" label="Tables Used" iconURI="platform:/plugin/com.sap.ndb.studio.hampton.tablesused/icons/TablesAccessed.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP HANA PlanViz</tags>
+  </descriptors>
+  <descriptors xmi:id="_8ZgGgO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studiomodeler.history.view" label="History" iconURI="platform:/plugin/com.sap.ndb.studio.modeler.editor/icons/History.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP HANA Modeler</tags>
+  </descriptors>
+  <descriptors xmi:id="_8Zjw4O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.editor.view.jobLog" label="Job Log" iconURI="platform:/plugin/com.sap.ndb.studio.modeler.editor/icons/job_log.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP HANA Modeler</tags>
+  </descriptors>
+  <descriptors xmi:id="_8ZoCUO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.editor.view.Whereuse" label="Where-Used List" iconURI="platform:/plugin/com.sap.ndb.studio.modeler.editor/icons/Whereused.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP HANA Modeler</tags>
+  </descriptors>
+  <descriptors xmi:id="_8ZpQcO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.view" label="Systems" iconURI="platform:/plugin/com.sap.ndb.studio.navigator/icons/obj16/navigator.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP HANA</tags>
+  </descriptors>
+  <descriptors xmi:id="_8Zp3gO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.quickview" label="Quick View" iconURI="platform:/plugin/com.sap.ndb.studio.quickview/icons/quicklaunch.png" allowMultiple="true" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:SAP HANA</tags>
+  </descriptors>
+  <descriptors xmi:id="_8ZrssO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sqlscript.debugger.ui.SQLScriptDbgStackFrameView" label="My StackFrame" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Other</tags>
+  </descriptors>
+  <descriptors xmi:id="_8ZsTwO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.xse.debugger.ui.views.DataStackView" label="Data Stack" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Other</tags>
+  </descriptors>
+  <descriptors xmi:id="_8aCSAO8oEeSFROj0DmgWdw" elementId="org.eclipse.graphiti.ui.internal.editor.thumbnailview" label="Miniature View" iconURI="platform:/plugin/org.eclipse.graphiti.ui/icons/outline/thumbnail.gif" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_8a2KUO8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.xtext.ui.graph.view" label="Xtext Syntax Graph" iconURI="platform:/plugin/org.eclipse.xtext.xtext.ui.graph/icons/railroad.png" category="org.eclipse.e4.secondaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Xtext</tags>
+  </descriptors>
+  <menuContributions xmi:id="_CohNgO8pEeSFROj0DmgWdw" elementId="null:104316288" positionInParent="after=additions" parentId="popup">
+    <tags>scheme:popup</tags>
+    <tags>menuContribution:popup</tags>
+  </menuContributions>
+  <menuContributions xmi:id="_CorlkO8pEeSFROj0DmgWdw" elementId="NewAction:1110592541" positionInParent="before=group.open" parentId="popup">
+    <tags>scheme:popup</tags>
+    <tags>menuContribution:popup</tags>
+  </menuContributions>
+  <menuContributions xmi:id="_CosMoe8pEeSFROj0DmgWdw" elementId="null:1609838474" positionInParent="before=group.open" parentId="popup">
+    <tags>scheme:popup</tags>
+    <tags>menuContribution:popup</tags>
+  </menuContributions>
+  <menuContributions xmi:id="_9QW8YO8wEeSjMp6nOzxKHQ" elementId="null:953974014" positionInParent="after=additions" parentId="popup">
+    <tags>scheme:popup</tags>
+    <tags>menuContribution:popup</tags>
+  </menuContributions>
+  <menuContributions xmi:id="_9QZ_sO8wEeSjMp6nOzxKHQ" elementId="NewAction:2013747654" positionInParent="before=group.open" parentId="popup">
+    <tags>scheme:popup</tags>
+    <tags>menuContribution:popup</tags>
+  </menuContributions>
+  <menuContributions xmi:id="_9QamwO8wEeSjMp6nOzxKHQ" elementId="null:1256805662" positionInParent="before=group.open" parentId="popup">
+    <tags>scheme:popup</tags>
+    <tags>menuContribution:popup</tags>
+  </menuContributions>
+  <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
+    <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+      <tags>glue</tags>
+      <tags>move_after:PerspectiveSpacer</tags>
+      <tags>SHOW_RESTORE_MENU</tags>
+    </children>
+    <children xsi:type="menu:ToolControl" xmi:id="_8tJPcF9tEeO-yojH_y4TJA" elementId="SearchField" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.quickaccess.SearchField">
+      <tags>move_after:Spacer Glue</tags>
+      <tags>HIDEABLE</tags>
+      <tags>SHOW_RESTORE_MENU</tags>
+    </children>
+    <children xsi:type="menu:ToolControl" xmi:id="_9LgmcF9tEeO-yojH_y4TJA" elementId="Search-PS Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+      <tags>glue</tags>
+      <tags>move_after:SearchField</tags>
+      <tags>SHOW_RESTORE_MENU</tags>
+    </children>
+  </trimContributions>
   <commands xmi:id="_yB-T0-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.debug.ui.command.nextpage" commandName="Next Page of Memory" description="Load next page of memory" category="_yB_hje5kEeSzs_AC9jtt6Q"/>
   <commands xmi:id="_yB-T1O5kEeSzs_AC9jtt6Q" elementId="org.eclipse.team.cvs.ui.GenerateDiff" commandName="Create Patch" description="Compare your workspace contents with the server and generate a diff file that can be used as a patch file." category="_yB_hgu5kEeSzs_AC9jtt6Q"/>
   <commands xmi:id="_yB-T1e5kEeSzs_AC9jtt6Q" elementId="org.eclipse.ui.edit.text.removeTrailingWhitespace" commandName="Remove Trailing Whitespace" description="Removes the trailing whitespace of each line" category="_yB_hi-5kEeSzs_AC9jtt6Q"/>
@@ -2815,6 +3044,473 @@
   <commands xmi:id="_yB_hc-5kEeSzs_AC9jtt6Q" elementId="AUTOGEN:::org.jboss.tools.jst.web.ui.server.actionSet/org.jboss.tools.jst.web.ui.action.server.StopServerActionDelegate" commandName="label4" description="Stop Server" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
   <commands xmi:id="_yB_hdO5kEeSzs_AC9jtt6Q" elementId="AUTOGEN:::org.jboss.tools.jst.web.ui.server.actionSet/org.jboss.tools.jst.web.ui.action.server.DebugServerActionDelegate" commandName="label6" description="Start Server" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
   <commands xmi:id="_yB_hde5kEeSzs_AC9jtt6Q" elementId="AUTOGEN:::org.jboss.tools.jst.web.ui.server.actionSet/org.jboss.tools.jst.web.ui.action.server.RunServerActionDelegate" commandName="label7" description="Start Server" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8ysO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.command.addadditionaluser" commandName="Add Additional User" description="Add Additional User" category="_8LzBsO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8yse8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.actions.open" commandName="Open" category="_8LzBsu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8ysu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.volumedetailsdialog" commandName="Show Details" description="Show Details" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8ys-8oEeSFROj0DmgWdw" elementId="pvcommand.graph.visualize.rewrite.step" commandName="Visualize step-wise plan" category="_yB_hoe5kEeSzs_AC9jtt6Q">
+    <parameters xmi:id="_8L8ytO8oEeSFROj0DmgWdw" elementId="pvcommandparameter.graph.filePath" name="filePath"/>
+  </commands>
+  <commands xmi:id="_8L8yte8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.ui.workbench.navigateBack" commandName="Back Navigation in Dialogs" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8ytu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.sqleditor" commandName="Open in SQL Console" description="Open SQL console for selected system" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8yt-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.landscapereorg.cancelremovehost" commandName="Cancel Remove Host..." category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8yuO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.command.schemamapping" commandName="Schema Mapping" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8yue8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.view.ui.dataPreviewFile" commandName="Data Preview" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8yuu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.systemtablestatementadd" commandName="Create SQL Statement" description="Create SQL Statement" category="_8LzBuO8oEeSFROj0DmgWdw">
+    <parameters xmi:id="_8L8yu-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.systemtables.commandparameter" name="name"/>
+  </commands>
+  <commands xmi:id="_8L8yvO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.landscapereorg.removehost" commandName="Remove Host..." category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8yve8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.codetemplates.SingleCodetemplate.validate" commandName="Validate" description="Trigger expensive validation" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8yvu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.view.commands.find" commandName="Find Objects" category="_yB_hoO5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8yv-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.action.ExportSQL" commandName="Export SQL" description="Export SQL Statement" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8ywO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.action.ExecuteSQL" commandName="Execute" description="Execute SQL Statements" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8ywe8oEeSFROj0DmgWdw" elementId="com.sap.core.tools.eclipse.server.cloud.command.ShowInCockpitCommand" commandName="Cockpit" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8ywu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.opensystemtable" commandName="Open System Table" description="Open System Table" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8yw-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.planviz.action.opencalcscenario" commandName="Visualize View" description="Visualize View" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8yxO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.xse.editor.command.xsadmin.browser" commandName="XS Administration" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8yxe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.deletesaplogfile" commandName="Delete Log File" description="Delete Log File" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8yxu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.command.stopsapsystem" commandName="Stop SAP System" description="Stop an SAP System" category="_8LzBsO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8yx-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.xs.admin.command.resutil" commandName="Resource Utilization" category="_8LzBwu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8yyO8oEeSFROj0DmgWdw" elementId="pvcommand.prepare" commandName="Prepare plan" description="Prepare plan" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8yye8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.command.startsapsystem" commandName="Start SAP System" description="Start an SAP System" category="_8LzBsO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8yyu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.command.closesapsystem" commandName="Close System" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8yy-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.showcontent" commandName="Show the content of a table" description="Open Content" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8yzO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authdepviewer.action.AutoArrange" commandName="Auto Arrange" description="Auto Arrange Graph" category="_8LzBuu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8yze8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.actions.new" commandName="New..." category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8yzu8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.editor.select.previous" commandName="Select Previous Element" description="Expand selection to include previous element" category="_8LzBxO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8yz-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.federation.addasproxy" commandName="Add as Virtual Table" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8y0O8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.editor.select.enclosing" commandName="Select Enclosing Element" description="Expand selection to include enclosing element" category="_8LzBxO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8y0e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.lcm.alm.command.dum" commandName="Delivery Unit Management" category="_8LzBxu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8y0u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.navigatorFilterContribution" commandName="dynamicFilter" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8y0-8oEeSFROj0DmgWdw" elementId="org.eclipse.graphiti.ui.internal.action.UpdateAction" commandName="Update" description="Update selected Pictogram Elements" category="_8LzBu-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8y1O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.stopservice" commandName="Stop Service" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8y1e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.command.findsystem" commandName="Find System" description="Find System" category="_8LzBsO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8y1u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.command.generatetimedata" commandName="Generate Time Data" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8y1-8oEeSFROj0DmgWdw" elementId="pvcommand.connectToCalcView" commandName="Open Calculation Scenario Visualizer" description="Connection for CalcView" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8y2O8oEeSFROj0DmgWdw" elementId="org.eclipse.team.ui.compareWithEachOther" commandName="Each Other" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8y2e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.handlediskfullevents" commandName="Handle Disk Full Events" description="Handles disk full events" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8y2u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.alert.showhint" commandName="Show Hint" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8y2-8oEeSFROj0DmgWdw" elementId="com.sap.jvm.debugging.ui.commands.Watch" commandName="Watch" category="_yB_hje5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8y3O8oEeSFROj0DmgWdw" elementId="org.eclipse.emf.compare.ide.ui.compareInEditor" commandName="Compare in new Editor" category="_yB_hqO5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L8y3e8oEeSFROj0DmgWdw" elementId="com.sap.core.tools.eclipse.logging.console.OpenLogFileCommand" commandName="Open Complete Log" category="_8LzBwO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8y3u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.systemmonitorsystemfilter" commandName="System Filter" description="System Filter" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8y3-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.action.ExecuteSQLCursorPos" commandName="Execute" description="Execute SQL Statement at Cursor Position" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8y4O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.editconfigurationvalue" commandName="Edit Configuration Value" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8y4e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.openmergedtrace" commandName="Open Merged Trace" description="Open Merged Trace" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8y4u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.showindexes" commandName="Show Indexes" description="Open a List of Indexes" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8y4-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.backup.command.recoverysystemdb" commandName="Recover System Database" description="Recover System Database" category="_8LzBvu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L8y5O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.repository.refactoring.ui.masscopycommand" commandName="Copy" description="Copy" category="_yB_hoO5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9ZwO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.deletconfigurationsection" commandName="Delete Configuration Section" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Zwe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.comparewithactive" commandName="&amp;Active" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Zwu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.updateProject" commandName="&amp;Update Project" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Zw-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.backup.command.recoverytenantdb" commandName="Recover Tenant Database" description="Recover Tenant Database" category="_8LzBvu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9ZxO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.open" commandName="Open" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9Zxe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.afm.convertAflpmmlToFlowgraph" commandName="Convert to Flowgraph" description="Convert this (deprecated) aflpmml file to the Flowgraph format" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9Zxu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.commands.authorizationfilter" commandName="Filters..." description="Filters..." category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Zx-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.administration" commandName="Administration" category="_8LzBuO8oEeSFROj0DmgWdw">
+    <parameters xmi:id="_8L9ZyO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.parameter.pageid" name="pageid"/>
+  </commands>
+  <commands xmi:id="_8L9Zye8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search" commandName="Search" category="_yB_hoe5kEeSzs_AC9jtt6Q">
+    <parameters xmi:id="_8L9Zyu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search.isPhysical" name="IsPhysical"/>
+    <parameters xmi:id="_8L9Zy-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search.offsetMs" name="OffsetMS"/>
+    <parameters xmi:id="_8L9ZzO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search.execTime" name="ExecTime"/>
+    <parameters xmi:id="_8L9Zze8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search.cpuTime" name="CpuTime"/>
+    <parameters xmi:id="_8L9Zzu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search.operatorName" name="OperatorName"/>
+    <parameters xmi:id="_8L9Zz-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search.tableName" name="TableName"/>
+    <parameters xmi:id="_8L9Z0O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search.inputRows" name="InputRows"/>
+    <parameters xmi:id="_8L9Z0e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search.outputRows" name="OutputRows"/>
+    <parameters xmi:id="_8L9Z0u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search.oiRatioRows" name="OIRatioRows"/>
+    <parameters xmi:id="_8L9Z0-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search.inputBytes" name="InputBytes"/>
+    <parameters xmi:id="_8L9Z1O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search.outputBytes" name="OutputBytes"/>
+    <parameters xmi:id="_8L9Z1e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search.apf" name="ActualParallelizationFactor"/>
+    <parameters xmi:id="_8L9Z1u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search.cp" name="CriticalPath"/>
+    <parameters xmi:id="_8L9Z1-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search.nodeId" name="NodeID"/>
+    <parameters xmi:id="_8L9Z2O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.hampton.r10.commands.search.details" name="Details"/>
+  </commands>
+  <commands xmi:id="_8L9Z2e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.killservice" commandName="Kill Service" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9Z2u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.action.ExecuteDeploy" commandName="Deploy" description="Deploy" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z2-8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.ui.workbench.showFilterDialog" commandName="Filter Dialog Action" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9Z3O8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.Xtext.validate" commandName="Validate" description="Trigger expensive validation" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9Z3e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.federation.transformtoextendedtable" commandName="Use Extended Storage..." category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z3u8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.ui.workbench.import_thread_dump" commandName="Import Thread Dump" category="_yB_hqu5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9Z3-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authdepviewer.action.ToggleProblemView" commandName="Toggle Between Problem and Entire View" description="Toggle Between Problem and Entire View" category="_8LzBuu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z4O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.action.StructuredPrivilegesSelection" commandName="Select Analytic Privileges" description="Select Analytic Privileges" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z4e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.showtables" commandName="Show Tables" description="Open a List of Tables" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z4u8oEeSFROj0DmgWdw" elementId="pvcommand.graph.visualizeCachedPlan" commandName="Visualize cached plan" description="Visualize cached plan" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9Z4-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.view.ui.validateFileCommand" commandName="Validate Object" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9Z5O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.expandconfigurationfile" commandName="Expand Configuration File" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z5e8oEeSFROj0DmgWdw" elementId="com.sap.cloud.tools.eclipse.hana.tunnel.command.connectsapsystem" commandName="Add Cloud System..." category="_8LzBsO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z5u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.actions.Refactor" commandName="Refactor" category="_8LzBsu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z5-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.navigatorFilter" commandName="Filters" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9Z6O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.RemoveFilter" commandName="Remove Filter" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9Z6e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.command.packagedefaultschema" commandName="Maintain Package Specific Default Schema" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9Z6u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.load" commandName="Load into Memory..." description="Load" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z6-8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.editor.FindReferences" commandName="Find References" description="Finds all references to the selected element" category="_yB_hqu5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9Z7O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.Activate" commandName="Activate" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z7e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.systemtablestatementedit" commandName="Edit SQL Statement" description="Edit SQL Statement" category="_8LzBuO8oEeSFROj0DmgWdw">
+    <parameters xmi:id="_8L9Z7u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.systemtables.commandparameter" name="name"/>
+  </commands>
+  <commands xmi:id="_8L9Z7-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.pasteElement" commandName="Paste Element in Output pane" category="_8LzBsu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z8O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sqldesigner.command.deletecolumn" commandName="Delete Column" category="_8LzBte8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z8e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.editor.CloseSubWindow" commandName="Close" description="Closes a Result tab" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z8u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.addtable" commandName="Add Table/Model" category="_8LzBsu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z8-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.backup.deleteBackup" commandName="Delete Backup" description="Deletes a single data backup" category="_8LzBvu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z9O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.action.CatalogObjectSelection" commandName="Select Catalog Objects" description="Select Catalog Objects" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z9e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.openmergedtracefast" commandName="Open Merged Trace" description="Open Merged Trace" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z9u8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.editor.select.last" commandName="Restore Last Selection" description="Restore last selection from History" category="_8LzBxO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z9-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authdepviewer.command.open" commandName="Show Authorization" category="_8LzBuu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z-O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.backup.command.backuptenantdb" commandName="Back Up Tenant Database" description="Back Up Tenant Database" category="_8LzBvu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z-e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.command.newrole" commandName="New Role" description="Create a new role" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z-u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.action.CloseAllResults" commandName="Close All Results" description="Closes all Result tabs" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z--8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.backup.command.backupsystemdb" commandName="Back Up System Database" description="Back Up System Database" category="_8LzBvu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z_O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.actions.activate" commandName="Activate" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z_e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.action.ChangePassword" commandName="Change Password" description="Change Password" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z_u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.startmissingservices" commandName="Start Missing Services" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9Z_-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.opensaplogfile" commandName="Open Log File" description="Open Log File" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aAO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.deleteconfigurationvalue" commandName="Delete Configuration Value" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aAe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.datapreview" commandName="Data Preview" category="_8LzBsu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aAu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.backup.command.backup" commandName="Backup" description="Execute Database Backup" category="_8LzBvu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aA-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.activate" commandName="Activate" category="_8LzBsu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aBO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sqldesigner.command.selectcolumn" commandName="Select Column" category="_8LzBte8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aBe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.tools.changetracking.AddChange" commandName="Add Change" description="New Change" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9aBu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authdepviewer.action.ZoomOut" commandName="Zoom Out" category="_8LzBuu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aB-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.addParameter" commandName="Add Parameter" category="_8LzBve8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aCO8oEeSFROj0DmgWdw" elementId="pvcommand.timeline.new" commandName="New Timeline View" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9aCe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.threaddetails" commandName="Details" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aCu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.parser.rnd.completeWord" commandName="Complete Keyword" description="Complete Keyword" category="_8LzBxe8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aC-8oEeSFROj0DmgWdw" elementId="pvcommand.execute" commandName="Execute plan" description="Execute plan" category="_yB_hoe5kEeSzs_AC9jtt6Q">
+    <parameters xmi:id="_8L9aDO8oEeSFROj0DmgWdw" elementId="pvcommandparameter.graph.withResult" name="withResult"/>
+  </commands>
+  <commands xmi:id="_8L9aDe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.lcm.alm.command.prdm" commandName="Product Management" category="_8LzBxu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aDu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.administrationsapsystem" commandName="Administration (SAP System Logon)" category="_8LzBuO8oEeSFROj0DmgWdw">
+    <parameters xmi:id="_8L9aD-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.parameter.autorefresh" name="autorefresh"/>
+  </commands>
+  <commands xmi:id="_8L9aEO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.traceconfig" commandName="Trace Configuration" category="_yB_hoe5kEeSzs_AC9jtt6Q">
+    <parameters xmi:id="_8L9aEe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.traceconfig.parameter.type" name="name"/>
+  </commands>
+  <commands xmi:id="_8L9aEu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.action.ApplicationPrivilegesSelection" commandName="Select Application Privileges" description="Select Application Privileges" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aE-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.addSection" commandName="Add Section in Configuration File" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aFO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.command.findprincipal" commandName="Find User/Role" description="Find User/Role" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aFe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.alert.filterthis" commandName="Filter This" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9aFu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authdepviewer.action.ToggleGraphTreeView" commandName="Toggle Between Graph and Tree View" description="Toggle Between Graph and Tree View" category="_8LzBuu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aF-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.lcm.command.lcm" commandName="SAP HANA lifecycle manager" category="_8LzBse8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aGO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.command.changeauthoringschema" commandName="Change Authoring Schema" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9aGe8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.editor.select.next" commandName="Select Next Element" description="Expand selection to include next element" category="_8LzBxO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aGu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sqldesigner.command.execute" commandName="Execute" category="_8LzBte8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aG-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.check_toolbar" commandName="Check" description="Check SAP HANA Development Object" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aHO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.tools.changetracking.Delete" commandName="Delete" description="Delete Change or Contributor" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9aHe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.xs.admin.command.allocmon" commandName="Memory Allocation Statistics" category="_8LzBwu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aHu8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.ui.workbench.navigateForward" commandName="Forward Navigation in Dialogs" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9aH-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.xs.admin.command.memoverview" commandName="Memory Overview" category="_8LzBwu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aIO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.backup.openeditor" commandName="Open Backup Console" category="_8LzBvu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aIe8oEeSFROj0DmgWdw" elementId="org.eclipse.emf.compare.ide.ui.compareInDialog" commandName="Compare in Dialog" category="_yB_hqO5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9aIu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.removeservice" commandName="Remove Service" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9aI-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authdepviewer.action.ZoomReset" commandName="Reset Zoom" category="_8LzBuu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aJO8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.FormatAction" commandName="Format" description="Format text" category="_8LzBxO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aJe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.showin" commandName="Show In" category="_8LzBtu8oEeSFROj0DmgWdw">
+    <parameters xmi:id="_8L9aJu8oEeSFROj0DmgWdw" elementId="org.eclipse.ui.navigate.showIn.targetId" name="name"/>
+  </commands>
+  <commands xmi:id="_8L9aJ-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.actions.revertToActive" commandName="Revert To Active" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aKO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.import" commandName="Check Out and Import Projects" description="Check out and import projects" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9aKe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.newinsertstmt" commandName="Open new SQL console with an insert statement" description="Insert Statement" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aKu8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.ui.workbench.navigate.next" commandName="Navigate to the next item" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9aK-8oEeSFROj0DmgWdw" elementId="pvcommand.connectToPlanTrace" commandName="Connect" description="Connect" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L9aLO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.checkout" commandName="Check Out" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L9aLe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.cds.editor.ui.toggleComment" commandName="Toggle Comment" description="Toggle comment the selected lines" category="_8LzBue8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-A0O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.hideownusersessions" commandName="Hide Own User Sessions" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-A0e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.mergetool" commandName="Merge Tool" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-A0u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.export" commandName="Export" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-A0-8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.xbase.ui.multiOrganizeImports" commandName="Organize All Imports" category="_yB_hrO5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-A1O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.unshare" commandName="Unshare Project" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-A1e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.filtersaplogfiles" commandName="Filter Log Files" description="Filter Log Files" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-A1u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.newtable" commandName="Open new table definition" description="New Table" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-A1-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.newview" commandName="Open new view definition" description="New View" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-A2O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.unload" commandName="Unload from Memory..." description="Unload" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-A2e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.action.PrincipalSelection" commandName="Select User/Role" description="Select User/Role" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-A2u8oEeSFROj0DmgWdw" elementId="com.sap.core.tools.eclipse.server.cloud.command.CopyAppUrlInClipboardCommand" commandName="Copy to Clipboard" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-A2-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.tools.ui.logoff" commandName="Log off from SAP HANA System" description="Log off from SAP HANA System" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-A3O8oEeSFROj0DmgWdw" elementId="pvcommand.graph.visualize.enumeration.step" commandName="Visualize enumeration step" category="_yB_hoe5kEeSzs_AC9jtt6Q">
+    <parameters xmi:id="_8L-A3e8oEeSFROj0DmgWdw" elementId="pvcommandparameter.graph.filePath" name="filePath"/>
+  </commands>
+  <commands xmi:id="_8L-A3u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.openObject" commandName="Open SAP HANA Development Object" description="Open SAP HANA Development Object" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-A3-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.reconfigureservice" commandName="Reconfigure Service" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-A4O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.repairworkspace" commandName="Repair" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-A4e8oEeSFROj0DmgWdw" elementId="com.sap.jvm.debugging.ui.commands.Inspect" commandName="Inspect" category="_yB_hje5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-A4u8oEeSFROj0DmgWdw" elementId="pvcommand.graph.visualize.calcview" commandName="Visualize Calculation Scenario" category="_yB_hoe5kEeSzs_AC9jtt6Q">
+    <parameters xmi:id="_8L-A4-8oEeSFROj0DmgWdw" elementId="pvcommandparameter.graph.filePath" name="filePath"/>
+    <parameters xmi:id="_8L-A5O8oEeSFROj0DmgWdw" elementId="pvcommandparameter.graph.graphViewTitle" name="graphViewTitle"/>
+  </commands>
+  <commands xmi:id="_8L-A5e8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.ui.workbench.navigate.next.gc" commandName="Navigate to the chronologically next GC" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-A5u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.refresh" commandName="Refresh" description="Refresh Current Administration Editor" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-A5-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.tools.changetracking.Edit" commandName="Edit" description="Edit Comment" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-A6O8oEeSFROj0DmgWdw" elementId="pvcommand.graph.prepareCachedPlan" commandName="Prepare cached plan" description="Prepare cached plan" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-A6e8oEeSFROj0DmgWdw" elementId="com.sap.core.tools.eclipse.logging.command.ViewInServerLogsCommand" commandName="Server Logs" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-A6u8oEeSFROj0DmgWdw" elementId="pvcommand.executeStmt" commandName="Execute Statement" category="_yB_hoe5kEeSzs_AC9jtt6Q">
+    <parameters xmi:id="_8L-A6-8oEeSFROj0DmgWdw" elementId="pvcommandparameter.sqlscript.sql" name="sqlStmt"/>
+  </commands>
+  <commands xmi:id="_8L-A7O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sqlscript.debugger.ui.displayTable" commandName="Open Data Preview" description="Open Data Preview" category="_yB_hiO5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-A7e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.tools.changetracking.Release" commandName="Release" description="Release Change" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-A7u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.copyElement" commandName="Copy Element  in Output pane" category="_8LzBsu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-A7-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.resetmemorystat" commandName="Reset Memory Statistics" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-A8O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.displayxml" commandName="Display XML" category="_8LzBsu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-A8e8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.editor.hyperlinking.OpenDeclaration" commandName="Open Declaration" description="Opens the declaration for the currently selected cross reference" category="_yB_hqu5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-n4O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.lcm.command.chkupd" commandName="Check for SAP HANA components updates " category="_8LzBse8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-n4e8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.codetemplates.Codetemplates.validate" commandName="Validate" description="Trigger expensive validation" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-n4u8oEeSFROj0DmgWdw" elementId="org.eclipse.graphiti.ui.internal.action.ToggleContextPadAction" commandName="Hide Context Buttons" description="Toggle hiding the context buttons" category="_8LzBu-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-n4-8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.xbase.ui.refactoring.ExtractLocalVariable" commandName="Extract Local Variable" description="Replaces the given expression with a newly declared local variable" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-n5O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.hidehdbstudiosessions" commandName="Hide SAP HANA Studio Sessions" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-n5e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.createSystemProject" commandName="Create System Project" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-n5u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.actions.validate" commandName="Validate" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-n5-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.showcontent" commandName="Show the content of a table" description="Open Content" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-n6O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.clearsaplogfile" commandName="Clear Log File" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-n6e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.action.SystemPrivilegesSelection" commandName="Select System Privileges" description="Select System Privileges" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-n6u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.importremoteworkspace" commandName="Import Remote Workspace..." category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-n6-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.actions.whereused" commandName="Where Used" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-n7O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.open.cockpit" commandName="Open Security Console" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-n7e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.createworkspace" commandName="Create Repository Workspace" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-n7u8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.ui.workbench.navigate.previous.gc" commandName="Navigate to the chronologically previous GC" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-n7-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.movePartitions" commandName="Move Partitions..." description="Move Partitions..." category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-n8O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.tools.changetracking.AddContributor" commandName="Add Contributor" description="New Contributor" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-n8e8oEeSFROj0DmgWdw" elementId="pvcommand.preparePlan" commandName="Prepare plan" description="Prepare plan" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-n8u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.validate" commandName="Validate" category="_8LzBsu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-n8-8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.xbase.ui.hierarchy.OpenCallHierarchy" commandName="Open Call Hierarchy" description="Open a call hierarchy on the selected element" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-n9O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.zoom" commandName="Zoom" category="_8LzBsu8oEeSFROj0DmgWdw">
+    <parameters xmi:id="_8L-n9e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.zoom.type" name="Type" optional="false"/>
+  </commands>
+  <commands xmi:id="_8L-n9u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.comparewitheachother" commandName="&amp;Each Other" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-n9-8oEeSFROj0DmgWdw" elementId="pvcommand.newPlanTraceEditor" commandName="New Plan Trace Editor" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-n-O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.page.hanaplugins" commandName="Version History" description="Show Installed Plug-Ins" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-n-e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.activate" commandName="Activate" description="Activate SAP HANA Development Object" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L-n-u8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.ui.workbench.close_views" commandName="Close All Profiling Views" category="_yB_hqu5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L-n--8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.move" commandName="Move Element in Output Pane" category="_8LzBsu8oEeSFROj0DmgWdw">
+    <parameters xmi:id="_8L_O8O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.move.direction" name="Direction" optional="false"/>
+  </commands>
+  <commands xmi:id="_8L_O8e8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.ui.workbench.navigate.previous" commandName="Navigate to the previous item" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L_O8u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.refreshmergedtracefast" commandName="Refresh Merged Trace" description="Refresh Merged Trace" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_O8-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.regenerate" commandName="Regenerate" description="Regenerate SAP HANA Development Objects" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_O9O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.collapseallconfigurationfiles" commandName="Collapse All Configuration Files" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_O9e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.showpartitions" commandName="Show Table Distribution" description="Open a List of Tables and Their Distribution" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_O9u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.command.newuser" commandName="New User" description="Create a new user" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_O9-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.actions.validate" commandName="Validate" category="_8LzBsu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_O-O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.unlock" commandName="Unlock Client Workspace" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_O-e8oEeSFROj0DmgWdw" elementId="org.eclipse.graphiti.ui.featureExecutionCommand" commandName="Feature execution" description="Execute a custom feature on selected Pictogram Elements" category="_8LzBu-8oEeSFROj0DmgWdw">
+    <parameters xmi:id="_8L_O-u8oEeSFROj0DmgWdw" elementId="org.eclipse.graphiti.ui.featureHint" name="Hint" optional="false"/>
+  </commands>
+  <commands xmi:id="_8L_O--8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.command.addsystemarchivelink" commandName="Add System Archive Link" description="Add System Archive Link" category="_8LzBsO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_O_O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.xs.admin.command.dashboard" commandName="Dashboard" category="_8LzBwu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_O_e8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.backup.command.prepareSnapshot" commandName="Manage Storage Snapshot" description="Prepare, confirm, or abandon a storage snapshot" category="_8LzBvu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_O_u8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.removeFromClient" commandName="Remove from Client" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_O_-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.cds.datapreview.ui.command" commandName="Open Data Previe&amp;w..." category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L_PAO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.tools.ui.commands.removeHanaNature" commandName="Remove HANA Nature" description="Removes the SAP HANA nature from the selected projects" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L_PAe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.moveTable" commandName="Move Table..." description="Move Table..." category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_PAu8oEeSFROj0DmgWdw" elementId="pvcommand.executePlan" commandName="Execute plan" description="Execute plan" category="_yB_hoe5kEeSzs_AC9jtt6Q">
+    <parameters xmi:id="_8L_PA-8oEeSFROj0DmgWdw" elementId="pvcommandparameter.graph.withResult" name="withResult"/>
+  </commands>
+  <commands xmi:id="_8L_PBO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.fittowindow" commandName="Fit to Window" category="_8LzBsu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_PBe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.activateall" commandName="Activate All..." description="Activate All SAP HANA Development Objects" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_PBu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.systemreplication.configuresystemreplication" commandName="System Replication" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_PB-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.importlocalworkspaces" commandName="Import Local Repository Workspaces" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_PCO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.backup.cancelbackup" commandName="Cancel Backup" description="Cancel the backup process" category="_8LzBvu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_PCe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.refreshmergedtrace" commandName="Refresh Merged Trace" description="Refresh Merged Trace" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_PCu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.federation.openfederation" commandName="Open Smart Data Access Administration" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_PC-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.administrationopen" commandName="Administration" category="_8LzBuO8oEeSFROj0DmgWdw">
+    <parameters xmi:id="_8L_PDO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.parameter.pageid" name="pageid" optional="false"/>
+  </commands>
+  <commands xmi:id="_8L_PDe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.trace" commandName="Trace" category="_8LzBuO8oEeSFROj0DmgWdw">
+    <parameters xmi:id="_8L_PDu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.parameter.tracetype" name="tracetype"/>
+    <parameters xmi:id="_8L_PD-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.parameter.tracecontextname" name="TraceContextName"/>
+    <parameters xmi:id="_8L_PEO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.parameter.readOnly" name="readOnly"/>
+    <parameters xmi:id="_8L_PEe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.trace.parameter.applicationuser" name="applicationuser"/>
+    <parameters xmi:id="_8L_PEu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.trace.parameter.applicationname" name="applicationname"/>
+    <parameters xmi:id="_8L_PE-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.trace.parameter.applicationversion" name="applicationversion"/>
+    <parameters xmi:id="_8L_PFO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.trace.parameter.databaseuser" name="databaseuser"/>
+  </commands>
+  <commands xmi:id="_8L_PFe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.dt.roles.RoleModel.validate" commandName="Validate" description="Trigger expensive validation" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L_PFu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.commit" commandName="Commit" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_PF-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.command.copyuser" commandName="Copy User" description="Create a user from this user" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_PGO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.action.RefreshPrincipal" commandName="Refresh" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2AO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.mergePartitions" commandName="Merge Partitions..." description="Merge Partitions..." category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2Ae8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.ui.workbench.save_log_data" commandName="Save Log Data" category="_yB_hqu5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L_2Au8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.xbase.ui.OpenImplementationCommand" commandName="Open Implementation" description="Open the Implementations in the method's hierarchy" category="_yB_hhO5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L_2A-8oEeSFROj0DmgWdw" elementId="pvcommand.getcalcscenario" commandName="Retrieve Calculation Scenario" description="Retrieve calculation scenario used in current SQL statement" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L_2BO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.newsynonym" commandName="Open new synonym definition" description="New Synonym" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2Be8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.catalogeditor" commandName="Definition" description="Open a catalog object definition" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2Bu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.mergedtrace.configurecolumns" commandName="Configure Columns..." description="Configure Columns..." category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2B-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.partitionTable" commandName="Partition Table..." description="Partition Table..." category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2CO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.checkoutfilerevision" commandName="Check Out and Rebase to Active" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2Ce8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.findtable2" commandName="Find Table" description="Find table" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2Cu8oEeSFROj0DmgWdw" elementId="org.eclipse.emf.mwe2.language.Mwe2.validate" commandName="Validate" description="Trigger expensive validation" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L_2C-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.command.autolayout" commandName="Auto Arrange" category="_8LzBsu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2DO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.landscapereorg.execute" commandName="Execute" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2De8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authdepviewer.action.ToggleDepPtimeView" commandName="Toggle Dependencies" description="Toggle Between Authorization Status and Object Dependencies" category="_8LzBuu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2Du8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.catalogeditor" commandName="Definition" description="Open a catalog object definition" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2D-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.tools.ui.logon" commandName="Log on to SAP HANA System" description="Log on to SAP HANA System" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L_2EO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.find" commandName="Find" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2Ee8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.repository.refactoring.ui.masspastecommand" commandName="Paste Special..." description="Paste Special" category="_yB_hoO5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L_2Eu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.hideidlesessions" commandName="Hide Idle Sessions" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L_2E-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sqlscript.debugger.ui.command.ToggleSQLScriptBreakpointCommand" commandName="Toggle SQLScript Breakpoint" description="Toggle SQLScriptDbg Breakpoint" category="_8LzBt-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2FO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.view.ui.autoDocumentFile" commandName="Auto Documentation" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L_2Fe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.edit" commandName="Edit" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2Fu8oEeSFROj0DmgWdw" elementId="pvcommand.graph.subtreeExecution" commandName="Subtree execution" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8L_2F-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.cds.editor.completeWord" commandName="Complete Keyword" description="Complete Keyword" category="_8LzBue8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2GO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.filtersContribution" commandName="FilterContribution" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2Ge8oEeSFROj0DmgWdw" elementId="com.sap.core.tools.eclipse.logging.console.CloseLogConsoleCommand" commandName="Close Log" category="_8LzBwO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2Gu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.backup.command.recovery" commandName="Recover" description="Execute Database Recovery" category="_8LzBvu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2G-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.Redeploy" commandName="Redeploy" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2HO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.merge" commandName="Perform Delta Merge..." description="Merge" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8L_2He8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.newfolder" commandName="New Folder" description="New Folder" category="_8LzBsO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MAdEO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.joinviewer.command.open" commandName="Join Viewer" category="_8LzBs-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MAdEe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.refreshlogfile" commandName="Refresh Log File" description="Refresh Log File" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MAdEu8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.showSummaryInfo" commandName="Show Summary" description="Shows the summary info for the current editor." category="_8LzBvO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MAdE-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.action.ConfigureSamlExternalIdAction" commandName="Configure SAML External Identity" description="Configure the external identity for the SAML identity provider" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MAdFO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.command.opensapsystem" commandName="Open System" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MAdFe8oEeSFROj0DmgWdw" elementId="pvcommand.graph.pinForPlanCache" commandName="Pin for plan cache" description="Pin for plan cache" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MAdFu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.actions.Redeploy" commandName="Redeploy" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MAdF-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.afm.bw.deployment" commandName="Deploy the BW analysis process" description="Deploy this flowgraph file as a BW analysis process" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MAdGO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.import" commandName="Import" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MAdGe8oEeSFROj0DmgWdw" elementId="com.sap.core.tools.eclipse.server.cloud.command.OpenApplicationURLCommand" commandName="Open" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MAdGu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.reassignsystem" commandName="Reassign System" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MAdG-8oEeSFROj0DmgWdw" elementId="pvcommand.graph.visualize.decrypt" commandName="Decrypt PLV" category="_yB_hoe5kEeSzs_AC9jtt6Q">
+    <parameters xmi:id="_8MAdHO8oEeSFROj0DmgWdw" elementId="pvcommandparameter.graph.filePath" name="filePath"/>
+    <parameters xmi:id="_8MAdHe8oEeSFROj0DmgWdw" elementId="pvcommandparameter.graph.graphViewTitle" name="graphViewTitle"/>
+  </commands>
+  <commands xmi:id="_8MAdHu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.federation.transformtolocaltable" commandName="Do Not Use Extended Storage" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MAdH-8oEeSFROj0DmgWdw" elementId="org.eclipse.graphiti.ui.internal.action.SaveImageAction" commandName="Export Diagram" description="Export Diagram" category="_8LzBu-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MAdIO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.PasteObject" commandName="Paste" category="_8LzBsu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MBrMO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.resolve" commandName="Resolve" category="_8LzBtu8oEeSFROj0DmgWdw">
+    <parameters xmi:id="_8MBrMe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.parameters.resolveWith" name="Resolve with" optional="false"/>
+  </commands>
+  <commands xmi:id="_8MBrMu8oEeSFROj0DmgWdw" elementId="org.eclipse.ui.file.open" commandName="Open" description="Open User Definition" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MBrM-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.repository.whereused.ui.command" commandName="Get Where-&amp;Used List" category="_yB_hoe5kEeSzs_AC9jtt6Q">
+    <parameters xmi:id="_8MBrNO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.whereused.ui.repositoryScopeCommandParameter" name="repositoryScope" optional="false"/>
+    <parameters xmi:id="_8MBrNe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.whereused.ui.destinationCommandParameter" name="destination" optional="false"/>
+    <parameters xmi:id="_8MBrNu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.whereused.ui.repositoryFileIDcommandParameter" name="repositoryFileID" optional="false"/>
+  </commands>
+  <commands xmi:id="_8MBrN-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.showdatapreview" commandName="Open Data Preview" description="Open Data Preview" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSQO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.collapseconfigurationfile" commandName="Collapse Configuration File" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSQe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.resetDefaultWorkspace" commandName="Reset" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSQu8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.refactoring.RenameElement" commandName="Rename Element" description="Performs a rename refactoring on the selected element" category="_8LzBx-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSQ-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.systemtablenewfolder" commandName="New Folder" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MCSRO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.systemtablestatementimport" commandName="Import SQL Statements" description="Import SQL Statements" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSRe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.DataPreview" commandName="Data Preview" description="Data Preview" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSRu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.runtime.help.sap" commandName="name" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MCSR-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.threadgroupandsort" commandName="Group and Sort" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSSO8oEeSFROj0DmgWdw" elementId="pvcommand.graph.save" commandName="Save" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MCSSe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.deleteforeignworkspaces" commandName="Delete Foreign User's Workspaces" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSSu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.backup.deleteBackupsBefore" commandName="Delete Backups Before" description="Deletes several data backups before the given" category="_8LzBvu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSS-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.newselectstmt" commandName="Opens new SQL console with a select statement" description="Select Statement" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSTO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.afm.convertFlowgraphToAflpmml" commandName="Convert to AFLPMML" description="Convert this Flowgraph file to the (deprecated) AFLPPML format" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MCSTe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.newindex" commandName="Open new index definition" description="New Index" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSTu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.command.addsapsystem" commandName="Add System" description="Add System" category="_8LzBsO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCST-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.findtable" commandName="Find Table" description="Find table" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSUO8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.shared.OpenXtextElementCommand" commandName="Open Model Element" description="Open the declaration of an Xtext element" category="_yB_hhO5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MCSUe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.endthread" commandName="Cancel Operations" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSUu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.ui.command.tableproperties" commandName="Configure Table Viewer" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MCSU-8oEeSFROj0DmgWdw" elementId="com.sap.core.tools.eclipse.logging.console.ReloadConsoleCommand" commandName="Refresh Log" category="_8LzBwO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSVO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.catalog.filtersContribution" commandName="Dynamic Catalog Filter" category="_8LzBwe8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSVe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.command.restartsapsystem" commandName="Restart SAP System" description="Restart an SAP System" category="_8LzBsO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSVu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.actions.History" commandName="History" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSV-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.openfilerevision" commandName="&amp;Open" description="Open SAP HANA Development Object Revision" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSWO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.tools.ui.commands.addHanaNature" commandName="Add HANA Nature" description="Adds the SAP HANA nature to the selected projects" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MCSWe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.systemmonitor" commandName="System Monitor" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MCSWu8oEeSFROj0DmgWdw" elementId="pvcommand.savePlan" commandName="Save plan" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MCSW-8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.compareWithOtherEditor" commandName="Compare Profiling Results" description="Lets the user compare the results." category="_8LzBvO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5UO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.reset" commandName="Reset To" category="_8LzBtu8oEeSFROj0DmgWdw">
+    <parameters xmi:id="_8MC5Ue8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.parameters.reset" name="Reset to Parameter" optional="false"/>
+  </commands>
+  <commands xmi:id="_8MC5Uu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.federation.newproxy" commandName="New Virtual Table..." category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5U-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.AutoDocumentation" commandName="Auto Documentation" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5VO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.newvisualsql" commandName="Open new Visual SQL definition" description="Visual SQL" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5Ve8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.setFilter" commandName="Open Alert Filter" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MC5Vu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authdepviewer.action.ZoomIn" commandName="Zoom In" category="_8LzBuu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5V-8oEeSFROj0DmgWdw" elementId="com.sap.ide.support.ui.createSupportInfo" commandName="Collect Support Information" description="Collects support relevant information and packs it into a file" category="_yB_hpe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MC5WO8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.xbase.ui.organizeImports" commandName="Organize Imports" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MC5We8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.cds.editor.ui.navigateTo" commandName="Navigate to" description="Navigate to" category="_8LzBue8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5Wu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.xse.debugger.ui.commands.ToggleXSDBGBreakpointCommand" commandName="Toggle HANA XSE Breakpoint" category="_8Lyaoe8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5W-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.history" commandName="Show in History" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5XO8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.editor.outline.QuickOutline" commandName="Quick Outline" description="Open the quick outline." category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MC5Xe8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.ToggleCommentAction" commandName="Toggle Comment" description="Toggle Comment" category="_8LzBxO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5Xu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.check" commandName="Check" description="Check SAP HANA Development Object" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5X-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.actions.cascadeActivate" commandName="Cascade Activate" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5YO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.checkssetting" commandName="Configure Check Settings" description="Configure Check Settings" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5Ye8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.command.sqleditor" commandName="Open SQL Console" description="Open SQL console for selected system" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5Yu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.lcm.alm.command.trpm" commandName="Transport Management" category="_8LzBxu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5Y-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.tools.changetracking.AddDropDown" commandName="Add Dropdown" description="My Dropdown" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MC5ZO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.actions.activate" commandName="Activate" category="_8LzBsu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5Ze8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.federation.newsource" commandName="New Remote Source..." category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5Zu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.action.ReactivateUser" commandName="Deactivate User" description="Deactivate User" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5Z-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.catalog.command.catalogfilter" commandName="Filters..." description="Filter for Catalog Folder" category="_8LzBwe8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5aO8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.ui.workbench.showVmMonitor" commandName="VM Monitor Dialog Action" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MC5ae8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.GotToMatchingBracketAction" commandName="Go to Matching Bracket" description="Go to Matching Bracket" category="_8LzBxO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5au8oEeSFROj0DmgWdw" elementId="pvcommand.graph.visualize" commandName="Visualize XML" category="_yB_hoe5kEeSzs_AC9jtt6Q">
+    <parameters xmi:id="_8MC5a-8oEeSFROj0DmgWdw" elementId="pvcommandparameter.graph.filePath" name="filePath"/>
+    <parameters xmi:id="_8MC5bO8oEeSFROj0DmgWdw" elementId="pvcommandparameter.graph.graphViewTitle" name="graphViewTitle"/>
+  </commands>
+  <commands xmi:id="_8MC5be8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.tools.changetracking.ValidateContributor" commandName="Validate Contributor" description="Approve Contribution" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MC5bu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.federation.openadministration" commandName="Open Administration" category="_8LzBtO8oEeSFROj0DmgWdw">
+    <parameters xmi:id="_8MC5b-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.parameter.pageid" name="Page Id"/>
+  </commands>
+  <commands xmi:id="_8MC5cO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.comparewithworkspace" commandName="&amp;Workspace" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5ce8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.activate_toolbar" commandName="Activate" description="Activate SAP HANA Development Object" category="_8LzBtu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5cu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.ContentActivate" commandName="Activate" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5c-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.logfilesdetailedmessage" commandName="Display Detailed Message" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MC5dO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.openlogfile" commandName="Open Log File" description="Open Log File" category="_yB_hoe5kEeSzs_AC9jtt6Q">
+    <parameters xmi:id="_8MC5de8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.traceFileName" name="filename"/>
+    <parameters xmi:id="_8MC5du8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.usemultidbschema" name="usemultidbschema"/>
+    <parameters xmi:id="_8MC5d-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.dbname" name="dbname"/>
+  </commands>
+  <commands xmi:id="_8MC5eO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization.action.PackagePrivilegesSelection" commandName="Select Package Privilege" description="Select Package Privilege" category="_8LzBv-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5ee8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.compresssaplogfile" commandName="Compress Log File" description="Compress Log File" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5eu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.navigattoview" commandName="Navigate To" category="_8LzBuO8oEeSFROj0DmgWdw">
+    <parameters xmi:id="_8MC5e-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.navigattoview.parameter.viewname" name="ViewName"/>
+    <parameters xmi:id="_8MC5fO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.navigattoview.parameter.value" name="Value" optional="false"/>
+  </commands>
+  <commands xmi:id="_8MC5fe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.repository.refactoring.ui.movecommand" commandName="Move..." description="Move" category="_yB_hoO5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MC5fu8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.xbase.ui.hierarchy.OpenTypeHierarchy" commandName="Open Type in Hierarchy" description="Open a type in the type hierarchy view" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8MC5f-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.actions.AutoDocumentation" commandName="Auto Documentation" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5gO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.xs.admin.command.cockpitview" commandName="SAP HANA Cockpit" category="_8LzBwu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MC5ge8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authdepviewer.action.Refresh" commandName="Refresh" description="Refresh Graph" category="_8LzBuu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MDgYO8oEeSFROj0DmgWdw" elementId="org.eclipse.graphiti.ui.internal.action.RemoveAction" commandName="Remove" description="Remove selected Pictogram Elements" category="_8LzBu-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MDgYe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.command.importlandscape" commandName="Import Landscape" description="Import Landscape" category="_8LzBsO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MDgYu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.actions.CtrlCCopyObject" commandName="Copy" category="_8LzBsu8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MDgY-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.command.downloadsaplogfile" commandName="Download Log File" description="Download Log File" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MDgZO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.actions.datapreview" commandName="Data Preview" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MDgZe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.page.versionhistory" commandName="Version History" description="Show Version History" category="_8LzBuO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MDgZu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql.action.ExecuteSQLStep" commandName="Execute" description="Execute SQL Statement at Cursor Position" category="_8LzBtO8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_8MDgZ-8oEeSFROj0DmgWdw" elementId="pvcommand.openCalcScenario" commandName="Open Calculation Scenario List" description="Open calculation scenario list from selected server" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_8clPsO8oEeSFROj0DmgWdw" elementId="pvcommand.graph.showSubplan" commandName="pvcommand.graph.showSubplan"/>
+  <commands xmi:id="_8et9sO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.commands.editpackage" commandName="com.sap.ndb.studio.dwb.team.ui.commands.editpackage"/>
+  <commands xmi:id="_8fbvYO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.lcm.alm.command.home" commandName="com.sap.ndb.studio.lcm.alm.command.home"/>
+  <commands xmi:id="_8fc9gO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.lcm.alm.command.pi" commandName="com.sap.ndb.studio.lcm.alm.command.pi"/>
+  <commands xmi:id="_8fgA0O8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.lcm.command.hdblcm" commandName="com.sap.ndb.studio.lcm.command.hdblcm"/>
+  <commands xmi:id="_9uKMUO8oEeSFROj0DmgWdw" elementId="AUTOGEN:::com.sap.jvm.profiling.ui.actionSet/com.sap.jvm.profiling.ui.actions.ProfilingDropDownAction" commandName="Profile Configurations..." description="SAP JVM Profiler" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_9ufjgO8oEeSFROj0DmgWdw" elementId="AUTOGEN:::com.sap.jvm.profiling.ui.actionSetRun/com.sap.jvm.profiling.ui.actions.ConnectToVm" commandName="VM Explorer" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_9ufjge8oEeSFROj0DmgWdw" elementId="AUTOGEN:::com.sap.jvm.profiling.ui.actionSetRun/com.sap.jvm.profiling.ui.actions.ProfilingProfile" commandName="Profile Configurations..." description="SAP JVM Profiler" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_9ufjgu8oEeSFROj0DmgWdw" elementId="AUTOGEN:::com.sap.jvm.profiling.ui.actionSetRun/com.sap.jvm.profiling.ui.actions.ProfileAsAction" commandName="Profile As" description="SAP JVM Profiler Shortcuts" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_9ufjg-8oEeSFROj0DmgWdw" elementId="AUTOGEN:::com.sap.jvm.profiling.ui.actionSetRun/com.sap.jvm.profiling.ui.actions.ProfilingHistory" commandName="Profile History" description="SAP JVM Profiler History" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_9ugKkO8oEeSFROj0DmgWdw" elementId="AUTOGEN:::com.sap.jvm.profiling.ui.actionSetRun/com.sap.jvm.profiling.ui.actions.ProfilingLastLaunched" commandName="Profile" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_9ugKke8oEeSFROj0DmgWdw" elementId="AUTOGEN:::com.sap.ndb.studio.bi.welcomeActionSet/com.sap.ndb.studio.bi.quickLaunch" commandName="Quick View" description="Opens the Quick View" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_9u5zMO8oEeSFROj0DmgWdw" elementId="AUTOGEN:::com.sap.ndb.studio.sqlscript.debugger.ui.editorToggleBreakpointAction/com.sap.ndb.studio.sqlscript.debugger.ui.ToggleBreakpointAction" commandName="Toggle Breakpoint" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_9u6aQO8oEeSFROj0DmgWdw" elementId="AUTOGEN:::com.sap.ndb.studio.xse.debugger.ui.model.BreakpointRulerActions/com.sap.river.xse.debug.ui.debugger.actions.ManageBreakpointRulerAction" commandName="Toggle Breakpoint" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_9vBH8O8oEeSFROj0DmgWdw" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.VariableViewActions/com.sap.jvm.debugging.ui.ReturnValuesOptionAction" commandName="Configure return values ..." description="Let's the user change the display of return values when using the SAP JVM debugger." category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_9vDkMO8oEeSFROj0DmgWdw" elementId="AUTOGEN:::com.sap.bi.prototype.MiniatureViewContribution/com.sap.bi.ndb.studio.action.miniatureViewAction" commandName="Miniature View" category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_9vDkMe8oEeSFROj0DmgWdw" elementId="additions" commandName="Content Presentation..." category="_yB_hoe5kEeSzs_AC9jtt6Q"/>
+  <commands xmi:id="_CivVoO8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.actions.redeploy" commandName="Redeploy" description="Redeploy" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_CoEhkO8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.actions.data_preview" commandName="Data Preview" description="Data Preview" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_CoFIoO8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.actions.auto_documentation" commandName="Auto Documentation" description="Auto Documentation" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_CoFvsO8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.actions.where_used" commandName="Where-Used" description="Where-Used" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_CoQHwO8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.actions.history" commandName="History" description="History" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_CoQu0O8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.actions.reverttoactive" commandName="Revert To Active" description="Revert To Active" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_CoRV4O8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.actions.delete" commandName="Delete and Activate" description="Delete and Activate" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_CodjIO8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.actions.open" commandName="Open" description="Open" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_CofYUO8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.actions.cascade_activate" commandName="Cascade Activate" description="Cascade Activate" category="_8LzBw-8oEeSFROj0DmgWdw"/>
+  <commands xmi:id="_CooiQO8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.resource.procedure" commandName="Procedure" description="PROCEDURE"/>
+  <commands xmi:id="_CoqXcO8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.resource.calculationview" commandName="Calculation View" description="CALCULATION_VIEW"/>
+  <commands xmi:id="_CoqXce8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.resource.analyticprivilege" commandName="Analytic Privilege" description="ANALYTIC_PRIVILEGE"/>
+  <commands xmi:id="_Coq-gO8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.resource.package" commandName="Package" description="PACKAGE"/>
+  <commands xmi:id="_Coq-ge8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.resource.hdbruldec" commandName="Decision Table" description="DECISIONTABLE"/>
+  <commands xmi:id="_Coq-gu8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.resource.attributeview" commandName="Attribute View" description="ATTRIBUTE_VIEW"/>
+  <commands xmi:id="_Coq-g-8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.resource.analyticview" commandName="Analytic View" description="ANALYTIC_VIEW"/>
+  <commands xmi:id="_CosMoO8pEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.actions.newObject" commandName="New..." description="new"/>
   <addons xmi:id="_yB_hdu5kEeSzs_AC9jtt6Q" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_yB_hd-5kEeSzs_AC9jtt6Q" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_yB_heO5kEeSzs_AC9jtt6Q" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -2873,4 +3569,29 @@
   <categories xmi:id="_yB_hre5kEeSzs_AC9jtt6Q" elementId="org.eclipse.jdt.ui.category.refactoring" name="Refactor - Java" description="Java Refactoring Actions"/>
   <categories xmi:id="_yB_hru5kEeSzs_AC9jtt6Q" elementId="org.jboss.ide.eclipse.as.wtp.ui.commands.modules" name="Modules" description="Commands related to modules"/>
   <categories xmi:id="_yB_hr-5kEeSzs_AC9jtt6Q" elementId="org.jboss.ide.eclipse.archives.ui.commands.projects" name="Project Archives" description="Commands related to project archives"/>
+  <categories xmi:id="_8Lyaoe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.xse.debugger.ui.commands.category" name="SAP HANA XSE" description="SAP HANA XSE Script debugger"/>
+  <categories xmi:id="_8LzBsO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.navigator.category" name="Navigator" description="Navigator"/>
+  <categories xmi:id="_8LzBse8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.lcm.category" name="Lifecycle Management"/>
+  <categories xmi:id="_8LzBsu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.bi.uibindings.category" name="Modeler Keys"/>
+  <categories xmi:id="_8LzBs-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.joinviewer.category" name="Join Viewer"/>
+  <categories xmi:id="_8LzBtO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sql" name="SAP HANA Studio SQL Administration Console"/>
+  <categories xmi:id="_8LzBte8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sqldesigner.category" name="SQL Designer"/>
+  <categories xmi:id="_8LzBtu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.dwb.team.ui.category" name="SAP HANA Development"/>
+  <categories xmi:id="_8LzBt-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.sqlscript.debugger.ui.commands.category" name="SQLScript" description="SAP HANA SQLScript Debugger"/>
+  <categories xmi:id="_8LzBuO8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.category" name="SAP HANA Database Administration"/>
+  <categories xmi:id="_8LzBue8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.cds.editor.sample.category" name="Source"/>
+  <categories xmi:id="_8LzBuu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authdepviewer.category" name="Authorization Dependency"/>
+  <categories xmi:id="_8LzBu-8oEeSFROj0DmgWdw" elementId="org.eclipse.graphiti.ui.Graphiti_Category" name="Edit" description="Graphiti Diagram Editor"/>
+  <categories xmi:id="_8LzBvO8oEeSFROj0DmgWdw" elementId="com.sap.jvm.profiling.editorCategory" name="SAP JVM Profiling Editors" description="Profiling Editors"/>
+  <categories xmi:id="_8LzBve8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.admin.configuration" name="Configuration Category" description="Configuration Category"/>
+  <categories xmi:id="_8LzBvu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.backup.category" name="Backup Category" description="Category for Backup Editor Commands"/>
+  <categories xmi:id="_8LzBv-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.authorization" name="Authorization Commands"/>
+  <categories xmi:id="_8LzBwO8oEeSFROj0DmgWdw" elementId="com.sap.core.tools.eclipse.logging.console.LogConsoleCategory" name="LogConsoleCategory"/>
+  <categories xmi:id="_8LzBwe8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.catalog" name="Catalog Commands" description="Catalog Commands"/>
+  <categories xmi:id="_8LzBwu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.xs.admin.category" name="SAP XS Administration"/>
+  <categories xmi:id="_8LzBw-8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.modeler.navigator" name="Modeler Navigator"/>
+  <categories xmi:id="_8LzBxO8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.category.XtextEditor" name="Editing" description="Editing Commands"/>
+  <categories xmi:id="_8LzBxe8oEeSFROj0DmgWdw" elementId="com.sap.nbd.studio.parser.rnd.category" name="Key Category"/>
+  <categories xmi:id="_8LzBxu8oEeSFROj0DmgWdw" elementId="com.sap.ndb.studio.lcm.alm.category" name="Application Lifecycle Management"/>
+  <categories xmi:id="_8LzBx-8oEeSFROj0DmgWdw" elementId="org.eclipse.xtext.ui.category.refactoring" name="Refactoring" description="Refactoring Commands"/>
 </application:Application>

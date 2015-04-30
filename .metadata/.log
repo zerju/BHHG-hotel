@@ -389,3 +389,552 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-04-29 12:37:37.062
 !MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
+!SESSION 2015-04-30 13:04:57.787 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_31
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sl_SI
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 2 0 2015-04-30 13:05:37.498
+!MESSAGE [SCR - WorkThread] Timeout occurred! Thread was blocked on processing [QueuedJob] WorkPerformer: org.eclipse.equinox.internal.ds.SCRManager@5167da52; actionType 1
+
+!ENTRY org.eclipse.equinox.ds 2 0 2015-04-30 13:05:37.504
+!MESSAGE [SCR] Enabling components of bundle org.eclipse.ui.trace did not complete in 30000 ms 
+
+!ENTRY org.eclipse.core.runtime 4 0 2015-04-30 13:05:42.526
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.core.runtime"; type="osgi.bundle"; version:Version="3.10.0.v20140318-2214"; singleton:="true" [id=403] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.osgi 2 0 2015-04-30 13:05:47.640
+!MESSAGE While loading class "org.eclipse.core.runtime.Plugin", thread "Thread[Start Level: Equinox Container: b0de81be-28ef-0014-1c8d-b8e53d666d97,5,main]" timed out waiting (5003ms) for thread "Thread[Component Resolve Thread,5,main]" to finish starting bundle "org.eclipse.core.runtime_3.10.0.v20140318-2214 [403]". To avoid deadlock, thread "Thread[Start Level: Equinox Container: b0de81be-28ef-0014-1c8d-b8e53d666d97,5,main]" is proceeding but "org.eclipse.core.runtime.Plugin" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.core.runtime"; type="osgi.bundle"; version:Version="3.10.0.v20140318-2214"; singleton:="true" [id=403] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:320)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.sources.MultiSourcePackage.loadClass(MultiSourcePackage.java:32)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:391)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.defineClass(ModuleClassLoader.java:272)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.defineClass(ClasspathManager.java:632)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findClassImpl(ClasspathManager.java:588)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClassImpl(ClasspathManager.java:540)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:527)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:320)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.loadBundleActivator(BundleContextImpl.java:754)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:706)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:936)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:319)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-04-30 13:06:20.965
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.emf.ecore 2 0 2015-04-30 13:06:22.641
+!MESSAGE Both 'com.sap.ide.ui5.ctrl.metamodel' and 'com.sap.ndb.studio.model.data' register an extension parser for 'type'
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-04-30 13:06:56.756
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-04-30 13:06:56.757
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jure'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.sap.ide.ui5.services 1 1 2015-04-30 13:07:04.043
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY org.eclipse.jface 2 0 2015-04-30 13:07:10.231
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-30 13:07:10.232
+!MESSAGE A conflict occurred for DEL:
+Binding(DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.delete,Delete,
+		Delete an Element,
+		Category(com.sap.ndb.studio.navigator.category,Navigator,Navigator,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11d1c51a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+Binding(DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.delete,Delete,
+		Delete an Element,
+		Category(com.sap.ndb.studio.navigator.category,Navigator,Navigator,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11d1c51a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-30 13:07:10.232
+!MESSAGE A conflict occurred for CTRL+.:
+Binding(CTRL+.,
+	ParameterizedCommand(Command(com.sap.jvm.profiling.ui.workbench.navigate.next,Navigate to the next item,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e23d0db,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+Binding(CTRL+.,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.next,Next,
+		Navigate to the next item,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d0c21,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-30 13:07:10.232
+!MESSAGE A conflict occurred for CTRL+,:
+Binding(CTRL+,,
+	ParameterizedCommand(Command(com.sap.jvm.profiling.ui.workbench.navigate.previous,Navigate to the previous item,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@472c5608,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+Binding(CTRL+,,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.previous,Previous,
+		Navigate to the previous item,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e0fbfb6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2015-04-30 13:07:19.132
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.runtime.ui, page: org.jboss.tools.runtime.preferences.RuntimePreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2015-04-30 13:07:19.132
+!MESSAGE Invalid preference category path: org.jboss.tools.common.model.ui.MainPreferencePage (bundle: org.jboss.tools.usage, page: org.jboss.tools.usage.analytics.preferences.UsageAnalyticsPreferencePage)
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 1644298249 2015-04-30 13:15:42.784
+!MESSAGE Error renaming C:\Users\Jure\Documents\GitHub\BHHG-hotel\.metadata\.plugins\org.eclipse.wst.server.core\tmp8127150076451409395.MF to C:\Users\Dom\wildflyRIS\standalone\deployments\RIS_Projekt.war\META-INF\MANIFEST.MF. 
+
+This may be caused by incorrect file permissions, or your server's temporary deploy directory may be on a different filesystem than the final destination.
+
+You may adjust these settings in the server editor.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2015-04-30 13:19:47.435
+!MESSAGE Full publish failed for module RIS_Projekt
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/META-INF/MANIFEST.MF: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/NewFile.html: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/MizaPodrobno.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Rezervacija.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/RezervacijeMiz.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/RezervacijeSob.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/RezervirajMizo.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/RezervirajSobo.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Slike/balkon.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Slike/kopalnica.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Slike/mize.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Slike/mize2.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Slike/omara.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Slike/soba.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Slike/soba_vlka.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/SobaPodrobno.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/style.css: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/classes/beani/Miza.class: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/classes/beani/Mnenje.class: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/classes/beani/Oseba.class: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/classes/beani/RegistriranUporabnik.class: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/classes/beani/Soba.class: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/classes/controlers/Kr_neka_sajnivazno.class: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/classes/rezervacije/RezervacijeSobe.class: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.435
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/faces-config.xml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/layout.css: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/style.css: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/template.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/web.xml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/css/lightbox.css: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/css/screen.css: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/close.png: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/.DS_Store: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/favicon.png: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/image-1.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/image-2.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/image-3.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/image-4.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/image-5.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/image-6.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/thumb-1.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/thumb-2.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/thumb-3.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/thumb-4.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/thumb-5.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/thumb-6.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/loading.gif: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/next.png: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/prev.png: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/js/.DS_Store: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/js/jquery-1.11.0.min.js: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/js/jquery-1.11.0.min.map: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/js/lightbox.js: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/js/lightbox.min.js: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:19:47.436
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/js/lightbox.min.map: Dostop je zavrnjen
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-04-30 13:19:47.473
+!MESSAGE Unable to create file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war.dodeploy
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unable to create file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war.dodeploy
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.touchResource(LocalFilesystemController.java:361)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.DeploymentMarkerUtils.createDoDeployMarker(DeploymentMarkerUtils.java:100)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.restartModule(StandardFileSystemPublishController.java:652)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.ensureModulesRestarted(StandardFileSystemPublishController.java:603)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishFinish(StandardFileSystemPublishController.java:251)
+	at org.jboss.tools.as.core.server.controllable.internal.DeployableServerBehavior.publishFinish(DeployableServerBehavior.java:111)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:1011)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 0 2015-04-30 13:19:47.473
+!MESSAGE Unable to create file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war.dodeploy
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-04-30 13:19:47.596
+!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 16973826 2015-04-30 13:22:59.008
+!MESSAGE The server was shutdown forcefully. All processes were terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2015-04-30 13:22:59.152
+!MESSAGE Full publish failed for module RIS_Projekt
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/META-INF/MANIFEST.MF: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/NewFile.html: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/MizaPodrobno.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Rezervacija.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/RezervacijeMiz.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/RezervacijeSob.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/RezervirajMizo.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/RezervirajSobo.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Slike/balkon.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Slike/kopalnica.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Slike/mize.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Slike/mize2.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Slike/omara.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Slike/soba.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/Slike/soba_vlka.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/SobaPodrobno.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/Rezervacije/style.css: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/classes/beani/Miza.class: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/classes/beani/Mnenje.class: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/classes/beani/Oseba.class: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/classes/beani/RegistriranUporabnik.class: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/classes/beani/Soba.class: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/classes/controlers/Kr_neka_sajnivazno.class: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/classes/rezervacije/RezervacijeSobe.class: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/faces-config.xml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/layout.css: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/style.css: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/template.xhtml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/WEB-INF/web.xml: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/css/lightbox.css: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/css/screen.css: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/close.png: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/.DS_Store: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.152
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/favicon.png: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/image-1.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/image-2.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/image-3.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/image-4.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/image-5.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/image-6.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/thumb-1.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/thumb-2.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/thumb-3.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/thumb-4.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/thumb-5.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/demopage/thumb-6.jpg: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/loading.gif: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/next.png: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/img/prev.png: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/js/.DS_Store: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/js/jquery-1.11.0.min.js: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/js/jquery-1.11.0.min.map: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/js/lightbox.js: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/js/lightbox.min.js: Dostop je zavrnjen
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2015-04-30 13:22:59.153
+!MESSAGE Error copying file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war/galerija/js/lightbox.min.map: Dostop je zavrnjen
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-04-30 13:22:59.156
+!MESSAGE Unable to create file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war.dodeploy
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unable to create file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war.dodeploy
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.touchResource(LocalFilesystemController.java:361)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.DeploymentMarkerUtils.createDoDeployMarker(DeploymentMarkerUtils.java:100)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.restartModule(StandardFileSystemPublishController.java:652)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.ensureModulesRestarted(StandardFileSystemPublishController.java:603)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishFinish(StandardFileSystemPublishController.java:251)
+	at org.jboss.tools.as.core.server.controllable.internal.DeployableServerBehavior.publishFinish(DeployableServerBehavior.java:111)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:1011)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3157)
+	at org.eclipse.wst.server.core.internal.Server.publish(Server.java:1327)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.wait(JBTWebLaunchableClient.java:87)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient.launch2(JBTWebLaunchableClient.java:61)
+	at org.jboss.ide.eclipse.as.ui.launch.JBTWebLaunchableClient$1.run(JBTWebLaunchableClient.java:53)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 0 2015-04-30 13:22:59.156
+!MESSAGE Unable to create file C:/Users/Dom/wildflyRIS/standalone/deployments/RIS_Projekt.war.dodeploy
+
+!ENTRY org.jboss.ide.eclipse.as.ui 2 0 2015-04-30 13:23:20.411
+!MESSAGE Server stopped before before browser could be opened.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-04-30 13:24:49.473
+!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-04-30 14:02:02.325
+!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
+!SESSION 2015-04-30 14:03:11.243 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_31
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sl_SI
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2015-04-30 14:03:33.282
+!MESSAGE Both 'com.sap.ide.ui5.ctrl.metamodel' and 'com.sap.ndb.studio.model.data' register an extension parser for 'type'
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-04-30 14:03:42.960
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-04-30 14:03:42.961
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jure'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.sap.ide.ui5.services 1 1 2015-04-30 14:03:44.766
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-04-30 14:03:47.034
+!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
+
+!ENTRY org.eclipse.jface 2 0 2015-04-30 14:05:05.048
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-30 14:05:05.048
+!MESSAGE A conflict occurred for CTRL+,:
+Binding(CTRL+,,
+	ParameterizedCommand(Command(com.sap.jvm.profiling.ui.workbench.navigate.previous,Navigate to the previous item,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58420a75,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+Binding(CTRL+,,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.previous,Previous,
+		Navigate to the previous item,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@798cf0a0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-30 14:05:05.048
+!MESSAGE A conflict occurred for DEL:
+Binding(DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.delete,Delete,
+		Delete an Element,
+		Category(com.sap.ndb.studio.navigator.category,Navigator,Navigator,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3eea7c4b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+Binding(DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.delete,Delete,
+		Delete an Element,
+		Category(com.sap.ndb.studio.navigator.category,Navigator,Navigator,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3eea7c4b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-04-30 14:05:05.049
+!MESSAGE A conflict occurred for CTRL+.:
+Binding(CTRL+.,
+	ParameterizedCommand(Command(com.sap.jvm.profiling.ui.workbench.navigate.next,Navigate to the next item,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@595ebb98,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+Binding(CTRL+.,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.next,Next,
+		Navigate to the next item,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7497c5d9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-04-30 14:07:00.433
+!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 

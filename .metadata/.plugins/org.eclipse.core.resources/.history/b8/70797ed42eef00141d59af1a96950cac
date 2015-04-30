@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html
+xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	<!-- <link rel="stylesheet" href="WEB-INF/../style.css" type="text/css" media="all"/> -->
+	
+<head>
+<script src="../galerija/js/jquery-1.11.0.min.js"></script>
+<script src="../galerija/js/lightbox.min.js"></script>
+<link href="../galerija/css/lightbox.css" rel="stylesheet" />
+
+
+<meta charset="UTF-8"/>
+<title>Podrobno o mizi</title>
+</head>
+<body>
+<ui:include src="../WEB-INF/templateHeader.xhtml" />
+
+<h1>Podrobno o mizi</h1>
+<table>
+<tr><td>
+<table>
+<tr><td><a href="Slike/mize.jpg" data-lightbox="roadtrip"><img src="Slike/mize.jpg" height="100" width="100"/></a></td>
+<td><a href="Slike/mize2.jpg" data-lightbox="roadtrip"><img src="Slike/mize2.jpg" height="100" width="100"/></a></td></tr>
+<tr><td><a href="Slike/mize.jpg" data-lightbox="roadtrip"><img src="Slike/mize.jpg" height="100" width="100"/></a></td>
+<td><a href="Slike/mize2.jpg" data-lightbox="roadtrip"><img src="Slike/mize2.jpg" height="100" width="100"/></a></td></tr>
+</table>
+</td></tr>
+<tr>
+<td>Miza je namenjena petim osebam,ki imajo radi razgled.<br /> 
+	Je blizu okna in tudi blizu kuhinje. 
+	Blablabla ne morem več	<br />
+	ko to napisat ker nimam baze da bi iz baze vleko ven haha.</td>
+	</tr>
+	<tr>
+<td><h:form><h:commandButton value="Nazaj" action="vseMize"/><h:commandButton value="Rezerviraj Mizo" action="rezervirajMizo"/></h:form></td>
+</tr>
+</table>
+
+</body>
+
+</html>

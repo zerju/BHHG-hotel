@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html
+xmlns:ui="http://java.sun.com/jsf/facelets"
+>
+<head>
+<meta charset="UTF-8"/>
+
+<link rel="stylesheet" href="style.css" type="text/css" media="all"></link>
+<link rel="stylesheet" href="layout.css" type="text/css" media="all"></link>
+
+</head>
+
+	<body>
+		
+	
+        <div class="header-box">
+          <div class="inner">
+            <ul class="nav">
+              <li><a href="index.html" class="current">Home page</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="restaurant.html">Restaurant</a></li>
+              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="booking.html">Booking</a></li>
+            </ul>
+          </div>
+        
+        <!-- header-box end -->
+      </div>
+
+		
+	
+	
+</body>
+
+</html>

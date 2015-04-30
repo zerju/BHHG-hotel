@@ -3,7 +3,8 @@
 xmlns:ui="http://java.sun.com/jsf/facelets"
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:f="http://java.sun.com/jsf/core">
-	<link rel="stylesheet" href="WEB-INF/../style.css" type="text/css" media="all"/>
+	<!-- <link rel="stylesheet" href="WEB-INF/../style.css" type="text/css" media="all"/> -->
+	
 <head>
 <script src="../galerija/js/jquery-1.11.0.min.js"></script>
 <script src="../galerija/js/lightbox.min.js"></script>
@@ -14,8 +15,11 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
 <title>Podrobno o mizi</title>
 </head>
 <body>
+
+<ui:include src="../WEB-INF/templateHeader.xhtml" />
+<br />
 <h1>Podrobno o mizi</h1>
-<table>
+<table align="center">
 <tr><td>
 <table>
 <tr><td><a href="Slike/mize.jpg" data-lightbox="roadtrip"><img src="Slike/mize.jpg" height="100" width="100"/></a></td>
@@ -34,6 +38,7 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
 <td><h:form><h:commandButton value="Nazaj" action="vseMize"/><h:commandButton value="Rezerviraj Mizo" action="rezervirajMizo"/></h:form></td>
 </tr>
 </table>
+
 </body>
 
 </html>

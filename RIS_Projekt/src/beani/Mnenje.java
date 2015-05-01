@@ -1,7 +1,11 @@
 package beani;
 
+import javax.persistence.*;
+
+@Entity
 public class Mnenje {
 	
+	private int idMnenja;
 	private Oseba oseba;
 	private int sumOcena;
 	private int ocenaStoritev;
@@ -11,7 +15,14 @@ public class Mnenje {
 	private String vrstaIzleta;
 	private String letniCas;
 	
-	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	public int getIdMnenja() {
+		return idMnenja;
+	}
+	public void setIdMnenja(int idMnenja) {
+		this.idMnenja = idMnenja;
+	}
 	public Oseba getOseba() {
 		return oseba;
 	}

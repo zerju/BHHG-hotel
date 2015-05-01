@@ -1,8 +1,11 @@
 package beani;
 
+import javax.persistence.*;
+
+@Entity
 public class Miza {
 
-	
+	private int id;
 	private String ime;
 	private int stMize;
 	private int kapaciteta;
@@ -10,8 +13,16 @@ public class Miza {
 	private String vrstaObroka;
 	private int stGostov;
 	private String uraPrihoda;
+	private boolean zasedena;
 	
-	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	public String getIme() {
 		return ime;
 	}
@@ -53,6 +64,12 @@ public class Miza {
 	}
 	public void setUraPrihoda(String uraPrihoda) {
 		this.uraPrihoda = uraPrihoda;
+	}
+	public boolean isZasedena() {
+		return zasedena;
+	}
+	public void setZasedena(boolean zasedena) {
+		this.zasedena = zasedena;
 	}
 	
 	

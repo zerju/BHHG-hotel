@@ -1,11 +1,24 @@
 package beani;
 
+import javax.persistence.*;
+
+@Entity
 public class Soba {
 	
+	private int idSobe;
 	private int stSobe;
 	private int kapaciteta;
 	private String tip;
+	private boolean zasedena;
 	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	public int getIdSobe() {
+		return idSobe;
+	}
+	public void setIdSobe(int idSobe) {
+		this.idSobe = idSobe;
+	}
 	public int getStSobe() {
 		return stSobe;
 	}
@@ -23,6 +36,12 @@ public class Soba {
 	}
 	public void setTip(String tip) {
 		this.tip = tip;
+	}
+	public boolean isZasedena() {
+		return zasedena;
+	}
+	public void setZasedena(boolean zasedena) {
+		this.zasedena = zasedena;
 	}
 	
 }

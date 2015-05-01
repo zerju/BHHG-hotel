@@ -1,7 +1,11 @@
 package beani;
 
+import javax.persistence.*;
+
+@Entity
 public class Oseba {
 
+	private int idOsebe;
 	private String ime;
 	private String priimek;
 	private String email;
@@ -9,7 +13,14 @@ public class Oseba {
 	private String tipOsebe;
 	
 	
-	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	public int getIdOsebe() {
+		return idOsebe;
+	}
+	public void setIdOsebe(int idOsebe) {
+		this.idOsebe = idOsebe;
+	}
 	public String getIme() {
 		return ime;
 	}

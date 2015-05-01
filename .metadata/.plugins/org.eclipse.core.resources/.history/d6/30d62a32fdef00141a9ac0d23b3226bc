@@ -1,0 +1,16 @@
+package rezervacije;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+import javax.persistence.*;
+
+@ManagedBean(name = "rezervacijaSobe")
+@SessionScoped
+public class RezervacijeSobe {
+
+	@PersistenceContext
+	private EntityManager em;
+	
+	
+	
+}

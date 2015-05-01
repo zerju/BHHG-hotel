@@ -1,0 +1,70 @@
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-01 19:07:57.227
+!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-01 19:07:59.364
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-01 19:08:20.805
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-05-01 19:08:53.878
+!MESSAGE Module RIS_Projekt on WildFly 8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-05-01 19:09:13.897
+!MESSAGE Module RIS_Projekt on WildFly 8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-05-01 19:09:30.555
+!MESSAGE Module RIS_Projekt on WildFly 8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-05-01 19:09:44.350
+!MESSAGE Module RIS_Projekt on WildFly 8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-05-01 19:09:50.589
+!MESSAGE Module RIS_Projekt on WildFly 8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-05-01 19:10:04.384
+!MESSAGE Module RIS_Projekt on WildFly 8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-05-01 19:10:37.071
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-05-01 19:10:37.263
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-01 19:10:44.781
+!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-01 19:10:46.051
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-01 19:10:53.124
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-05-01 19:11:06.107
+!MESSAGE Module RIS_Projekt on WildFly 8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-05-01 19:11:26.114
+!MESSAGE Module RIS_Projekt on WildFly 8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-05-01 19:13:03.203
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-05-01 19:13:03.370
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-01 19:13:08.072
+!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-01 19:13:09.300
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-01 19:13:16.292
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-05-01 19:34:21.975
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-05-01 19:34:22.269
+!MESSAGE Server processes have been terminated.

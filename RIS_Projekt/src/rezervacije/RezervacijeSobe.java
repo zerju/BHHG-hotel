@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
-//import javax.persistence.*;
+import javax.persistence.*;
 
 import beani.Soba;
 
@@ -15,8 +15,8 @@ public class RezervacijeSobe {
 	private Soba soba = new Soba();
 	private ArrayList<Soba> najdeneSobe = new ArrayList<Soba>();
 	
-	/*@PersistenceContext
-	private EntityManager em;*/
+	@PersistenceContext
+	private EntityManager em;
 	
 	
 	public void shrani(Soba s){

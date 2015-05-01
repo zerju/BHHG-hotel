@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
-//import javax.persistence.*;
+import javax.persistence.*;
 
 import beani.Miza;
 
@@ -16,11 +16,11 @@ public class RezervacijaMize {
 	private ArrayList<Miza> najdeneMize = new ArrayList<Miza>();
 	
 	
-	/*@PersistenceContext
-	private EntityManager em;*/
+	@PersistenceContext
+	private EntityManager em;
 	
 	public void shrani(Miza m){
-		//em.persist(m);
+		em.persist(m);
 	}
 	
 	public ArrayList<Miza> najdi(Miza m){

@@ -13,7 +13,7 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
 	<body>
  <div id="menu">
       <ul>
-        <li><a href="../Index/Index.xhtml">Domov</a></li>
+        <li><a href="#">Domov</a></li>
         <li><a href="../Restavracija/Restavracija.xhtml">Restavracija</a></li>
         <li><a href="../Rezervacije/RezervacijeSob.xhtml">Sobe</a></li>
         <li><a href="#">Informacije</a></li>

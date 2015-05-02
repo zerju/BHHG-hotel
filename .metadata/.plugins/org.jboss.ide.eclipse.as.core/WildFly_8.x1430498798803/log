@@ -151,3 +151,12 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 2 16842768 2015-05-02 18:34:35.012
 !MESSAGE Poll Thread Aborted: null
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-02 19:39:28.635
+!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-02 19:39:29.784
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-02 19:39:40.748
+!MESSAGE Server Startup Succeeded

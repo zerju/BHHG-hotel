@@ -1,0 +1,131 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.Resource;
+import javax.sql.DataSource;
+
+import beani.Mnenje;
+
+public class MnenjeDAO {
+
+	@Resource(lookup="java:jboss/datasources/bhhg")
+	DataSource ds;
+	
+	List<Mnenje> najdena = new ArrayList<Mnenje>();
+	
+	public MnenjeDAO() {
+		kreirajTabelo();
+	}
+	
+	public void kreirajTabelo(){
+		Connection con = null;
+		
+		try {
+			con = ds.getConnection();
+			con.createStatement().execute("create table IF NOT EXISTS mnenje(idMnenja INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,oseba VARCHAR(50),sumOcena INT,ocenaStoritev INT,ocenaLokacije INT, naslov VARCHAR(30),vsebina VARCHAR(300),vrstaIzleta VARCHAR(20),letniCas VARCHAR(10) )");
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally{
+			if(con!=null){
+				try {
+					con.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+	
+	public void shrani(Mnenje m) throws SQLException{
+		Connection con = ds.getConnection();
+		try {
+			con = ds.getConnection();
+				PreparedStatement ps=con.prepareStatement("insert into mnenje(idMnenja,oseba,sumOcena,ocenaStoritev,ocenaLokacije,naslov,vsebina,vrstaIzleta,LetniCas ) values (?,?,?,?,?,?,?,?,?)");
+				ps.setInt(1, m.getIdMnenja());
+				ps.setString(2, m.getOsebaString());
+				ps.setInt(3, m.getSumOcena());
+				ps.setInt(4, m.getOcenaStoritev());
+				ps.setInt(5,m.getOcenaLokacije());
+				ps.setString(6, m.getNaslov());
+				ps.setString(7,m.getVsebina());
+				ps.setString(8, m.getVrstaIzleta());
+				ps.setString(9,m.getLetniCas());
+				ps.executeUpdate();
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 finally {
+			con.close();
+		}
+	}
+	
+	public List<Mnenje> vrniVse() throws Exception {
+		List<Mnenje> ret=new ArrayList<Mnenje>();
+		Connection conn=null;
+		try {
+			conn=ds.getConnection();
+			ResultSet rs=conn.createStatement().executeQuery("select * from mnenje");
+			while (rs.next()) {
+				Mnenje m =new Mnenje();
+				m.setIdMnenja(rs.getInt("idMnenja"));
+				m.setOsebaString(rs.getString("oseba"));
+				m.setSumOcena(rs.getInt("sumOcena"));
+				m.setOcenaStoritev(rs.getInt("ocenaStoritev"));
+				m.setOcenaLokacije(rs.getInt("ocenaLokacije"));
+				m.setNaslov(rs.getString("naslov"));
+				m.setVsebina(rs.getString("vsebina"));
+				m.setVrstaIzleta(rs.getString("vrstaIzleta"));
+				m.setLetniCas(rs.getString("letniCas"));
+				ret.add(m);
+			}
+			rs.close();
+		} finally {
+			conn.close();
+		}
+		return ret;
+	}
+	
+	
+	
+	
+	
+	
+	public List<Oseba> najdi(Oseba o, String priimek) throws Exception {
+		
+		Connection con=ds.getConnection();
+		
+		try {
+			con=ds.getConnection();
+			
+			PreparedStatement ps = con.prepareStatement("select * from oseba where priimek=?");
+			ps.setString(1, o.getPriimek());
+			ResultSet rs=ps.executeQuery();
+			while (rs.next()) {
+				Mnenje l = new Mnenje();
+				l.setIdMnenja(rs.getInt("idMnenja"));
+				l.setOsebaString(rs.getString("oseba"));
+				l.setSumOcena(rs.getInt("sumOcena"));
+				l.setOcenaStoritev(rs.getInt("ocenaStoritev"));
+				l.setOcenaLokacije(rs.getInt("ocenaLokacije"));
+				l.setNaslov(rs.getString("naslov"));
+				l.setVsebina(rs.getString("vsebina"));
+				l.setVrstaIzleta(rs.getString("vrstaIzleta"));
+				l.setLetniCas(rs.getString("letniCas"));
+				najdena.add(l);
+			}
+		} finally {
+			con.close();
+		}
+		return najdena;
+	}
+}

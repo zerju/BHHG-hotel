@@ -1,8 +1,6 @@
 package beani;
 
-import javax.persistence.*;
 
-@Entity
 public class Miza {
 
 	private int id;
@@ -15,8 +13,7 @@ public class Miza {
 	private String uraPrihoda;
 	private boolean zasedena;
 	
-	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	
 	public int getId() {
 		return id;
 	}

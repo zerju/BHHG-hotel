@@ -1,8 +1,6 @@
 package beani;
 
-import javax.persistence.*;
 
-@Entity
 public class Soba {
 	
 	private int idSobe;
@@ -11,8 +9,7 @@ public class Soba {
 	private String tip;
 	private boolean zasedena;
 	
-	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+
 	public int getIdSobe() {
 		return idSobe;
 	}

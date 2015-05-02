@@ -1,0 +1,14 @@
+package dao;
+
+import javax.annotation.Resource;
+import javax.sql.DataSource;
+
+public class MizaDAO {
+	
+	@Resource(lookup="java:jboss/datasources/vreme2DS")
+	DataSource ds;
+	
+	public MizaDAO(){
+		kreirajTabelo();
+	}
+}

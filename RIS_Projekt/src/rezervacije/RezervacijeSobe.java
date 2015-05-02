@@ -15,16 +15,14 @@ public class RezervacijeSobe {
 	private Soba soba = new Soba();
 	private ArrayList<Soba> najdeneSobe = new ArrayList<Soba>();
 	
-	@PersistenceContext
-	private EntityManager em;
 	
 	
 	public void shrani(Soba s){
-		//em.persist(s);
+		
 	}
 	
 	public ArrayList<Soba> najdi(Soba s){
-		//najdeneSobe = (ArrayList<Soba>) em.createQuery("select s from Soba s").getResultList();
+		
 		return najdeneSobe;
 	}
 

@@ -16,15 +16,14 @@ public class RezervacijaMize {
 	private ArrayList<Miza> najdeneMize = new ArrayList<Miza>();
 	
 	
-	@PersistenceContext
-	private EntityManager em;
+	
 	
 	public void shrani(Miza m){
-		em.persist(m);
+		
 	}
 	
 	public ArrayList<Miza> najdi(Miza m){
-		//najdeneMize = (ArrayList<Miza>) em.createQuery("select m from Miza m").getResultList();
+		
 		return najdeneMize;
 	}
 	

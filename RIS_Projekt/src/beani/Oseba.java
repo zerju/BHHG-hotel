@@ -1,8 +1,6 @@
 package beani;
 
-import javax.persistence.*;
 
-@Entity
 public class Oseba {
 
 	private int idOsebe;
@@ -13,8 +11,7 @@ public class Oseba {
 	private String tipOsebe;
 	
 	
-	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	
 	public int getIdOsebe() {
 		return idOsebe;
 	}

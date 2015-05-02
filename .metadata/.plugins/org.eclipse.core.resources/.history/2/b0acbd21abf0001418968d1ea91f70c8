@@ -1,0 +1,120 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.Resource;
+import javax.sql.DataSource;
+
+import beani.RegistriranUporabnik;;
+
+public class RegistriranUporabnikDAO {
+	
+	
+List<RegistriranUporabnik> najdene = new ArrayList<RegistriranUporabnik>();
+	
+	
+	@Resource(lookup="java:jboss/datasources/bhhg")
+	DataSource ds;
+	
+	public RegistriranUporabnikDAO() {
+		kreirajTabelo();
+	}
+	
+	public void kreirajTabelo(){
+		Connection con = null;
+		
+		try {
+			con = ds.getConnection();
+			con.createStatement().execute("create table IF NOT EXISTS registriranUporabnik(idUporabnika INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,uporabniskoIme VARCHAR(20),geslo VARCHAR(40),oseba VARCHAR(100)");
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally{
+			if(con!=null){
+				try {
+					con.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+	
+	public void shrani(RegistriranUporabnik r) throws SQLException{
+		Connection con = ds.getConnection();
+		try {
+			con = ds.getConnection();
+				PreparedStatement ps=con.prepareStatement("insert into registriranUporabnik(idUporabnika,uporabniskoIme,geslo,oseba ) values (?,?,?,?)");
+				ps.setInt(1, r.getIdUporabnika());
+				ps.setString(2, r.getUporabniskoIme());				
+				ps.setString(3, r.getGeslo());
+				ps.setString(4, r.getOseba().toString());
+				ps.executeUpdate();
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 finally {
+			con.close();
+		}
+	}
+	
+	public List<Soba> vrniVse() throws Exception {
+		List<Soba> ret=new ArrayList<Soba>();
+		Connection conn=null;
+		try {
+			conn=ds.getConnection();
+			ResultSet rs=conn.createStatement().executeQuery("select * from soba");
+			while (rs.next()) {
+				Soba s =new Soba();
+				s.setIdSobe(rs.getInt("idSobe"));
+				s.setStSobe(rs.getInt("stSobe"));
+				s.setKapaciteta(rs.getInt("kapaciteta"));
+				s.setTip(rs.getString("tip"));
+				s.setZasedena(rs.getBoolean("zasedena"));
+				ret.add(s);
+			}
+			rs.close();
+		} finally {
+			conn.close();
+		}
+		return ret;
+	}
+	
+	
+	
+	
+	
+	
+	public List<Soba> najdi(Soba m, int kapaciteta) throws Exception {
+		
+		Connection con=ds.getConnection();
+		
+		try {
+			con=ds.getConnection();
+			
+			PreparedStatement ps = con.prepareStatement("select * from soba where kapaciteta=?");
+			ps.setInt(1, m.getKapaciteta());
+			ResultSet rs=ps.executeQuery();
+			while (rs.next()) {
+				Soba l = new Soba();
+				l.setIdSobe(rs.getInt("idSobe"));
+				l.setStSobe(rs.getInt("stSobe"));
+				l.setKapaciteta(rs.getInt("kapaciteta"));
+				l.setTip(rs.getString("tip"));
+				l.setZasedena(rs.getBoolean("zasedena"));
+				najdene.add(l);
+			}
+		} finally {
+			con.close();
+		}
+		return najdene;
+	}
+}

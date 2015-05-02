@@ -1,17 +1,15 @@
 package beani;
 
-import javax.persistence.*;
 
-@Entity
 public class RegistriranUporabnik {
 	
 	private int idUporabnika;
 	private String uporabniskoIme;
 	private String geslo;
 	private Oseba oseba;
+	private String osebaString;
 	
-	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	
 	public int getIdUporabnika() {
 		return idUporabnika;
 	}
@@ -32,6 +30,12 @@ public class RegistriranUporabnik {
 	}
 	public Oseba getOseba() {
 		return oseba;
+	}
+	public void setOsebaString(String oseba){
+		this.osebaString = oseba;
+	}
+	public String getOsebaString(){
+		return osebaString;
 	}
 	public void setOseba(Oseba oseba) {
 		this.oseba = oseba;

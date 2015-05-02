@@ -14,12 +14,12 @@ import beani.Oseba;
 
 public class OsebaDAO {
 	
+	@Resource(lookup="java:jboss/datasources/bhhg")
 	DataSource ds;
 	
 	List<Oseba> najdene = new ArrayList<Oseba>();
 	
-	public OsebaDAO(DataSource ds) {
-		this.ds = ds;
+	public OsebaDAO() {
 		kreirajTabelo();
 	}
 	

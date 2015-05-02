@@ -18,11 +18,10 @@ public class SobaDAO {
 List<Soba> najdene = new ArrayList<Soba>();
 	
 	
-	
+	@Resource(lookup="java:jboss/datasources/bhhg")
 	DataSource ds;
 	
-	public SobaDAO(DataSource ds){
-		this.ds = ds;
+	public SobaDAO(){
 		kreirajTabelo();
 	}
 	

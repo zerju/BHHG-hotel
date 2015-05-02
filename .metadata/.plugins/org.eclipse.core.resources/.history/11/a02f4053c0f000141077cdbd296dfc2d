@@ -21,8 +21,7 @@ List<Soba> najdene = new ArrayList<Soba>();
 	
 	DataSource ds;
 	
-	public SobaDAO(DataSource ds){
-		this.ds = ds;
+	public SobaDAO(){
 		kreirajTabelo();
 	}
 	

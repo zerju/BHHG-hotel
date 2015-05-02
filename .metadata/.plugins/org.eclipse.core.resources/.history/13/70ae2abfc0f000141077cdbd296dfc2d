@@ -15,11 +15,10 @@ public class MizaDAO {
 	List<Miza> najdene = new ArrayList<Miza>();
 	
 	
-	
+	@Resource(lookup="java:jboss/datasources/bhhg")
 	DataSource ds;
 	
-	public MizaDAO(DataSource ds){
-		this.ds = ds;
+	public MizaDAO(){
 		kreirajTabelo();
 	}
 	

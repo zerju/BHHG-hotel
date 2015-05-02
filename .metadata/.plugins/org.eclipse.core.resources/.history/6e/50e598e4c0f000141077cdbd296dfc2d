@@ -17,10 +17,11 @@ public class RegistriranUporabnikDAO {
 	
 List<RegistriranUporabnik> najdeni = new ArrayList<RegistriranUporabnik>();
 	
+	
+	@Resource(lookup="java:jboss/datasources/bhhg")
 	DataSource ds;
 	
-	public RegistriranUporabnikDAO(DataSource ds) {
-		this.ds = ds;
+	public RegistriranUporabnikDAO() {
 		kreirajTabelo();
 	}
 	

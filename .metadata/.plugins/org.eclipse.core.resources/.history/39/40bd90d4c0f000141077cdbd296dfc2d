@@ -18,8 +18,7 @@ public class OsebaDAO {
 	
 	List<Oseba> najdene = new ArrayList<Oseba>();
 	
-	public OsebaDAO(DataSource ds) {
-		this.ds = ds;
+	public OsebaDAO() {
 		kreirajTabelo();
 	}
 	

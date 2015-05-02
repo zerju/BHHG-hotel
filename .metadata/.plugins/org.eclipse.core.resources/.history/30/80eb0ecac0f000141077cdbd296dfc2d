@@ -14,12 +14,12 @@ import beani.Mnenje;
 
 public class MnenjeDAO {
 
+	@Resource(lookup="java:jboss/datasources/bhhg")
 	DataSource ds;
 	
 	List<Mnenje> najdena = new ArrayList<Mnenje>();
 	
-	public MnenjeDAO(DataSource ds) {
-		this.ds = ds;
+	public MnenjeDAO() {
 		kreirajTabelo();
 	}
 	

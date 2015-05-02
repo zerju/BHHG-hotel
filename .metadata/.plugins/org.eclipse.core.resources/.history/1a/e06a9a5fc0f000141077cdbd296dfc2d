@@ -15,11 +15,10 @@ public class MizaDAO {
 	List<Miza> najdene = new ArrayList<Miza>();
 	
 	
-	
+	@Resource(lookup="java:jboss/datasources/bhhg")
 	DataSource ds;
 	
-	public MizaDAO(DataSource ds){
-		this.ds = ds;
+	public MizaDAO(){
 		kreirajTabelo();
 	}
 	
@@ -28,7 +27,7 @@ public class MizaDAO {
 		
 		try {
 			con = ds.getConnection();
-			con.createStatement().execute("create table IF NOT EXISTS miza(idMize INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL, ime VARCHAR(20), stMize INT,kapaciteta INT,posebneZahteveM VARCHAR(60),vrstaObroka VARCHAR(30),stGostov INT,uraPrihoda VARCHAR(5),zasedena BOOLEAN, slika VARCHAR(50))");
+			con.createStatement().execute("create table IF NOT EXISTS miza(idMize INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL, ime VARCHAR(20), stMize INT,kapaciteta INT,posebneZahteveM VARCHAR(60),vrstaObroka VARCHAR(30),stGostov INT,uraPrihoda VARCHAR(5),zasedena BOOLEAN)");
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -48,7 +47,7 @@ public class MizaDAO {
 		Connection con = ds.getConnection();
 		try {
 			con = ds.getConnection();
-				PreparedStatement ps=con.prepareStatement("insert into miza(idMize,ime,stMize,kapaciteta,posebneZahteveM,vrstaObroka,stGostov,uraPrihoda,zasedena,slika ) values (?,?,?,?,?,?,?,?,?,?)");
+				PreparedStatement ps=con.prepareStatement("insert into miza(idMize,ime,stMize,kapaciteta,posebneZahteveM,vrstaObroka,stGostov,uraPrihoda,zasedena ) values (?,?,?,?,?,?,?,?,?)");
 				ps.setInt(1, m.getId());
 				ps.setString(2, m.getIme());
 				ps.setInt(3, m.getStMize());
@@ -58,7 +57,6 @@ public class MizaDAO {
 				ps.setDouble(7, m.getStGostov());
 				ps.setString(8, m.getUraPrihoda());
 				ps.setBoolean(9, m.isZasedena());
-				ps.setString(10,m.getSlika());
 				ps.executeUpdate();
 			
 		} catch (Exception e) {
@@ -87,7 +85,6 @@ public class MizaDAO {
 				m.setStGostov(rs.getInt("stGostov"));
 				m.setUraPrihoda(rs.getString("uraPrihoda"));
 				m.setZasedena(rs.getBoolean("zasedena"));
-				m.setSlika(rs.getString("slika"));
 				ret.add(m);
 			}
 			rs.close();
@@ -123,7 +120,6 @@ public class MizaDAO {
 				l.setUraPrihoda(rs.getString("uraPrihoda"));
 				l.setZasedena(rs.getBoolean("zasedena"));
 				l.setId(rs.getInt("idMize"));
-				l.setSlika(rs.getString("slika"));
 				najdene.add(l);
 			}
 		} finally {

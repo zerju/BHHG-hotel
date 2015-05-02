@@ -19,8 +19,7 @@ List<RegistriranUporabnik> najdeni = new ArrayList<RegistriranUporabnik>();
 	
 	DataSource ds;
 	
-	public RegistriranUporabnikDAO(DataSource ds) {
-		this.ds = ds;
+	public RegistriranUporabnikDAO() {
 		kreirajTabelo();
 	}
 	

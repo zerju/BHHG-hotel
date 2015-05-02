@@ -15,12 +15,12 @@ import beani.OHotelu;
 
 public class OHoteluDAO {
 
+		@Resource(lookup="java:jboss/datasources/bhhg")
 		DataSource ds;
 		
 		List<OHotelu> najdena = new ArrayList<OHotelu>();
 		
-		public OHoteluDAO(DataSource ds) {
-			this.ds = ds;
+		public OHoteluDAO() {
 			kreirajTabelo();
 		}
 		

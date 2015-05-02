@@ -1,0 +1,139 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import beani.Miza;
+import beani.RezervacijaMize;
+
+public class RezervacijaMizeDAO {
+
+
+	List<Miza> najdene = new ArrayList<Miza>();
+	
+	
+	
+	DataSource ds;
+	
+	public RezervacijaMizeDAO(DataSource ds){
+		this.ds = ds;
+		kreirajTabelo();
+	}
+	
+	public void kreirajTabelo(){
+		Connection con = null;
+		
+		try {
+			con = ds.getConnection();
+			con.createStatement().execute("create table IF NOT EXISTS rezervacijaMize(idRezervacije INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL, ime VARCHAR(20),posebneZahteveM VARCHAR(60),vrstaObroka VARCHAR(30),stGostov INT,uraPrihoda VARCHAR(5),telefon INT, idMize INT)");
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally{
+			if(con!=null){
+				try {
+					con.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+	
+	public void shrani(Miza m,RezervacijaMize r) throws SQLException{
+		Connection con = ds.getConnection();
+		try {
+			con = ds.getConnection();
+				PreparedStatement ps=con.prepareStatement("insert into rezervacijaMize(idRezervacije,ime,posebneZahteveM,vrstaObroka,stGostov,uraPrihoda,telefon, idMize ) values (?,?,?,?,?,?,?,?)");
+				ps.setInt(1, r.getIdRezervacije());
+				ps.setString(2, r.getIme());
+				ps.setString(5, r.getPosebneZahteveM());
+				ps.setString(6, r.getVrstaObroka());
+				ps.setDouble(7, r.getStGostov());
+				ps.setString(8, r.getUraPrihoda());
+				ps.setInt(9,r.getTelefon());
+				ps.setInt(10,m.getId());
+				ps.executeUpdate();
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 finally {
+			con.close();
+		}
+	}
+	
+	
+	
+	public List<RezervacijaMize> vrniVse() throws Exception {
+		List<RezervacijaMize> ret=new ArrayList<RezervacijaMize>();
+		Connection conn=null;
+		try {
+			conn=ds.getConnection();
+			ResultSet rs=conn.createStatement().executeQuery("select * from rezervacijaMize");
+			while (rs.next()) {
+				RezervacijaMize m =new RezervacijaMize();
+				m.setIdRezervacije(rs.getInt("idRezervacije"));
+				m.setIme(rs.getString("ime"));
+				m.setPosebneZahteveM(rs.getString("posebneZahteveM"));
+				m.setVrstaObroka(rs.getString("vrstaObroka"));
+				m.setStGostov(rs.getInt("stGostov"));
+				m.setUraPrihoda(rs.getString("uraPrihoda"));
+				m.setTelefon(rs.getInt("telefon"));
+				m.setIdMize(rs.getInt("idMize"));
+				ret.add(m);
+			}
+			rs.close();
+		} finally {
+			conn.close();
+		}
+		return ret;
+	}
+	
+	
+	
+	
+	
+	
+	/*public List<Miza> najdi(Miza m, int kapaciteta) throws Exception {
+		
+		Connection con=ds.getConnection();
+		
+		try {
+			con=ds.getConnection();
+			
+			PreparedStatement ps = con.prepareStatement("select * from miza where kapaciteta=?");
+			ps.setInt(1, m.getKapaciteta());
+			ResultSet rs=ps.executeQuery();
+			while (rs.next()) {
+				Miza l = new Miza();
+				l.setIme(rs.getString("ime"));
+				l.setStMize(rs.getInt("stMize"));
+				l.setKapaciteta(rs.getInt("kapaciteta"));
+				l.setPosebneZahteveM(rs.getString("posebneZahteveM"));
+				l.setVrstaObroka(rs.getString("vrstaObroka"));
+				l.setStGostov(rs.getInt("stGostov"));
+				l.setUraPrihoda(rs.getString("uraPrihoda"));
+				l.setZasedena(rs.getBoolean("zasedena"));
+				l.setId(rs.getInt("idMize"));
+				l.setSlika(rs.getString("slika"));
+				l.setOpis(rs.getString("opis"));
+				m.setTelefon(rs.getInt("telefon"));
+				najdene.add(l);
+			}
+		} finally {
+			con.close();
+		}
+		return najdene;
+	}*/
+	
+	
+}

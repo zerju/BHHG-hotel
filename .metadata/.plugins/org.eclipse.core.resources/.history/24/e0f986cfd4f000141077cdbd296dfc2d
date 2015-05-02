@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html
+xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	<link rel="stylesheet" href="WEB-INF/../style.css" type="text/css" media="all"/>
+<head>
+<meta charset="UTF-8"/>
+<title>Rezervacija Mize</title>
+</head>
+<body>
+<ui:include src="../WEB-INF/templateHeader.xhtml" />
+<br />
+<h1>Rezervacija Mize</h1>
+<h:form>
+	<table align="center">
+		<tr><td>Ime in Priimek: </td><td><h:inputText value="#{rezervacijaMize.miza.ime}"/></td></tr>
+		<tr><td>Telefonska št.: </td><td><h:inputText value="#{rezervacijaMize.miza.telefon}"/></td></tr>
+		<tr><td>Število oseb:</td><td><h:selectOneMenu value="#{rezervacijaMize.miza.stGostov}">
+				<f:selectItem itemValue="1" itemLabel="1"/>
+				<f:selectItem itemValue="2" itemLabel="2"/>
+				<f:selectItem itemValue="3" itemLabel="3"/>
+				<f:selectItem itemValue="4" itemLabel="4"/>
+				<f:selectItem itemValue="5" itemLabel="5"/>
+				</h:selectOneMenu>
+		</td></tr>
+		<tr><td>Posebne zahteve: </td><td><h:inputText/></td></tr>
+		<tr><td>Ura prihoda: </td><td><h:inputText/></td></tr>
+		<tr><td><h:commandButton value="Rezerviraj"/></td></tr>
+	</table>
+</h:form>
+</body>
+</html>

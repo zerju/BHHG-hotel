@@ -1,0 +1,22 @@
+package beani;
+
+public class RezervacijaMize {
+
+	private RezervacijaMize r;
+	private int idRezervacije;
+	private String ime;
+	private String posebneZahteveM;
+	private String vrstaObroka;
+	private int stGostov;
+	private String uraPrihoda;
+	private int telefon;
+	
+	public RezervacijaMize(){}
+	
+	public RezervacijaMize(RezervacijaMize r){
+		this.r = r;
+	}
+	
+	
+
+}

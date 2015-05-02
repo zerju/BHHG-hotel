@@ -1,0 +1,97 @@
+package beani;
+
+public class RezervacijaMize {
+
+	private RezervacijaMize r;
+	private int idRezervacije;
+	private String ime;
+	private String posebneZahteveM;
+	private String vrstaObroka;
+	private int stGostov;
+	private String uraPrihoda;
+	private int telefon;
+	private int idMize;
+	
+	public RezervacijaMize(){}
+	
+	public RezervacijaMize(RezervacijaMize r){
+		this.r = r;
+	}
+
+	
+	
+	public RezervacijaMize getR() {
+		return r;
+	}
+
+	public void setR(RezervacijaMize r) {
+		this.r = r;
+	}
+
+	public int getIdRezervacije() {
+		return idRezervacije;
+	}
+
+	public void setIdRezervacije(int idRezervacije) {
+		this.idRezervacije = idRezervacije;
+	}
+
+	public String getIme() {
+		return ime;
+	}
+
+	public void setIme(String ime) {
+		this.ime = ime;
+	}
+
+	public String getPosebneZahteveM() {
+		return posebneZahteveM;
+	}
+
+	public void setPosebneZahteveM(String posebneZahteveM) {
+		this.posebneZahteveM = posebneZahteveM;
+	}
+
+	public String getVrstaObroka() {
+		return vrstaObroka;
+	}
+
+	public void setVrstaObroka(String vrstaObroka) {
+		this.vrstaObroka = vrstaObroka;
+	}
+
+	public int getStGostov() {
+		return stGostov;
+	}
+
+	public void setStGostov(int stGostov) {
+		this.stGostov = stGostov;
+	}
+
+	public String getUraPrihoda() {
+		return uraPrihoda;
+	}
+
+	public void setUraPrihoda(String uraPrihoda) {
+		this.uraPrihoda = uraPrihoda;
+	}
+
+	public int getTelefon() {
+		return telefon;
+	}
+
+	public void setTelefon(int telefon) {
+		this.telefon = telefon;
+	}
+
+	public int getIdMize() {
+		return idMize;
+	}
+
+	public void setIdMize(int idMize) {
+		this.idMize = idMize;
+	}
+	
+	
+
+}

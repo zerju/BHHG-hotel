@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html
+xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+<head>
+<meta charset="UTF-8"/>
+<ui:define name="title">Vnos vremena</ui:define>
+
+</head>
+<body>
+<ui:include src="../WEB-INF/templateHeader.xhtml" />
+<br />
+	
+</body>
+</ui:composition>
+</html>

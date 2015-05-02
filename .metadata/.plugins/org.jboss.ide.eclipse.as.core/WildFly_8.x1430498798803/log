@@ -70,93 +70,59 @@
 !MESSAGE Server processes have been terminated.
 !SESSION 
 
-!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-02 16:13:43.527
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-02 14:18:08.611
 !MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
 
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-02 16:13:45.388
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-02 14:18:09.784
 !MESSAGE Server Starting
 
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-02 16:14:11.721
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-02 14:18:12.012
 !MESSAGE Server Startup Succeeded
 
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-05-02 16:42:17.010
-!MESSAGE Server shutting down
-
-!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-05-02 16:42:17.734
-!MESSAGE Server processes have been terminated.
-
-!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-02 16:42:21.224
-!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
-
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-02 16:42:22.266
-!MESSAGE Server Starting
-
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-02 16:42:27.823
-!MESSAGE Server Startup Succeeded
-
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-05-02 16:56:30.306
-!MESSAGE Server shutting down
-
-!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-05-02 16:56:30.723
-!MESSAGE Server processes have been terminated.
-!SESSION 
-
-!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-02 16:57:42.533
-!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
-
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-02 16:57:44.354
-!MESSAGE Server Starting
-
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-02 16:57:50.331
-!MESSAGE Server Startup Succeeded
-
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-05-02 17:02:15.306
-!MESSAGE Server shutting down
-
-!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-05-02 17:02:15.617
-!MESSAGE Server processes have been terminated.
-
-!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-02 17:02:25.406
-!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
-
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-02 17:02:26.451
-!MESSAGE Server Starting
-
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-02 17:02:33.692
-!MESSAGE Server Startup Succeeded
-
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-05-02 17:20:18.574
-!MESSAGE Server shutting down
-
-!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-05-02 17:20:18.843
-!MESSAGE Server processes have been terminated.
-
-!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-02 17:21:29.293
-!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
-
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-02 17:21:30.405
-!MESSAGE Server Starting
-
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-02 17:21:36.823
-!MESSAGE Server Startup Succeeded
-
-!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-05-02 17:21:36.823
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-05-02 14:18:12.914
 !MESSAGE Module RIS_Projekt on WildFly 8.x not yet fully deployed. Waiting...
 
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-05-02 18:34:33.077
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-05-02 17:01:39.214
 !MESSAGE Server shutting down
 
-!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-05-02 18:34:35.011
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-05-02 17:01:39.369
 !MESSAGE Server processes have been terminated.
 
-!ENTRY org.jboss.ide.eclipse.as.core 2 16842768 2015-05-02 18:34:35.012
-!MESSAGE Poll Thread Aborted: null
-
-!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-02 19:39:28.635
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-02 17:01:39.417
 !MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
 
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-02 19:39:29.784
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-02 17:01:40.515
 !MESSAGE Server Starting
 
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-02 19:39:40.748
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-02 17:01:42.742
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-05-02 18:58:37.032
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-05-02 18:58:37.130
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-02 18:58:37.146
+!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-02 18:58:38.268
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-02 18:58:40.625
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-05-02 19:56:41.270
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-05-02 19:56:41.365
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-02 19:56:41.380
+!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-02 19:56:42.443
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-02 19:56:45.511
 !MESSAGE Server Startup Succeeded

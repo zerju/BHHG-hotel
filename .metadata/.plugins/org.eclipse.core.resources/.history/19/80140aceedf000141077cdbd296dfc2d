@@ -1,0 +1,108 @@
+package beani;
+
+
+public class Miza {
+
+	private Miza m;
+	private int id;
+	private String ime;
+	private int stMize;
+	private int kapaciteta;
+	private String posebneZahteveM;
+	private String vrstaObroka;
+	private int stGostov;
+	private String uraPrihoda;
+	private boolean zasedena;
+	private String slika;
+	private String opis;
+	private int telefon;
+	
+	public Miza(){}
+	
+	public Miza(Miza m){
+		this.m = m;
+	}
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getIme() {
+		return ime;
+	}
+	public void setIme(String ime) {
+		this.ime = ime;
+	}
+	public int getStMize() {
+		return stMize;
+	}
+	public void setStMize(int stMize) {
+		this.stMize = stMize;
+	}
+	public int getKapaciteta() {
+		return kapaciteta;
+	}
+	public void setKapaciteta(int kapaciteta) {
+		this.kapaciteta = kapaciteta;
+	}
+	public String getPosebneZahteveM() {
+		return posebneZahteveM;
+	}
+	public void setPosebneZahteveM(String posebneZahteveM) {
+		this.posebneZahteveM = posebneZahteveM;
+	}
+	public String getVrstaObroka() {
+		return vrstaObroka;
+	}
+	public void setVrstaObroka(String vrstaObroka) {
+		this.vrstaObroka = vrstaObroka;
+	}
+	public int getStGostov() {
+		return stGostov;
+	}
+	public void setStGostov(int stGostov) {
+		this.stGostov = stGostov;
+	}
+	public String getUraPrihoda() {
+		return uraPrihoda;
+	}
+	public Miza getM() {
+		return m;
+	}
+
+	public void setM(Miza m) {
+		this.m = m;
+	}
+
+	public void setUraPrihoda(String uraPrihoda) {
+		this.uraPrihoda = uraPrihoda;
+	}
+	public boolean isZasedena() {
+		return zasedena;
+	}
+	public void setZasedena(boolean zasedena) {
+		this.zasedena = zasedena;
+	}
+	public String getSlika() {
+		return slika;
+	}
+	public void setSlika(String slika) {
+		this.slika = slika;
+	}
+	public String getOpis() {
+		return opis;
+	}
+	public void setOpis(String opis) {
+		this.opis = opis;
+	}
+	public int getTelefon() {
+		return telefon;
+	}
+	public void setTelefon(int telefon) {
+		this.telefon = telefon;
+	}
+	
+	
+}

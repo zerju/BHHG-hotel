@@ -28,7 +28,7 @@ public class MizaDAO {
 		
 		try {
 			con = ds.getConnection();
-			con.createStatement().execute("create table IF NOT EXISTS miza(idMize INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL, ime VARCHAR(20), stMize INT,kapaciteta INT,posebneZahteveM VARCHAR(60),vrstaObroka VARCHAR(30),stGostov INT,uraPrihoda VARCHAR(5),zasedena BOOLEAN, slika VARCHAR(50))");
+			con.createStatement().execute("create table IF NOT EXISTS miza(idMize INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL, ime VARCHAR(20), stMize INT,kapaciteta INT,posebneZahteveM VARCHAR(60),vrstaObroka VARCHAR(30),stGostov INT,uraPrihoda VARCHAR(5),zasedena BOOLEAN, slika VARCHAR(512),opis VARCHAR(50),telefon INT)");
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -48,7 +48,7 @@ public class MizaDAO {
 		Connection con = ds.getConnection();
 		try {
 			con = ds.getConnection();
-				PreparedStatement ps=con.prepareStatement("insert into miza(idMize,ime,stMize,kapaciteta,posebneZahteveM,vrstaObroka,stGostov,uraPrihoda,zasedena,slika ) values (?,?,?,?,?,?,?,?,?,?)");
+				PreparedStatement ps=con.prepareStatement("insert into miza(idMize,ime,stMize,kapaciteta,posebneZahteveM,vrstaObroka,stGostov,uraPrihoda,zasedena,slika,opis,telefon ) values (?,?,?,?,?,?,?,?,?,?,?,?)");
 				ps.setInt(1, m.getId());
 				ps.setString(2, m.getIme());
 				ps.setInt(3, m.getStMize());
@@ -59,6 +59,8 @@ public class MizaDAO {
 				ps.setString(8, m.getUraPrihoda());
 				ps.setBoolean(9, m.isZasedena());
 				ps.setString(10,m.getSlika());
+				ps.setString(11, m.getOpis());
+				ps.setInt(12,m.getTelefon());
 				ps.executeUpdate();
 			
 		} catch (Exception e) {
@@ -70,6 +72,29 @@ public class MizaDAO {
 		}
 	}
 	
+	//vnesejo se podatki osebe ki rezervira
+	public void rezerviraj(Miza m){
+		try {
+			Connection con = ds.getConnection();
+			
+			PreparedStatement ps = con.prepareStatement("UPDATE miza SET ime = ? , telefon = ? , stGostov = ? , posebneZahteveM = ? , uraPrihoda = ? WHERE idMize = ?");
+			ps.setString(1, m.getIme());
+			ps.setInt(2, m.getTelefon());
+			ps.setInt(3, m.getStGostov());
+			ps.setString(4, m.getPosebneZahteveM());
+			ps.setString(5, m.getUraPrihoda());
+			ps.setInt(6, m.getId());
+			//ps.executeUpdate();
+			System.out.println(ps.executeUpdate());
+			System.out.println(m.getStMize());
+			//ps.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	//vrne vse mize ki so v bazi
 	public List<Miza> vrniVse() throws Exception {
 		List<Miza> ret=new ArrayList<Miza>();
 		Connection conn=null;
@@ -88,6 +113,8 @@ public class MizaDAO {
 				m.setUraPrihoda(rs.getString("uraPrihoda"));
 				m.setZasedena(rs.getBoolean("zasedena"));
 				m.setSlika(rs.getString("slika"));
+				m.setOpis(rs.getString("opis"));
+				m.setTelefon(rs.getInt("telefon"));
 				ret.add(m);
 			}
 			rs.close();
@@ -98,10 +125,21 @@ public class MizaDAO {
 	}
 	
 	
+	//ko gostje odidejo se miza sprazni
+	public void sprazniMizo(Miza m) throws SQLException{
+		Connection con = ds.getConnection();
+		PreparedStatement ps = con.prepareStatement("UPDATE miza SET ime = ? , telefon = ? , stGostov = ? , posebneZahteveM = ? , uraPrihoda = ? WHERE idMize = ?");
+		ps.setString(1, null);
+		ps.setInt(2, 0);
+		ps.setInt(3, 0);
+		ps.setString(4, null);
+		ps.setString(5, null);
+		ps.setInt(6, m.getId());
+		ps.executeUpdate();
+		System.out.println("miza"+m.getId());
+	}
 	
-	
-	
-	
+	//če išče po kapaciteti
 	public List<Miza> najdi(Miza m, int kapaciteta) throws Exception {
 		
 		Connection con=ds.getConnection();
@@ -124,6 +162,8 @@ public class MizaDAO {
 				l.setZasedena(rs.getBoolean("zasedena"));
 				l.setId(rs.getInt("idMize"));
 				l.setSlika(rs.getString("slika"));
+				l.setOpis(rs.getString("opis"));
+				m.setTelefon(rs.getInt("telefon"));
 				najdene.add(l);
 			}
 		} finally {

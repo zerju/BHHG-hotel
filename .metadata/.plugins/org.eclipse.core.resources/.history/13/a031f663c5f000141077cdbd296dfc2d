@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html
+xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	<link rel="stylesheet" href="WEB-INF/../style.css" type="text/css" media="all"/>
+<head>
+<meta charset="UTF-8"/>
+<ui:define name="title">Vnos mize</ui:define>
+
+</head>
+<body>
+<ui:include src="../WEB-INF/templateHeader.xhtml" />
+<br />
+<h:form>
+	Številka mize: <h:inputText id="stMize" value="#{rezervacijaMize.miza.stMize}"/>
+	Kapaciteta: <h:inputText id="kapaciteta" value="#{rezervacijaMize.miza.kapaciteta}"/>
+	<h:inputFile/>
+	<h:commandButton value="prekliči"/><h:commandButton value="#{rezervacijaMize.shrani}"/>
+</h:form>
+</body>
+
+</html>

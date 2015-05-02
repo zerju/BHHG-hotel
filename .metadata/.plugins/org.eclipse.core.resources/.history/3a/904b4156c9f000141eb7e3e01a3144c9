@@ -1,0 +1,50 @@
+package beani;
+
+public class Kontakt {
+
+	private int idKontakta;
+	private String ime;
+	private String priimek;
+	private String telefon;
+	private String email;
+	private String polozaj;
+	
+	
+	public int getIdKontakta() {
+		return idKontakta;
+	}
+	public void setIdKontakta(int idKontakta) {
+		this.idKontakta = idKontakta;
+	}
+	public String getIme() {
+		return ime;
+	}
+	public void setIme(String ime) {
+		this.ime = ime;
+	}
+	public String getPriimek() {
+		return priimek;
+	}
+	public void setPriimek(String priimek) {
+		this.priimek = priimek;
+	}
+	public String getTelefon() {
+		return telefon;
+	}
+	public void setTelefon(String telefon) {
+		this.telefon = telefon;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getPolozaj() {
+		return polozaj;
+	}
+	public void setPolozaj(String polozaj) {
+		this.polozaj = polozaj;
+	}
+	
+}

@@ -10,16 +10,19 @@ import java.util.List;
 import javax.annotation.Resource;
 import javax.sql.DataSource;
 
+import beani.Mnenje;
+import beani.Kontakt;
 import beani.OHotelu;
 
-public class OHoteluDAO {
+public class KontaktDAO {
 
 	@Resource(lookup = "java:jboss/datasources/bhhg")
 	DataSource ds;
 
-	List<OHotelu> najdena = new ArrayList<OHotelu>();
+	List<Kontakt> najdena = new ArrayList<Kontakt>();
 
-	public OHoteluDAO() {
+	public KontaktDAO(DataSource ds) {
+		this.ds = ds;
 		kreirajTabelo();
 	}
 
@@ -30,7 +33,7 @@ public class OHoteluDAO {
 			con = ds.getConnection();
 			con.createStatement()
 					.execute(
-							"create table IF NOT EXISTS hotel(idHotela INT PRIMARY KEY,opis VARCHAR(512),slika VARCHAR(100))");
+							"create table IF NOT EXISTS kontakt(idKontakta INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,telefon VARCHAR(11),email VARCHAR(50))");
 
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -45,15 +48,15 @@ public class OHoteluDAO {
 		}
 	}
 
-	public void shrani(OHotelu h) throws SQLException {
+	public void shrani(Kontakt k) throws SQLException {
 		Connection con = ds.getConnection();
 		try {
 			con = ds.getConnection();
 			PreparedStatement ps = con
-					.prepareStatement("insert into hotel(idHotela,opis,slika ) values (?,?,?)");
-			ps.setInt(1, h.getIdHotela());
-			ps.setString(2, h.getOpis());
-			ps.setString(3, h.getSlika());
+					.prepareStatement("insert into kontakt(idKontakta,telefon,email) values (?,?,?)");
+			ps.setInt(1, k.getIdKontakta());
+			ps.setString(2, k.getTelefon());
+			ps.setString(3, k.getEmail());
 			ps.executeUpdate();
 
 		} catch (Exception e) {
@@ -63,18 +66,18 @@ public class OHoteluDAO {
 		}
 	}
 
-	public List<OHotelu> vrni() throws Exception {
-		List<OHotelu> ret = new ArrayList<OHotelu>();
+	public List<Kontakt> vrni() throws Exception {
+		List<Kontakt> ret = new ArrayList<Kontakt>();
 		Connection conn = null;
 		try {
 			conn = ds.getConnection();
 			ResultSet rs = conn.createStatement().executeQuery(
 					"select * from hotel");
 			while (rs.next()) {
-				OHotelu h = new OHotelu();
-				h.setIdHotela(rs.getInt("idHotela"));
-				h.setOpis(rs.getString("opis"));
-				h.setSlika(rs.getString("slika"));
+				Kontakt h = new Kontakt();
+				h.setIdKontakta(rs.getInt("idKontakta"));
+				h.setTelefon(rs.getString("telefon"));
+				h.setEmail(rs.getString("email"));
 				ret.add(h);
 			}
 			rs.close();
@@ -111,4 +114,5 @@ public class OHoteluDAO {
 			con.close();
 		}
 	}
+
 }

@@ -1,0 +1,127 @@
+package dao;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.Resource;
+import javax.sql.DataSource;
+
+import beani.Mnenje;
+
+import beani.Kontakt;
+
+public class KontaktDAO {
+
+DataSource ds;
+	
+	List<Kontakt> najdena = new ArrayList<Kontakt>();
+	
+	public KontaktDAO(DataSource ds) {
+		this.ds = ds;
+		kreirajTabelo();
+	}
+	
+	public void kreirajTabelo(){
+		Connection con = null;
+		
+		try {
+			con = ds.getConnection();
+			con.createStatement().execute("create table IF NOT EXISTS kontakt(idKontakta INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,telefon VARCHAR(11),email VARCHAR(50))");
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}finally{
+			if(con!=null){
+				try {
+					con.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+	
+	public void shrani(Kontakt k) throws SQLException{
+		Connection con = ds.getConnection();
+		try {
+				con = ds.getConnection();
+				PreparedStatement ps=con.prepareStatement("insert into kontakt(idKontakta,telefon,email) values (?,?,?)");
+				ps.setInt(1, k.getIdKontakta());
+				ps.setString(2, k.getTelefon());
+				ps.setString(3, k.getEmail());
+				ps.executeUpdate();
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 finally {
+			con.close();
+		}
+	}
+	
+	public List<Mnenje> vrniVse() throws Exception {
+		List<Mnenje> ret=new ArrayList<Mnenje>();
+		Connection conn=null;
+		try {
+			conn=ds.getConnection();
+			ResultSet rs=conn.createStatement().executeQuery("select * from mnenje");
+			while (rs.next()) {
+				Mnenje m =new Mnenje();
+				m.setIdMnenja(rs.getInt("idMnenja"));
+				m.setOsebaString(rs.getString("oseba"));
+				m.setSumOcena(rs.getInt("sumOcena"));
+				m.setOcenaStoritev(rs.getInt("ocenaStoritev"));
+				m.setOcenaLokacije(rs.getInt("ocenaLokacije"));
+				m.setNaslov(rs.getString("naslov"));
+				m.setVsebina(rs.getString("vsebina"));
+				m.setVrstaIzleta(rs.getString("vrstaIzleta"));
+				m.setLetniCas(rs.getString("letniCas"));
+				ret.add(m);
+			}
+			rs.close();
+		} finally {
+			conn.close();
+		}
+		return ret;
+	}
+	
+	
+	
+	
+	
+	
+	public List<Mnenje> najdi(Mnenje m, String vrstaIzleta) throws Exception {
+		
+		Connection con=ds.getConnection();
+		
+		try {
+			con=ds.getConnection();
+			
+			PreparedStatement ps = con.prepareStatement("select * from mnenje where vrstaIzleta=?");
+			ps.setString(1, m.getVrstaIzleta());
+			ResultSet rs=ps.executeQuery();
+			while (rs.next()) {
+				Mnenje l = new Mnenje();
+				l.setIdMnenja(rs.getInt("idMnenja"));
+				l.setOsebaString(rs.getString("oseba"));
+				l.setSumOcena(rs.getInt("sumOcena"));
+				l.setOcenaStoritev(rs.getInt("ocenaStoritev"));
+				l.setOcenaLokacije(rs.getInt("ocenaLokacije"));
+				l.setNaslov(rs.getString("naslov"));
+				l.setVsebina(rs.getString("vsebina"));
+				l.setVrstaIzleta(rs.getString("vrstaIzleta"));
+				l.setLetniCas(rs.getString("letniCas"));
+				najdena.add(l);
+			}
+		} finally {
+			con.close();
+		}
+		return najdena;
+	}
+	
+	
+}

@@ -88,9 +88,9 @@ public class OHoteluDAO {
 			try {
 				con=ds.getConnection();
 				
-				PreparedStatement ps = con.prepareStatement("update hotel set opis=? where idHotela=1");
+				PreparedStatement ps = con.prepareStatement("update hotel set opis=?");
 				ps.setString(1, h.getOpis());
-				ps.executeQuery();
+				ResultSet rs=ps.executeQuery();
 			} finally {
 				con.close();
 			}
@@ -101,9 +101,9 @@ public class OHoteluDAO {
 			try {
 				con=ds.getConnection();
 				
-				PreparedStatement ps = con.prepareStatement("update hotel set slika=? where idHotela=1");
+				PreparedStatement ps = con.prepareStatement("update hotel set slika=?");
 				ps.setString(1, h.getSlika());
-				ps.executeQuery();
+				ResultSet rs=ps.executeQuery();
 			} finally {
 				con.close();
 			}

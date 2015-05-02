@@ -2,7 +2,7 @@ package beani;
 
 public class OHotelu {
 
-	private int idHotela = 1;
+	private int idHotela;
 	private String opis;
 	private String slika;
 	

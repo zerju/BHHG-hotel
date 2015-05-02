@@ -29,7 +29,7 @@ public class OHoteluDAO {
 			
 			try {
 				con = ds.getConnection();
-				con.createStatement().execute("create table IF NOT EXISTS hotel(idHotela INT PRIMARY KEY,opis VARCHAR(512),slika VARCHAR(100))");
+				con.createStatement().execute("create table IF NOT EXISTS hotel(idHotela INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,opis VARCHAR(512),slika VARCHAR(100))");
 				
 			} catch (SQLException e) {
 				e.printStackTrace();
@@ -83,30 +83,31 @@ public class OHoteluDAO {
 		}
 		
 		
-		public void posodobiOpis(OHotelu h) throws Exception {
+		public void posodobi(OHotelu h) throws Exception {
 			Connection con=ds.getConnection();
 			try {
 				con=ds.getConnection();
 				
-				PreparedStatement ps = con.prepareStatement("update hotel set opis=? where idHotela=1");
-				ps.setString(1, h.getOpis());
-				ps.executeQuery();
+				PreparedStatement ps = con.prepareStatement("update hotel from mnenje where vrstaIzleta=?");
+				ps.setString(1, m.getVrstaIzleta());
+				ResultSet rs=ps.executeQuery();
+				while (rs.next()) {
+					Mnenje l = new Mnenje();
+					l.setIdMnenja(rs.getInt("idMnenja"));
+					l.setOsebaString(rs.getString("oseba"));
+					l.setSumOcena(rs.getInt("sumOcena"));
+					l.setOcenaStoritev(rs.getInt("ocenaStoritev"));
+					l.setOcenaLokacije(rs.getInt("ocenaLokacije"));
+					l.setNaslov(rs.getString("naslov"));
+					l.setVsebina(rs.getString("vsebina"));
+					l.setVrstaIzleta(rs.getString("vrstaIzleta"));
+					l.setLetniCas(rs.getString("letniCas"));
+					najdena.add(l);
+				}
 			} finally {
 				con.close();
 			}
-		}
-		
-		public void posodobiSliko(OHotelu h) throws Exception {
-			Connection con=ds.getConnection();
-			try {
-				con=ds.getConnection();
-				
-				PreparedStatement ps = con.prepareStatement("update hotel set slika=? where idHotela=1");
-				ps.setString(1, h.getSlika());
-				ps.executeQuery();
-			} finally {
-				con.close();
-			}
+			return najdena;
 		}
 	}
 

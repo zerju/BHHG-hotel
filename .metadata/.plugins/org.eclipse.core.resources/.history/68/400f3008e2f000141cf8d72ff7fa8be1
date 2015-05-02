@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html 
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+<head>
+
+<meta charset="UTF-8" />
+<title>Restavracija</title>
+</head>
+<body>
+	<ui:include src="../WEB-INF/templateHeader.xhtml" />
+	<br />
+
+
+	<h1>Restavracija</h1>
+
+
+
+	<table align="center">
+		<tr>
+			<td><img src="Slike/restavracija.jpg" /></td>
+			<td><table>
+					<tr>
+						<td>Miza za 5 osebe:</td>
+					</tr>
+					<tr>
+						<td>- razgled</td>
+					</tr>
+					<tr>
+						<td>- bližina kuhinje</td>
+					</tr>
+					<tr>
+						<td>- relaksiranje</td>
+					</tr>
+					<tr>
+						<td>- ...</td>
+					</tr>
+				</table></td>
+			<td>
+			<h:form action="">
+				<h:commandButton value="Rezerviraj Mizo" action="rezervacijeMiz" />
+				<h:commandButton value="Vec.." action="vecOmizi" />
+			</h:form></td>
+		</tr>
+	</table>
+
+</body>
+
+</html>

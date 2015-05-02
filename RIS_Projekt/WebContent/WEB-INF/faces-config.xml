@@ -68,5 +68,13 @@
 			<to-view-id>/Rezervacije/MizaPodrobno.xhtml</to-view-id>
 		</navigation-case>
 	</navigation-rule>
+	<navigation-rule>
+		<display-name>Restavracija/Restavracija.xhtml</display-name>
+		<from-view-id>/Restavracija/Restavracija.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>miza</from-outcome>
+			<to-view-id>/Rezervacije/RezervacijeMiz.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
 
 </faces-config>

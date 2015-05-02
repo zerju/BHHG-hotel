@@ -12,7 +12,7 @@ body {
 	background: #12110f;
 	height: 100%;
 	width: 100%;
-	text-align: center
+	text-align: center;
 }
 
 a:link, a:visited { color: #ff5400; text-decoration: none; font-weight: normal;} 

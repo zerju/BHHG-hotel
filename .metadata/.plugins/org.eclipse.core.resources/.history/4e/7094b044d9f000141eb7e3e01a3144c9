@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html
+xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+	<link rel="stylesheet" href="C:\Users\Dom\Desktop\Faks\RIS_Projekt\BHHG-hotel\RIS_Projekt\WebContent\WEB-INF\style.css" type="text/css" media="all"/>
+<head>
+
+<meta charset="UTF-8"/>
+<title>Rezervacija Miz</title>
+</head>
+<body>
+<ui:include src="../WEB-INF/templateHeader.xhtml" />
+<br />
+
+
+<h1>Rezervacija miz</h1>
+
+
+
+<table>
+<tr>
+<td><img src="Slike/mize.jpg"/></td>
+<td><table><tr><td>Miza za 5 osebe:</td></tr>
+			<tr><td>- razgled</td></tr>
+			<tr><td>- bližina kuhinje</td></tr>
+			<tr><td>- relaksiranje</td></tr>
+			<tr><td>- ...</td></tr>
+</table></td>
+<td><h:form><h:commandButton value="Rezerviraj Mizo" action="rezervirajMizo"/><h:commandButton value="Vec.." action="vecOmizi"/></h:form></td>
+</tr>
+</table>
+
+</body>
+
+</html>

@@ -4,17 +4,6 @@
 <fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
 <fullyQualifiedTypeName name="beani.Soba"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-<fullyQualifiedTypeName name="beani.RegistriranUporabnik"/>
-<fullyQualifiedTypeName name="dao.MnenjeDAO"/>
-<fullyQualifiedTypeName name="dao.RegistriranUporabnikDAO"/>
-<fullyQualifiedTypeName name="beani.Miza"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="javax.servlet.http.Part"/>
-<fullyQualifiedTypeName name="dao.MizaDAO"/>
-<fullyQualifiedTypeName name="javax.annotation.Resource"/>
-<fullyQualifiedTypeName name="javax.sql.DataSource"/>
-<fullyQualifiedTypeName name="beani.RezervacijaMize"/>
-<fullyQualifiedTypeName name="beani.RezervacijaMizeBean"/>
+<fullyQualifiedTypeName name="beani.OHotelu"/>
+<fullyQualifiedTypeName name="beani.Kontakt"/>
 </qualifiedTypeNameHistroy>

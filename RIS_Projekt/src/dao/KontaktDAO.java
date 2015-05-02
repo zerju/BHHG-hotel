@@ -95,7 +95,7 @@ public class KontaktDAO {
 			PreparedStatement ps = con
 					.prepareStatement("update kontakt set telefon=? where idKontakta=1");
 			ps.setString(1, k.getTelefon());
-			ps.executeQuery();
+			ps.executeUpdate();
 		} finally {
 			con.close();
 		}
@@ -109,7 +109,7 @@ public class KontaktDAO {
 			PreparedStatement ps = con
 					.prepareStatement("update kontakt set email=? where idKontakta=1");
 			ps.setString(1, k.getEmail());
-			ps.executeQuery();
+			ps.executeUpdate();
 		} finally {
 			con.close();
 		}

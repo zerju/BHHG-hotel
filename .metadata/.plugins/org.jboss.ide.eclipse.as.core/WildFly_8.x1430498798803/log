@@ -142,3 +142,12 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-05-02 17:21:36.823
 !MESSAGE Module RIS_Projekt on WildFly 8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-05-02 18:34:33.077
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2015-05-02 18:34:35.011
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 16842768 2015-05-02 18:34:35.012
+!MESSAGE Poll Thread Aborted: null

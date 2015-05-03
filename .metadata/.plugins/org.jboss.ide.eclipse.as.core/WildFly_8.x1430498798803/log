@@ -177,3 +177,13 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 16842785 2015-05-03 11:19:48.238
 !MESSAGE Server Shutdown Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-03 11:54:36.477
+!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-03 11:54:39.747
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-03 11:54:50.193
+!MESSAGE Server Startup Succeeded

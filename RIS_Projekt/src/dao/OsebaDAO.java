@@ -11,6 +11,7 @@ import javax.annotation.Resource;
 import javax.sql.DataSource;
 
 import beani.Oseba;
+import beani.Soba;
 
 public class OsebaDAO {
 	
@@ -28,7 +29,7 @@ public class OsebaDAO {
 		
 		try {
 			con = ds.getConnection();
-			con.createStatement().execute("create table IF NOT EXISTS oseba(idOsebe INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,ime VARCHAR(20),priimek VARCHAR(20),email VARCHAR(40),telefon INT, tipOsebe VARCHAR(15))");
+			con.createStatement().execute("create table IF NOT EXISTS oseba(idOsebe INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,ime VARCHAR(20),priimek VARCHAR(20),email VARCHAR(40),telefon INT, tipOsebe VARCHAR(15),kartica VARCHAR(40))");
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -48,13 +49,14 @@ public class OsebaDAO {
 		Connection con = ds.getConnection();
 		try {
 			con = ds.getConnection();
-				PreparedStatement ps=con.prepareStatement("insert into oseba(idOsebe,ime,priimek,email,telefon,tipOsebe ) values (?,?,?,?,?,?)");
+				PreparedStatement ps=con.prepareStatement("insert into oseba(idOsebe,ime,priimek,email,telefon,tipOsebe,kartica ) values (?,?,?,?,?,?,?)");
 				ps.setInt(1, o.getIdOsebe());
 				ps.setString(2, o.getIme());				
 				ps.setString(3, o.getPriimek());
 				ps.setString(4, o.getEmail());
 				ps.setInt(5, o.getTelefon());
 				ps.setString(6, o.getTipOsebe());
+				ps.setString(7,o.getKartica());
 				ps.executeUpdate();
 			
 		} catch (Exception e) {
@@ -71,7 +73,7 @@ public class OsebaDAO {
 		Connection conn=null;
 		try {
 			conn=ds.getConnection();
-			ResultSet rs=conn.createStatement().executeQuery("select * from registriranUporabnik");
+			ResultSet rs=conn.createStatement().executeQuery("select * from oseba");
 			while (rs.next()) {
 				Oseba o =new Oseba();
 				o.setIdOsebe(rs.getInt("idOsebe"));
@@ -80,6 +82,7 @@ public class OsebaDAO {
 				o.setEmail(rs.getString("email"));
 				o.setTelefon(rs.getInt("telefon"));
 				o.setTipOsebe(rs.getString("tipOsebe"));
+				o.setKartica(rs.getString("kartica"));
 				ret.add(o);
 			}
 			rs.close();
@@ -89,7 +92,19 @@ public class OsebaDAO {
 		return ret;
 	}
 	
-	
+public int najdiID(Oseba o) throws SQLException{
+		
+		Connection con = ds.getConnection();
+		PreparedStatement ps = con.prepareStatement("select idOsebe from oseba where kartica=?");
+		ps.setString(1,o.getKartica());
+		ResultSet rs = ps.executeQuery();
+		int raz = 0;
+		while(rs.next()){
+			raz = rs.getInt("idOsebe");
+		}
+		return raz;
+		
+	}
 	
 	
 	
@@ -112,6 +127,7 @@ public class OsebaDAO {
 				l.setEmail(rs.getString("email"));
 				l.setTelefon(rs.getInt("telefon"));
 				l.setTipOsebe(rs.getString("tipOsebe"));
+				l.setKartica(rs.getString("kartica"));
 				najdene.add(l);
 			}
 		} finally {

@@ -10,11 +10,15 @@
 <fullyQualifiedTypeName name="dao.MnenjeDAO"/>
 <fullyQualifiedTypeName name="dao.RegistriranUporabnikDAO"/>
 <fullyQualifiedTypeName name="beani.Miza"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.servlet.http.Part"/>
 <fullyQualifiedTypeName name="dao.MizaDAO"/>
 <fullyQualifiedTypeName name="javax.annotation.Resource"/>
 <fullyQualifiedTypeName name="javax.sql.DataSource"/>
 <fullyQualifiedTypeName name="beani.RezervacijaMize"/>
 <fullyQualifiedTypeName name="beani.RezervacijaMizeBean"/>
+<fullyQualifiedTypeName name="dao.SobaDAO"/>
+<fullyQualifiedTypeName name="dao.OsebaDAO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+<fullyQualifiedTypeName name="beani.Oseba"/>
 </qualifiedTypeNameHistroy>

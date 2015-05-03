@@ -1,0 +1,62 @@
+package beani;
+
+
+public class Soba {
+	
+	private int idSobe;
+	private int stSobe;
+	private int kapaciteta;
+	private String opis;
+	private String tip;
+	private int cena;
+	private boolean zasedena;
+	private String slika1;
+	private String slika2;
+	private String slika3;
+	private String slika4;
+	
+
+	public int getIdSobe() {
+		return idSobe;
+	}
+	public void setIdSobe(int idSobe) {
+		this.idSobe = idSobe;
+	}
+	public int getStSobe() {
+		return stSobe;
+	}
+	public void setStSobe(int stSobe) {
+		this.stSobe = stSobe;
+	}
+	public int getKapaciteta() {
+		return kapaciteta;
+	}
+	public void setKapaciteta(int kapaciteta) {
+		this.kapaciteta = kapaciteta;
+	}
+	public String getOpis() {
+		return opis;
+	}
+	public void setOpis(String opis) {
+		this.opis = opis;
+	}
+	public String getTip() {
+		return tip;
+	}
+	public void setTip(String tip) {
+		this.tip = tip;
+	}
+	public int getCena() {
+		return cena;
+	}
+	public void setCena(int cena) {
+		this.cena = cena;
+	}
+	public boolean isZasedena() {
+		return zasedena;
+	}
+	public void setZasedena(boolean zasedena) {
+		this.zasedena = zasedena;
+	}
+	
+}

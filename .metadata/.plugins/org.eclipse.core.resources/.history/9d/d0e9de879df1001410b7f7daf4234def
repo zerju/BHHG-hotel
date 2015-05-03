@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html
+xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	<link rel="stylesheet" href="WEB-INF/../style.css" type="text/css" media="all"/>
+<head>
+<meta charset="UTF-8"/>
+<title>Rezervacija sobe</title>
+</head>
+
+<body>
+<ui:include src="../WEB-INF/templateHeader.xhtml" />
+<br />
+<h1>Rezervacija sobe</h1>
+<h:form>
+	<br />
+		Ime: <h:inputText value="#{rezervacijeSobe.oseba.ime}"/><br />
+		Priimek: <h:inputText value="#{rezervacijeSobe.oseba.priimek}"/><br />
+		Elektronski naslov: <h:inputText value="#{rezervacijeSobe.oseba.email}"/><br />
+		Telefonska št.: <h:inputText value="#{rezervacijeSobe.oseba.telefon}"/><br />
+		Datum prihoda: <h:inputText value="#{rezervacijaSobe.soba.datumOdhoda}"/><br />
+		Datum odhoda: <h:inputText value="#{rezervacijaSobe.soba.datumPrihoda}"/><br />
+		Številka kreditne kartice: <h:inputText value="#{rezervacijaSobe.oseba.kartica}"/><br />
+		<h:commandButton value="Rezerviraj" actionListener="#{rezervacijaSobe.rezerviraj()}"/><h:commandButton value="nazaj" action="nazaj"/>
+	
+</h:form>
+</body>
+</html>

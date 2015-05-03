@@ -9,6 +9,7 @@ public class Oseba {
 	private String email;
 	private int telefon;
 	private String tipOsebe;
+	private String kartica;
 	
 	
 	
@@ -47,6 +48,12 @@ public class Oseba {
 	}
 	public void setTipOsebe(String tipOsebe) {
 		this.tipOsebe = tipOsebe;
+	}
+	public String getKartica() {
+		return kartica;
+	}
+	public void setKartica(String kartica) {
+		this.kartica = kartica;
 	}
 	
 }

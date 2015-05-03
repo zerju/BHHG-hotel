@@ -2,7 +2,8 @@
 <html
 xmlns:ui="http://java.sun.com/jsf/facelets"
 	xmlns:h="http://java.sun.com/jsf/html"
-	xmlns:f="http://java.sun.com/jsf/core">
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
 	<link rel="stylesheet" href="WEB-INF/../style.css" type="text/css" media="all"/>
 <head>
 <script src="../galerija/js/jquery-1.11.0.min.js"></script>
@@ -18,26 +19,22 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
 <ui:include src="../WEB-INF/templateHeader.xhtml" />
 <br />
 <h1>Podrobno o sobi</h1>
+
+<br />
 <table align="center">
-<tr><td>
-<table >
-<tr><td><a href="Slike/soba_vlka.jpg" data-lightbox="roadtrip"><img src="Slike/soba.jpg" height="100" width="100"/></a></td>
-<td><a href="Slike/balkon.jpg" data-lightbox="roadtrip"><img src="Slike/balkon.jpg" height="100" width="100"/></a></td></tr>
-<tr><td><a href="Slike/kopalnica.jpg" data-lightbox="roadtrip"><img src="Slike/kopalnica.jpg" height="100" width="100"/></a></td>
-<td><a href="Slike/omara.jpg" data-lightbox="roadtrip"><img src="Slike/omara.jpg" height="100" width="100"/></a></td></tr>
+	<tr><td><h:graphicImage value="#{rezervacijaSobe.soba.slika1}" height="200" width="200"/></td><td><h:graphicImage value="#{rezervacijaSobe.soba.slika2}" height="200" width="200"/></td></tr>
+	<tr><td><h:graphicImage value="#{rezervacijaSobe.soba.slika3}" height="200" width="200"/></td><td><h:graphicImage value="#{rezervacijaSobe.soba.slika4}" height="200" width="200"/></td></tr>
 </table>
-</td></tr>
-<tr>
-<td>Soba je namenjena štirim osebam in ima štiri postelje.<br /> 
-	Ima dve omari za oblačila in druge stvari. 
-	Blablabla ne morem več	<br />
-	ko to napisat ker nimam baze da bi iz baze vleko ven haha.</td>
-	</tr>
-	<tr>
-<td><h:form><h:commandButton value="Nazaj" action="vseSobe"/><h:commandButton value="Rezerviraj Sobo" action="rezerviraj"/></h:form></td>
-</tr>
-</table>
+<br />
+		
+		Kapaciteta sobe: <h:outputText value="#{rezervacijaSobe.soba.kapaciteta}"/><br />
+		Cena na osebo: <h:outputText value="#{rezervacijaSobe.soba.cena}"/>€<br />
+		Tip: <h:outputText value="#{rezervacijaSobe.soba.tip}"/><br />
+		Opis: <h:outputText value="#{rezervacijaSobe.soba.opis}"/><br />
+		<h:form>
+		<h:commandButton value="Rezerviraj Sobo" action="rezerviraj"/>
+		<h:commandButton value="nazaj" action="vseSobe"/>
+		</h:form>
+
 </body>
-
-
 </html>

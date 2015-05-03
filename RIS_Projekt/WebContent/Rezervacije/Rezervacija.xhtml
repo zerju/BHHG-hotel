@@ -15,20 +15,14 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
 <h1>Rezervacija sobe</h1>
 <h:form>
 	<table align="center">
-		<tr><td>Ime: </td><td><h:inputText/></td></tr>
-		<tr><td>Priimek: </td><td><h:inputText/></td></tr>
-		<tr><td>Elektronski naslov: </td><td><h:inputText/></td></tr>
-		<tr><td>Telefonska št.: </td><td><h:inputText/></td></tr>
-		<tr><td>Število oseb:</td><td><h:selectOneMenu>
-				<f:selectItem itemValue="1" itemLabel="1"/>
-				<f:selectItem itemValue="2" itemLabel="2"/>
-				<f:selectItem itemValue="3" itemLabel="3"/>
-				<f:selectItem itemValue="4" itemLabel="4"/>
-				</h:selectOneMenu>
-		</td></tr>
-		<tr><td>Številka kreditne kartice: </td><td><h:inputText/></td></tr>
-		<tr><td>CVV: </td><td><h:inputText/></td></tr>
-		<tr><td><h:commandButton value="Rezerviraj"/></td></tr>
+		<tr><td>Ime: </td><td><h:inputText value="#{rezervacijaSobe.oseba.ime}"/></td></tr>
+		<tr><td>Priimek: </td><td><h:inputText value="#{rezervacijaSobe.oseba.priimek}"/></td></tr>
+		<tr><td>Elektronski naslov: </td><td><h:inputText value="#{rezervacijaSobe.oseba.email}"/></td></tr>
+		<tr><td>Telefonska št.: </td><td><h:inputText value="#{rezervacijaSobe.oseba.telefon}"/></td></tr>
+		<tr><td>Datum prihoda: </td><td><h:inputText value="#{rezervacijaSobe.soba.datumOdhoda}"/></td></tr>
+		<tr><td>Datum odhoda: </td><td><h:inputText value="#{rezervacijaSobe.soba.datumPrihoda}"/></td></tr>
+		<tr><td>Številka kreditne kartice: </td><td><h:inputText value="#{rezervacijaSobe.oseba.kartica}"/></td></tr>
+		<tr><td><h:commandButton value="Rezerviraj" actionListener="#{rezervacijaSobe.rezerviraj()}"/><h:commandButton value="nazaj" action="nazaj"/></td></tr>
 	</table>
 </h:form>
 </body>

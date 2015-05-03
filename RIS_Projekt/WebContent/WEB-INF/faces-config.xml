@@ -76,5 +76,21 @@
 			<to-view-id>/Rezervacije/RezervacijeMiz.xhtml</to-view-id>
 		</navigation-case>
 	</navigation-rule>
+	<navigation-rule>
+		<display-name>Rezervacije/Rezervacija.xhtml</display-name>
+		<from-view-id>/Rezervacije/Rezervacija.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>nazaj</from-outcome>
+			<to-view-id>/Rezervacije/SobaPodrobno.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>Rezervacije/Rezervacija.xhtml</display-name>
+		<from-view-id>/Rezervacije/Rezervacija.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>nazaj</from-outcome>
+			<to-view-id>/Rezervacije/RezervacijeSob.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
 
 </faces-config>

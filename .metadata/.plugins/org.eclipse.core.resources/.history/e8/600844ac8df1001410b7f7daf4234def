@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html
+xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	<link rel="stylesheet" href="WEB-INF/../style.css" type="text/css" media="all"/>
+<head>
+<script src="../galerija/js/jquery-1.11.0.min.js"></script>
+<script src="../galerija/js/lightbox.min.js"></script>
+<link href="../galerija/css/lightbox.css" rel="stylesheet" />
+
+
+<meta charset="UTF-8"/>
+<title>Podrobno o sobi</title>
+</head>
+<body>
+
+<ui:include src="../WEB-INF/templateHeader.xhtml" />
+<br />
+<h1>Podrobno o sobi</h1>
+
+<br />
+<h:link outcome="#{rezervacijaSobe.soba.slika1}" data-lightbox="roadtrip">
+	<h:graphicImage value="#{rezervacijaSobe.soba.slika1}" />
+</h:link><br />
+		
+		Kapaciteta sobe: <h:outputText value="#{rezervacijaSobe.soba..kapaciteta}"/><br />
+		Cena na osebo: <h:outputText value="#{rezervacijaSobe.soba.cena}"/>€<br />
+		<h:form>
+		<h:commandButton value="Rezerviraj Sobo" action="rezerviraj" actionListener="#{rezervacijaSobe.kopiraj(s)}"/>
+		<h:commandButton value="Vec.." action="vec" actionListener="#{rezervacijaSobe.kopiraj(s)}"/>
+		</h:form>
+</ui:repeat>
+
+</body>
+
+
+</html>

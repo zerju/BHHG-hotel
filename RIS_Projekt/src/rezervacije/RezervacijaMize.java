@@ -46,10 +46,7 @@ public class RezervacijaMize {
 		System.out.println(m.getStGostov());
 	}
 	
-	public ArrayList<Miza> najdi(Miza m){
-		
-		return najdeneMize;
-	}
+
 	public ArrayList<Miza> vrniVse() throws Exception{
 		MizaDAO dao = new MizaDAO(ds);
 		vse.clear();

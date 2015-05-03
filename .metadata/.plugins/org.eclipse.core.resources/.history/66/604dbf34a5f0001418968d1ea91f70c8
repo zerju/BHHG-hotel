@@ -1,7 +1,0 @@
-package dao;
-
-public class MizaDAO {
-	
-	@Resource(lookup="java:jboss/datasources/vreme2DS")
-	DataSource ds;
-}

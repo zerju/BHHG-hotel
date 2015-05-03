@@ -1,0 +1,125 @@
+package rezervacije;
+
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import javax.annotation.Resource;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+import javax.persistence.*;
+import javax.servlet.http.Part;
+import javax.sql.DataSource;
+
+import dao.MizaDAO;
+import dao.SobaDAO;
+import beani.Miza;
+import beani.Soba;
+
+@ManagedBean(name = "rezervacijaSobe")
+@SessionScoped
+public class RezervacijeSobe {
+
+	
+	@Resource(lookup="java:jboss/datasources/bhhg")
+	DataSource ds;
+	private Soba soba = new Soba();
+	private ArrayList<Soba> najdeneSobe = new ArrayList<Soba>();
+	private Part file1;
+	private Part file2;
+	private Part file3;
+	private Part file4;
+	private ArrayList<Soba> vse = new ArrayList<Soba>();
+	private ArrayList<Soba> proste = new ArrayList<Soba>();
+	
+	
+	public void shrani(Soba s){
+		
+	}
+	
+	public ArrayList<Soba> najdi(Soba s){
+		
+		return najdeneSobe;
+	}
+
+	
+	private static String getFilename(Part part){
+		for(String cd : part.getHeader("content-disposition").split(";")){
+			if(cd.trim().startsWith("filename")){
+				String filename = cd.substring(cd.indexOf('=')+1).trim().replace("\"","");
+				return filename.substring(filename.lastIndexOf('/')+1).substring(filename.lastIndexOf('\\')+1);
+				
+			}
+		}
+		return null;
+	}
+	
+	public ArrayList<Soba> vrniVse() throws Exception{
+		SobaDAO dao = new SobaDAO(ds);
+		vse.clear();
+		vse = (ArrayList<Soba>) dao.vrniVse();
+		return vse;
+	}
+	
+	public ArrayList<Soba> vrniProste() throws Exception{
+		SobaDAO dao = new SobaDAO(ds);
+		vse = (ArrayList<Soba>) dao.vrniVse();
+		proste.clear();
+		for(Soba s: vse){
+			if(s.getIdOsebe()==0){
+				proste.add(s);
+			}
+			
+		}return proste;
+	}
+	
+	public void kopiraj(Miza m){
+		miza = new Miza(m);
+		System.out.println(miza.getStMize());
+	}
+	
+	
+	public void shrani() throws IOException, SQLException{
+		MizaDAO dao = new MizaDAO(ds);
+		file1.write("C:/Users/Jure/Documents/GitHub/BHHG-hotel/RIS_Projekt/WebContent/Rezervacije/Slike/"+getFilename(file1));
+		String potSlike = "../Rezervacije/Slike/"+getFilename(file1);
+		soba.setSlika1(potSlike);
+		dao.shrani(soba);
+	}
+	
+	public void pocisti(Miza m) throws SQLException{
+		MizaDAO dao = new MizaDAO(ds);
+		dao.sprazniMizo(m);
+		System.out.println(m.getStGostov());
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public Soba getSoba() {
+		return soba;
+	}
+
+	public void setSoba(Soba soba) {
+		this.soba = soba;
+	}
+
+	public ArrayList<Soba> getNajdeneSobe() {
+		return najdeneSobe;
+	}
+
+	public void setNajdeneSobe(ArrayList<Soba> najdeneSobe) {
+		this.najdeneSobe = najdeneSobe;
+	}
+	
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html 
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+<head>
+
+<meta charset="UTF-8" />
+<title>Domov</title>
+</head>
+<body>
+	<ui:include src="../WEB-INF/templateHeader.xhtml" />
+	<br />
+
+
+	<h1>Domov</h1>
+
+	<table align="center">
+		<tr>
+			<th>Telefon</th>
+		</tr>
+		<tr>
+			<th>Email</th>
+		</tr>
+		
+		<tr>
+			<td><img src="Slike/hotel.jpg" /></td>
+			<td>drugo besedilo</td>
+		</tr>
+	</table>
+
+</body>
+
+</html>

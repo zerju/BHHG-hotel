@@ -3148,3 +3148,12 @@ java.io.FileNotFoundException: C:\Users\Jure\Documents\GitHub\BHHG-hotel\.metada
 
 !ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-03 08:52:49.866
 !MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-03 09:07:52.095
+!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-05-03 09:17:54.326
+!MESSAGE An internal error occurred during: "Launching client".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:70)

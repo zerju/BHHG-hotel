@@ -18,7 +18,7 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
         <li><a href="../Rezervacije/RezervacijeSob.xhtml">Sobe</a></li>
         <li><a href="#">Informacije</a></li>
         <li><a href="#">Gallery</a></li>
-        <li><a href="../Kontakt/Kontakt.xhtml" class="last">Contact</a></li>
+        <li><a href="#" class="last">Contact</a></li>
       </ul>
     </div>
 

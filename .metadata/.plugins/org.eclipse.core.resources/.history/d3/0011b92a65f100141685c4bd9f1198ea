@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html 
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+<head>
+
+<meta charset="UTF-8" />
+<title>Kontakt</title>
+</head>
+<body>
+	<ui:include src="../WEB-INF/templateHeader.xhtml" />
+	<br />
+
+
+	<h1>Kontakt</h1>
+
+	<table align="center" border="1px">
+		<tr>
+			<th>Telefon</th><th>Email</th>
+		</tr>
+		<tr>
+			<td>+386 31 500 400</td><td>test@bhhg.com</td>
+		</tr>
+		
+		<tr>
+			<td colspan = "2">
+			Za kakršne koli informacije o hotelu, vprašanju o vaši rezervaciji sobe ali
+			mize nam lahko pišete na zgoraj napisani elektronski naslov, ali pa pokličete
+			naš center za pomoč uporabnikom na zgoraj napisano telefonsko številko.
+			</td>
+		</tr>
+	</table>
+
+</body>
+
+</html>

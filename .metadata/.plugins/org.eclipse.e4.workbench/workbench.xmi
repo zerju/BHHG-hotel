@@ -403,7 +403,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VR8eV_J3EeS6uo5Z0ldbpA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_o4tDt_KGEeSRZPiB4dcmIw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_VR9v8vJ3EeS6uo5Z0ldbpA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yFlB9_KREeSNcJ4TglZCpw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_VR9v8vJ3EeS6uo5Z0ldbpA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VR8eZPJ3EeS6uo5Z0ldbpA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -436,7 +436,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VR8exvJ3EeS6uo5Z0ldbpA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_o4tDwfKGEeSRZPiB4dcmIw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_VR9utvJ3EeS6uo5Z0ldbpA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yFuy-fKREeSNcJ4TglZCpw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_VR9utvJ3EeS6uo5Z0ldbpA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VR8e0vJ3EeS6uo5Z0ldbpA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1908,6 +1908,18 @@
     <tags>menuContribution:popup</tags>
   </menuContributions>
   <menuContributions xmi:id="_p5nuIvKGEeSRZPiB4dcmIw" elementId="null:1252825678" positionInParent="before=group.open" parentId="popup">
+    <tags>scheme:popup</tags>
+    <tags>menuContribution:popup</tags>
+  </menuContributions>
+  <menuContributions xmi:id="_y-0-IPKREeSNcJ4TglZCpw" elementId="null:470569298" positionInParent="after=additions" parentId="popup">
+    <tags>scheme:popup</tags>
+    <tags>menuContribution:popup</tags>
+  </menuContributions>
+  <menuContributions xmi:id="_y-0-IfKREeSNcJ4TglZCpw" elementId="NewAction:419622267" positionInParent="before=group.open" parentId="popup">
+    <tags>scheme:popup</tags>
+    <tags>menuContribution:popup</tags>
+  </menuContributions>
+  <menuContributions xmi:id="_y-0-IvKREeSNcJ4TglZCpw" elementId="null:1995800052" positionInParent="before=group.open" parentId="popup">
     <tags>scheme:popup</tags>
     <tags>menuContribution:popup</tags>
   </menuContributions>

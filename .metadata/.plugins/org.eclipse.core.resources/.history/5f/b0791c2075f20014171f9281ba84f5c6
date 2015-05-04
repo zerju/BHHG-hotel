@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<link rel="stylesheet" href="WEB-INF/../style.css" type="text/css"
+	media="all" />
+<head>
+<meta charset="UTF-8" />
+<title>Registracija</title>
+</head>
+
+<body>
+	<ui:include src="../WEB-INF/templateHeader.xhtml" />
+	<br />
+	<h1>Rezervacija sobe</h1>
+	<h:form>
+		<table align="center">
+			<tr>
+				<td><h:outputText value="Uporabniško ime"></h:outputText></td>
+            	<td><h:inputText id="username" value="#{regBean.username}" required="true" requiredMessage="Prosim vnesite uporabniško ime!"></h:inputText></td>
+			</tr>
+			<tr>
+				<td><h:outputText value="Geslo"></h:outputText></td>
+            	<td><h:inputText id="geslo" value="#{regBean.username}" required="true" requiredMessage="Prosim vnesite geslo!"></h:inputText></td>
+			</tr>
+			<tr>
+				<td><h:outputText value="Potrditev gesla"></h:outputText></td>
+            	<td><h:inputText id="gesloPotrditev" value="#{regBean.username}" required="true" requiredMessage="Prosim ponovno vnesite geslo!"></h:inputText></td>
+			</tr>
+			<tr>
+				<td><h:outputText value="Vzdevek"></h:outputText></td>
+            	<td><h:inputText id="vzdevek" value="#{regBean.username}" required="true" requiredMessage="Prosim vnesite vzdevek!"></h:inputText></td>
+			</tr>
+			<tr>
+				<td><h:outputText value="E-mail"></h:outputText></td>
+            	<td><h:inputText id="email" value="#{regBean.username}" required="true" requiredMessage="Prosim vnesite pravilen e-mail!"></h:inputText></td>
+			</tr>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<tr>
+				<td><h:commandButton value="Rezerviraj"
+						actionListener="#{rezervacijaSobe.rezerviraj()}" />
+					<h:commandButton value="nazaj" action="nazaj" /></td>
+			</tr>
+		</table>
+	</h:form>
+</body>
+</html>

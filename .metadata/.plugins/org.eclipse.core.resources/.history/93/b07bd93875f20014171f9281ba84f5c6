@@ -6,9 +6,8 @@ public class RegistriranUporabnik {
 	private int idUporabnika;
 	private String uporabniskoIme;
 	private String geslo;
-	private String gesloPotrditev;
-	private String vzdevek;
-	private String email;
+	private Oseba oseba;
+	private String osebaString;
 	
 	
 	public int getIdUporabnika() {
@@ -29,23 +28,16 @@ public class RegistriranUporabnik {
 	public void setGeslo(String geslo) {
 		this.geslo = geslo;
 	}
-	public String getGesloPotrditev() {
-		return gesloPotrditev;
+	public Oseba getOseba() {
+		return oseba;
 	}
-	public void setGesloPotrditev(String gesloPotrditev) {
-		this.gesloPotrditev = gesloPotrditev;
+	public void setOsebaString(String oseba){
+		this.osebaString = oseba;
 	}
-	public String getVzdevek() {
-		return vzdevek;
+	public String getOsebaString(){
+		return osebaString;
 	}
-	public void setVzdevek(String vzdevek) {
-		this.vzdevek = vzdevek;
+	public void setOseba(Oseba oseba) {
+		this.oseba = oseba;
 	}
-	public String getEmail() {
-		return email;
-	}
-	public void setEmail(String email) {
-		this.email = email;
-	}
-	
 }

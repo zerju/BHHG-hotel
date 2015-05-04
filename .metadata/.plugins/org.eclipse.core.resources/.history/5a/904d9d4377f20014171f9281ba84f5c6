@@ -29,7 +29,7 @@ List<RegistriranUporabnik> najdeni = new ArrayList<RegistriranUporabnik>();
 		
 		try {
 			con = ds.getConnection();
-			con.createStatement().execute("create table IF NOT EXISTS registriranUporabnik(idUporabnika INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,uporabniskoIme VARCHAR(40),geslo VARCHAR(40),gesloPotrditev VARCHAR(40),vzdevek VARCHAR(40),email VARCHAR(40))");
+			con.createStatement().execute("create table IF NOT EXISTS registriranUporabnik(idUporabnika INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,uporabniskoIme VARCHAR(20),geslo VARCHAR(40),oseba VARCHAR(100))");
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -49,14 +49,11 @@ List<RegistriranUporabnik> najdeni = new ArrayList<RegistriranUporabnik>();
 		Connection con = ds.getConnection();
 		try {
 			con = ds.getConnection();
-				PreparedStatement ps=con.prepareStatement("insert into registriranUporabnik(idUporabnika,uporabniskoIme,geslo,gesloPotrditev,vzdevek,email) values (?,?,?,?,?,?)");
+				PreparedStatement ps=con.prepareStatement("insert into registriranUporabnik(idUporabnika,uporabniskoIme,geslo,oseba ) values (?,?,?,?)");
 				ps.setInt(1, r.getIdUporabnika());
 				ps.setString(2, r.getUporabniskoIme());				
 				ps.setString(3, r.getGeslo());
-				ps.setString(4, r.getGesloPotrditev());
-				ps.setString(5, r.getVzdevek());
-				ps.setString(6, r.getEmail());
-				
+				ps.setString(4, r.getOseba().toString());
 				ps.executeUpdate();
 			
 		} catch (Exception e) {
@@ -79,10 +76,7 @@ List<RegistriranUporabnik> najdeni = new ArrayList<RegistriranUporabnik>();
 				r.setIdUporabnika(rs.getInt("idUporabnika"));
 				r.setUporabniskoIme(rs.getString("uporabniskoIme"));
 				r.setGeslo(rs.getString("geslo"));
-				r.setGeslo(rs.getString("gesloPotrditev"));
-				r.setGeslo(rs.getString("vzdevek"));
-				r.setGeslo(rs.getString("email"));
-				
+				r.setOsebaString(rs.getString("oseba"));
 				ret.add(r);
 			}
 			rs.close();
@@ -112,10 +106,7 @@ List<RegistriranUporabnik> najdeni = new ArrayList<RegistriranUporabnik>();
 				l.setIdUporabnika(rs.getInt("idUporabnika"));
 				l.setUporabniskoIme(rs.getString("uporabniskoIme"));
 				l.setGeslo(rs.getString("geslo"));
-				l.setGeslo(rs.getString("gesloPotrditev"));
-				l.setGeslo(rs.getString("vzdevek"));
-				l.setGeslo(rs.getString("email"));
-				
+				l.setOsebaString(rs.getString("oseba"));
 				najdeni.add(l);
 			}
 		} finally {

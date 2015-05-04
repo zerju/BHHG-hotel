@@ -12,33 +12,33 @@
 <body>
 	<ui:include src="../WEB-INF/templateHeader.xhtml" />
 	<br />
-	<h1>Rezervacija sobe</h1>
+	<h1>Registracija</h1>
 	<h:form>
 		<table align="center">
 			<tr>
 				<td><h:outputText value="Uporabniško ime"></h:outputText></td>
-            	<td><h:inputText id="username" value="#{regBean.username}" required="true" requiredMessage="Prosim vnesite uporabniško ime!"></h:inputText></td>
+            	<td><h:inputText id="username" value="#{regBean.registriranUporabnik.uporabniskoIme}" required="true" requiredMessage="Prosim vnesite uporabniško ime!"></h:inputText></td>
 			</tr>
 			<tr>
 				<td><h:outputText value="Geslo"></h:outputText></td>
-            	<td><h:inputText id="geslo" value="#{regBean.username}" required="true" requiredMessage="Prosim vnesite geslo!"></h:inputText></td>
+            	<td><h:inputSecret id="geslo" value="#{regBean.registriranUporabnik.geslo}" required="true" requiredMessage="Prosim vnesite geslo!"></h:inputSecret></td>
 			</tr>
 			<tr>
 				<td><h:outputText value="Potrditev gesla"></h:outputText></td>
-            	<td><h:inputText id="gesloPotrditev" value="#{regBean.username}" required="true" requiredMessage="Prosim ponovno vnesite geslo!"></h:inputText></td>
+            	<td><h:inputSecret id="gesloPotrditev" value="#{regBean.registriranUporabnik.gesloPotrditev}" required="true" requiredMessage="Prosim ponovno vnesite geslo!"></h:inputSecret></td>
 			</tr>
 			<tr>
 				<td><h:outputText value="Vzdevek"></h:outputText></td>
-            	<td><h:inputText id="vzdevek" value="#{regBean.username}" required="true" requiredMessage="Prosim vnesite vzdevek!"></h:inputText></td>
+            	<td><h:inputText id="vzdevek" value="#{regBean.registriranUporabnik.vzdevek}" required="true" requiredMessage="Prosim vnesite vzdevek!"></h:inputText></td>
 			</tr>
 			<tr>
 				<td><h:outputText value="E-mail"></h:outputText></td>
-            	<td><h:inputText id="email" value="#{regBean.username}" required="true" requiredMessage="Prosim vnesite pravilen e-mail!"></h:inputText></td>
+            	<td><h:inputText id="email" value="#{regBean.registriranUporabnik.email}" required="true" requiredMessage="Prosim vnesite pravilen e-mail!"></h:inputText></td>
 			</tr>
 			
 			
 			<tr>
-				<td><h:commandButton value="Registriraj se" actionListener="#{rezervacijaSobe.rezerviraj()}" />
+				<td><h:commandButton value="Registriraj se" actionListener="#{regBean.shrani()}" />
 					<h:commandButton value="nazaj" action="nazaj" /></td>
 			</tr>
 		</table>

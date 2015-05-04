@@ -13,7 +13,7 @@ import javax.sql.DataSource;
 import dao.RegistriranUporabnikDAO;
 import beani.RegistriranUporabnik;
 
-@ManagedBean(name = "regBean")
+@ManagedBean(name = "registracija")
 @SessionScoped
 public class Registracija {
 

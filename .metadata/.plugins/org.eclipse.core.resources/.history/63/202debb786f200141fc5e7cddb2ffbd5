@@ -26,18 +26,7 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
 		<h:commandButton value="Vec.." action="vec" actionListener="#{rezervacijaSobe.kopiraj(s)}"/>
 		</h:form>
 </ui:repeat>
-<ui:repeat value="#{rezervacijaSobe.vrniZasedene()}" var="s"><br />
-		<h:graphicImage value="#{s.slika1}"/><br />
-		<b><i>ZASEDENA</i></b><br />
-		Kapaciteta sobe: <h:outputText value="#{s.kapaciteta}"/><br />
-		Cena na osebo: <h:outputText value="#{s.cena}"/>€<br />
-		<h:form>
-		<h:commandButton value="Vec.." action="vec" actionListener="#{rezervacijaSobe.kopiraj(s)}"/>
-		</h:form>
-</ui:repeat>
-<h:form>
-	<h:commandButton value="zasedene" action="zasedene"/>
-</h:form>
+
 </body>
 
 </html>

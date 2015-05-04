@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html
+xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+	<link rel="stylesheet" href="WEB-INF/../style.css" type="text/css" media="all"/>
+<head>
+
+<meta charset="UTF-8"/>
+<title>Rezervacija Sobe</title>
+</head>
+<body>
+<ui:include src="../WEB-INF/templateHeader.xhtml" />
+
+<br />
+<h1>Zasedene sobe</h1>
+
+
+<ui:repeat value="#{rezervacijaSobe.vrniZasedene()}" var="s"><br />
+		<h:graphicImage value="#{s.slika1}"/><br />
+		Kapaciteta sobe: <h:outputText value="#{s.kapaciteta}"/><br />
+		Cena na osebo: <h:outputText value="#{s.cena}"/>€<br />
+		<ui:param name="o" 
+            value="#{rezervacijaSobe.sobaOseba(s)}" />
+            -------------------------------<br />
+         Ime osebe: <h:outputText value="#{o.ime}"/><br />
+         Priimek osebe: <h:outputText value="#{o.priimek}"/><br />
+         Email osebe: <h:outputText value="#{o.email}"/><br />
+         Telefon osebe: <h:outputText value="#{o.telefon}"/><br />
+         Kartica osebe: <h:outputText value="#{o.kartica}"/><br />
+		<h:form>
+		<h:commandButton value="Sprazni Sobo" actionListener="#{rezervacijaSobe.pocisti(s)}"/>
+		</h:form>
+</ui:repeat>
+<h:form>
+	<h:commandButton value="nazaj" action="proste"/>
+</h:form>
+
+</body>
+
+</html>

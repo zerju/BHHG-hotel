@@ -32,7 +32,7 @@ List<Soba> najdene = new ArrayList<Soba>();
 		
 		try {
 			con = ds.getConnection();
-			con.createStatement().execute("create table IF NOT EXISTS soba(idSobe INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,stSobe INT,kapaciteta INT,tip VARCHAR(20),zasedena BOOLEAN, opis VARCHAR(100),cena INT,slika1 VARCHAR(256),slika2 VARCHAR(256), slika3 VARCHAR(256), slika4 VARCHAR(256),oseba_id INT,datumPrihoda VARCHAR(20), datumOdhoda VARCHAR(20),FOREIGN KEY (oseba_id) REFERENCES oseba(idOsebe))");
+			con.createStatement().execute("create table IF NOT EXISTS soba(idSobe INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,stSobe INT,kapaciteta INT,tip VARCHAR(20),zasedena BOOLEAN, opis VARCHAR(100),cena INT,slika1 VARCHAR(256),slika2 VARCHAR(256), slika3 VARCHAR(256), slika4 VARCHAR(256),oseba_id INT,datumPrihoda VARCHAR(20), datumOdhoda VARCHAR(20),FOREIGN KEY (oseba_id) REFERENCES oseba(idOsebe) ON DELETE CASCADE)");
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -98,7 +98,6 @@ List<Soba> najdene = new ArrayList<Soba>();
 				s.setSlika4(rs.getString("slika4"));
 				s.setDatumPrihoda(rs.getString("datumPrihoda"));
 				s.setDatumOdhoda(rs.getString("datumOdhoda"));
-				s.setIdOsebe(rs.getInt("oseba_id"));
 				ret.add(s);
 			}
 			rs.close();
@@ -108,55 +107,20 @@ List<Soba> najdene = new ArrayList<Soba>();
 		return ret;
 	}
 	
-	//odstrani osebo iz sobe
+	
 	public void sprazniSobo(Soba s) throws SQLException{
 		Connection con = ds.getConnection();
-
-		PreparedStatement ps2 = con.prepareStatement("SELECT oseba_id FROM soba WHERE idSobe = ?");
-		ps2.setInt(1,s.getIdSobe());
-		ResultSet rs = ps2.executeQuery();
-		int raz = 0;
-		while(rs.next()){
-			raz = rs.getInt("oseba_id");
-		}
-		con.createStatement().execute("SET foreign_key_checks = 0");
+		
 		PreparedStatement ps = con.prepareStatement("UPDATE soba SET oseba_id = ?, datumPrihoda = ?, datumOdhoda = ? WHERE idSobe = ?");
 		ps.setInt(1,0);
 		ps.setString(2,null);
-		ps.setString(3,null);
+		ps.setString(2,null);
 		ps.setInt(4, s.getIdSobe());
 		ps.executeUpdate();
 		ps.close();
-		con.createStatement().execute("SET foreign_key_checks = 1");
-		
-		PreparedStatement ps1 = con.prepareStatement("DELETE FROM oseba WHERE idOsebe = ?");
-		ps1.setInt(1, raz);
-		ps1.executeUpdate();
-		
 		con.close();
 	}
 	
-	//pridobi osebo, ki je rezervirala določeno sobo
-	public Oseba pridobiOsebo(Soba s) throws SQLException{
-		Connection con = ds.getConnection();
-		Oseba l = new Oseba();
-		PreparedStatement ps = con.prepareStatement("SELECT * FROM oseba WHERE idOsebe = ?");
-		ps.setInt(1, s.getIdOsebe());
-		ResultSet rs=ps.executeQuery();
-		while (rs.next()) {
-			l.setIdOsebe(rs.getInt("idOsebe"));
-			l.setIme(rs.getString("ime"));
-			l.setPriimek(rs.getString("priimek"));
-			l.setEmail(rs.getString("email"));
-			l.setTelefon(rs.getInt("telefon"));
-			l.setTipOsebe(rs.getString("tipOsebe"));
-			l.setKartica(rs.getString("kartica"));
-		}
-		return l;
-	}
-	
-	
-	//doda osebo v sobo
 	public void rezerviraj(Soba s,Oseba o) throws SQLException{
 		Connection con = ds.getConnection();
 		
@@ -210,7 +174,6 @@ List<Soba> najdene = new ArrayList<Soba>();
 				l.setSlika4(rs.getString("slika4"));
 				l.setDatumPrihoda(rs.getString("datumPrihoda"));
 				l.setDatumOdhoda(rs.getString("datumOdhoda"));
-				l.setIdOsebe(rs.getInt("id_oseba"));
 				najdene.add(l);
 			}
 		} finally {

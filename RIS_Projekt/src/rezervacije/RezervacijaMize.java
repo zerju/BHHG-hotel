@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import javax.annotation.Resource;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
-import javax.persistence.*;
 import javax.servlet.http.Part;
 import javax.sql.DataSource;
 
@@ -25,6 +24,7 @@ public class RezervacijaMize {
 	private ArrayList<Miza> najdeneMize = new ArrayList<Miza>();
 	private ArrayList<Miza> vse = new ArrayList<Miza>();
 	ArrayList<Miza> proste = new ArrayList<Miza>();
+	private ArrayList<Miza> zasedene = new ArrayList<Miza>();
 	
 	public void kopiraj(Miza m){
 		miza = new Miza(m);
@@ -64,6 +64,18 @@ public class RezervacijaMize {
 			}
 			
 		}return proste;
+	}
+	
+	public ArrayList<Miza> vrniZasedene() throws Exception{
+		MizaDAO dao = new MizaDAO(ds);
+		vse = (ArrayList<Miza>) dao.vrniVse();
+		zasedene.clear();
+		for(Miza m: vse){
+			if(m.getStGostov()>0){
+				zasedene.add(m);
+			}
+			
+		}return zasedene;
 	}
 	
 	
@@ -136,6 +148,16 @@ public class RezervacijaMize {
 
 	public void setProste(ArrayList<Miza> proste) {
 		this.proste = proste;
+	}
+
+
+	public ArrayList<Miza> getZasedene() {
+		return zasedene;
+	}
+
+
+	public void setZasedene(ArrayList<Miza> zasedene) {
+		this.zasedene = zasedene;
 	}
 
 	

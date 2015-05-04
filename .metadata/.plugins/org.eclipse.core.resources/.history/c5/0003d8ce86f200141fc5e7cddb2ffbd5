@@ -33,7 +33,6 @@ public class RezervacijeSobe {
 	private Part file4;
 	private ArrayList<Soba> vse = new ArrayList<Soba>();
 	private ArrayList<Soba> proste = new ArrayList<Soba>();
-	private ArrayList<Soba> zasedene = new ArrayList<Soba>();
 	private List<String> images;
 	
 	
@@ -74,24 +73,6 @@ public class RezervacijeSobe {
 		}return proste;
 	}
 	
-	public ArrayList<Soba> vrniZasedene() throws Exception{
-		SobaDAO dao = new SobaDAO(ds);
-		vse = (ArrayList<Soba>) dao.vrniVse();
-		zasedene.clear();
-		for(Soba s: vse){
-			if(s.getIdOsebe()>0){
-				System.out.println(s.getIdOsebe()+"hjehje");
-				zasedene.add(s);
-			}
-			
-		}return zasedene;
-	}
-	
-	public Oseba sobaOseba(Soba s) throws SQLException{
-		SobaDAO sdao = new SobaDAO(ds);
-		this.oseba = sdao.pridobiOsebo(s);
-		return oseba;
-	}
 	
 	
 	public void kopiraj(Soba s){
@@ -134,7 +115,7 @@ public class RezervacijeSobe {
 		soba.setIdSobe(sdao.najdiID(soba));
 		oseba.setIdOsebe(odao.najdiID(oseba));
 		sdao.rezerviraj(soba,oseba);
-		//System.out.println("----"+soba.getIdSobe()+oseba.getIdOsebe()+"-------");
+		System.out.println("----"+soba.getIdSobe()+oseba.getIdOsebe()+"-------");
 			
 		
 		
@@ -229,16 +210,6 @@ public class RezervacijeSobe {
 
 	public void setImages(List<String> images) {
 		this.images = images;
-	}
-
-
-	public ArrayList<Soba> getZasedene() {
-		return zasedene;
-	}
-
-
-	public void setZasedene(ArrayList<Soba> zasedene) {
-		this.zasedene = zasedene;
 	}
 	
 }

@@ -343,3 +343,16 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-04 17:20:57.322
 !MESSAGE Server Startup Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2015-05-04 19:57:41.730
+!MESSAGE The server "WildFly 8.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre7 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-05-04 19:57:43.017
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-05-04 19:57:45.350
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-05-04 19:57:45.885
+!MESSAGE Module RIS_Projekt on WildFly 8.x not yet fully deployed. Waiting...

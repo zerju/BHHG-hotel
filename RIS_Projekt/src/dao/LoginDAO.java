@@ -1,0 +1,42 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.sql.DataSource;
+import beani.RegistriranUporabnik;;
+
+public class LoginDAO {
+
+List<LoginDAO> najdeni = new ArrayList<LoginDAO>();
+	
+	DataSource ds;
+	
+	public List<RegistriranUporabnik> najdi(RegistriranUporabnik r, String uporabniskoIme) throws Exception {
+		
+		Connection con=ds.getConnection();
+		
+		try {
+			con=ds.getConnection();
+			
+			PreparedStatement ps = con.prepareStatement("select uporabniskoIme,geslo from registriranUporabnik where uporabniskoIme=?,geslo=?");
+			ps.setString(1, r.getUporabniskoIme());
+			ResultSet rs=ps.executeQuery();
+			while (rs.next()) {
+				RegistriranUporabnik l = new RegistriranUporabnik();
+				l.setIdUporabnika(rs.getInt("idUporabnika"));
+				l.setUporabniskoIme(rs.getString("uporabniskoIme"));
+				l.setGeslo(rs.getString("geslo"));
+				
+				najdeni.add(l);
+			}
+		} finally {
+			con.close();
+		}
+		return najdeni;
+	}
+}

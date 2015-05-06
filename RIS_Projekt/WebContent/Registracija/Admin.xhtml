@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<link rel="stylesheet" href="WEB-INF/../style.css" type="text/css"
+	media="all" />
+<head>
+<meta charset="UTF-8" />
+<title>Admin</title>
+</head>
+
+<h:body>
+    <h:form>
+        <p>Welcome #{login.user}</p>
+        <h:commandLink action="#{login.logout}" value="Logout"></h:commandLink>
+    </h:form>
+</h:body>
+</html>

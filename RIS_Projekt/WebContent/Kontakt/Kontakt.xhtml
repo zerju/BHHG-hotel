@@ -22,7 +22,7 @@
 			<th>Telefon</th><th>Email</th>
 		</tr>
 		<tr>
-			<td>+386 31 500 400</td><td>test@bhhg.com</td>
+			<td><h:outputText value="#{kontakt.kontakt.telefon}"/> </td><td><h:outputText value="#{kontakt.kontakt.email}"/></td>
 		</tr>
 		
 		<tr>
@@ -33,6 +33,8 @@
 			</td>
 		</tr>
 	</table>
+	<h:form><h:commandButton value="Uredi Email" action="urediEmail"/></h:form>
+	<h:form><h:commandButton value="Uredi telefon" action="urediTelefon"/></h:form>
 	<br/>
 	<img src="Slike/call.jpg"  />
 

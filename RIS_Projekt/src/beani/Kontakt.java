@@ -7,6 +7,16 @@ public class Kontakt {
 	private String email;
 	
 	
+
+	public Kontakt(Kontakt kontakt) {
+		
+		this.idKontakta = kontakt.getIdKontakta();
+		this.email = kontakt.getEmail();
+		this.telefon = kontakt.getTelefon();
+	}
+	
+	public Kontakt() {}
+	
 	public int getIdKontakta() {
 		return idKontakta;
 	}

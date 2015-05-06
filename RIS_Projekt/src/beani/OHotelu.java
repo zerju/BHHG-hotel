@@ -2,10 +2,17 @@ package beani;
 
 public class OHotelu {
 
+	
 	private int idHotela = 1;
 	private String opis;
-	private String slika;
 	
+	public OHotelu(OHotelu hotel) {
+		
+		this.idHotela = hotel.getIdHotela();
+		this.opis = hotel.getOpis();
+	}
+	
+	public OHotelu() {}
 	
 	public int getIdHotela() {
 		return idHotela;
@@ -19,12 +26,5 @@ public class OHotelu {
 	public void setOpis(String opis) {
 		this.opis = opis;
 	}
-	public String getSlika() {
-		return slika;
-	}
-	public void setSlika(String slika) {
-		this.slika = slika;
-	}
-	
 	
 }

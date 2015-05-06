@@ -19,7 +19,8 @@ public class OHoteluDAO {
 
 	List<OHotelu> najdena = new ArrayList<OHotelu>();
 
-	public OHoteluDAO() {
+	public OHoteluDAO(DataSource ds) {
+		this.ds = ds;
 		kreirajTabelo();
 	}
 
@@ -50,10 +51,9 @@ public class OHoteluDAO {
 		try {
 			con = ds.getConnection();
 			PreparedStatement ps = con
-					.prepareStatement("insert into hotel(idHotela,opis,slika ) values (?,?,?)");
+					.prepareStatement("insert into hotel(idHotela,opis) values (?,?)");
 			ps.setInt(1, h.getIdHotela());
 			ps.setString(2, h.getOpis());
-			ps.setString(3, h.getSlika());
 			ps.executeUpdate();
 
 		} catch (Exception e) {
@@ -63,25 +63,23 @@ public class OHoteluDAO {
 		}
 	}
 
-	public List<OHotelu> vrni() throws Exception {
-		List<OHotelu> ret = new ArrayList<OHotelu>();
+	public OHotelu vrni() throws Exception {
+		OHotelu h = new OHotelu();
 		Connection conn = null;
 		try {
 			conn = ds.getConnection();
 			ResultSet rs = conn.createStatement().executeQuery(
 					"select * from hotel");
 			while (rs.next()) {
-				OHotelu h = new OHotelu();
-				h.setIdHotela(rs.getInt("idHotela"));
+								h.setIdHotela(rs.getInt("idHotela"));
 				h.setOpis(rs.getString("opis"));
-				h.setSlika(rs.getString("slika"));
-				ret.add(h);
+				
 			}
 			rs.close();
 		} finally {
 			conn.close();
 		}
-		return ret;
+		return h;
 	}
 
 	public void posodobiOpis(OHotelu h) throws Exception {
@@ -92,20 +90,6 @@ public class OHoteluDAO {
 			PreparedStatement ps = con
 					.prepareStatement("update hotel set opis=? where idHotela=1");
 			ps.setString(1, h.getOpis());
-			ps.executeUpdate();
-		} finally {
-			con.close();
-		}
-	}
-
-	public void posodobiSliko(OHotelu h) throws Exception {
-		Connection con = ds.getConnection();
-		try {
-			con = ds.getConnection();
-
-			PreparedStatement ps = con
-					.prepareStatement("update hotel set slika=? where idHotela=1");
-			ps.setString(1, h.getSlika());
 			ps.executeUpdate();
 		} finally {
 			con.close();

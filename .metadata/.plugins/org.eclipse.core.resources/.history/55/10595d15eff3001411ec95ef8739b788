@@ -1,0 +1,50 @@
+package splosno.copy;
+
+import java.sql.SQLException;
+
+import javax.annotation.Resource;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+import javax.sql.DataSource;
+
+import dao.OHoteluDAO;
+import beani.OHotelu;
+
+
+
+
+@ManagedBean(name = "index")
+@SessionScoped
+public class Index {
+
+	@Resource(lookup="java:jboss/datasources/bhhg")
+	DataSource ds;
+	private OHotelu index = new OHotelu();
+	
+	public void shrani() throws SQLException{
+		OHoteluDAO dao = new OHoteluDAO(ds);
+		dao.shrani(index);
+	}
+	
+	public void vrni() throws Exception{
+		OHoteluDAO dao = new OHoteluDAO(ds);
+		index = dao.vrni();
+	}
+	
+	public void posodobiOpis(OHotelu index) throws Exception{
+		OHoteluDAO dao = new OHoteluDAO(ds);
+		dao.posodobiOpis(index);
+	}
+	
+	
+	
+	
+	public OHotelu getIndex() {
+		return index;
+	}
+	public void setIndex(OHotelu index) {
+		this.index = index;
+	}
+
+	
+}

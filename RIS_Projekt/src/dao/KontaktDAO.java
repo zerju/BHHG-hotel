@@ -66,25 +66,23 @@ public class KontaktDAO {
 		}
 	}
 
-	public List<Kontakt> vrni() throws Exception {
-		List<Kontakt> ret = new ArrayList<Kontakt>();
+	public Kontakt vrni() throws Exception {
+		Kontakt h = new Kontakt();
 		Connection conn = null;
 		try {
 			conn = ds.getConnection();
 			ResultSet rs = conn.createStatement().executeQuery(
 					"select * from hotel");
 			while (rs.next()) {
-				Kontakt h = new Kontakt();
 				h.setIdKontakta(rs.getInt("idKontakta"));
 				h.setTelefon(rs.getString("telefon"));
 				h.setEmail(rs.getString("email"));
-				ret.add(h);
 			}
 			rs.close();
 		} finally {
 			conn.close();
 		}
-		return ret;
+		return h;
 	}
 
 	public void posodobiTelefon(Kontakt k) throws Exception {

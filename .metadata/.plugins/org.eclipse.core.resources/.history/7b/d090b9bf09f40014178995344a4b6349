@@ -72,7 +72,7 @@ public class KontaktDAO {
 		try {
 			conn = ds.getConnection();
 			ResultSet rs = conn.createStatement().executeQuery(
-					"select * from kontakt");
+					"select * from hotel");
 			while (rs.next()) {
 				h.setIdKontakta(rs.getInt("idKontakta"));
 				h.setTelefon(rs.getString("telefon"));

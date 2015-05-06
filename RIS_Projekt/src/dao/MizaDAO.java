@@ -48,19 +48,19 @@ public class MizaDAO {
 		Connection con = ds.getConnection();
 		try {
 			con = ds.getConnection();
-				PreparedStatement ps=con.prepareStatement("insert into miza(idMize,ime,stMize,kapaciteta,posebneZahteveM,vrstaObroka,stGostov,uraPrihoda,zasedena,slika,opis,telefon ) values (?,?,?,?,?,?,?,?,?,?,?,?)");
-				ps.setInt(1, m.getId());
-				ps.setString(2, m.getIme());
-				ps.setInt(3, m.getStMize());
-				ps.setInt(4, m.getKapaciteta());
-				ps.setString(5, m.getPosebneZahteveM());
-				ps.setString(6, m.getVrstaObroka());
-				ps.setDouble(7, m.getStGostov());
-				ps.setString(8, m.getUraPrihoda());
-				ps.setBoolean(9, m.isZasedena());
-				ps.setString(10,m.getSlika());
-				ps.setString(11, m.getOpis());
-				ps.setInt(12,m.getTelefon());
+				PreparedStatement ps=con.prepareStatement("insert into miza(ime,stMize,kapaciteta,posebneZahteveM,vrstaObroka,stGostov,uraPrihoda,zasedena,slika,opis,telefon ) values (?,?,?,?,?,?,?,?,?,?,?)");
+				//ps.setInt(1, m.getId());
+				ps.setString(1, m.getIme());
+				ps.setInt(2, m.getStMize());
+				ps.setInt(3, m.getKapaciteta());
+				ps.setString(4, m.getPosebneZahteveM());
+				ps.setString(5, m.getVrstaObroka());
+				ps.setDouble(6, m.getStGostov());
+				ps.setString(7, m.getUraPrihoda());
+				ps.setBoolean(8, m.isZasedena());
+				ps.setString(9,m.getSlika());
+				ps.setString(10, m.getOpis());
+				ps.setInt(11,m.getTelefon());
 				ps.executeUpdate();
 			
 		} catch (Exception e) {

@@ -19,17 +19,28 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
 <h:form>
 		<h:commandButton value="Dodaj mizo" action="dodajMizo"/>
 		</h:form>
-Proste
+		<br />
 <ui:repeat value="#{rezervacijaMize.vrniProste()}" var="miza">
 
-<h:graphicImage value="#{miza.slika}" height="150" width="150"/><br />
+<h:graphicImage value="#{miza.slika}" height="250" width="250"/><br />
 - Število oseb: <h:outputText value="#{miza.kapaciteta}"/><br />
 -<h:outputText value="#{miza.opis}"/><br />
 <h:form><h:commandButton value="Rezerviraj Mizo" actionListener="#{rezervacijaMize.kopiraj(miza)}" action="rezervirajMizo"/>
-	<h:commandButton value="zasedene" action="zasedene"/>
+	<br /><br />
 </h:form>
 </ui:repeat>
 
+<ui:repeat value="#{rezervacijaMize.vrniZasedene()}" var="miza">
+
+<h:graphicImage value="#{miza.slika}" height="250" width="250"/><br />
+- Število oseb: <h:outputText value="#{miza.kapaciteta}"/><br />
+-<h:outputText value="#{miza.opis}"/><br />
+<b><i>ZASEDENA</i></b><br />
+<h:form><h:commandButton value="Rezerviraj Mizo" actionListener="#{rezervacijaMize.kopiraj(miza)}" action="rezervirajMizo"/>
+	<br /><br />
+</h:form>
+</ui:repeat>
+<h:form><h:commandButton value="zasedene" action="zasedene"/></h:form><br /><br />
 </body>
 
 </html>

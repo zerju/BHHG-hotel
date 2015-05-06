@@ -144,7 +144,7 @@
 		<display-name>Rezervacije/ZasedeneSobe.xhtml</display-name>
 		<from-view-id>/Rezervacije/ZasedeneSobe.xhtml</from-view-id>
 		<navigation-case>
-			<from-outcome>zasedene</from-outcome>
+			<from-outcome>proste</from-outcome>
 			<to-view-id>/Rezervacije/RezervacijeSob.xhtml</to-view-id>
 		</navigation-case>
 	</navigation-rule>
@@ -152,7 +152,7 @@
 		<display-name>Rezervacije/RezervacijeSob.xhtml</display-name>
 		<from-view-id>/Rezervacije/RezervacijeSob.xhtml</from-view-id>
 		<navigation-case>
-			<from-outcome>proste</from-outcome>
+			<from-outcome>zasedene</from-outcome>
 			<to-view-id>/Rezervacije/ZasedeneSobe.xhtml</to-view-id>
 		</navigation-case>
 	</navigation-rule>

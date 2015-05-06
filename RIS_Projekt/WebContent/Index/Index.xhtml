@@ -21,10 +21,12 @@
 
 	<table align="center">
 		<tr>
-			<td><h:outputText value="#{index.index.opis}"/></td> <td><img src="Slike/hotel2.jpg" width="500" /></td>		
+		<ui:param name="totiIndex" 
+            value="#{index.vrni()}" />
+			<td><h:outputText value="#{totiIndex.opis}"/></td> <td><img src="Slike/hotel2.jpg" width="500" /></td>		
 		</tr>
 		<tr>
-			<td><img src="Slike/hotel.jpg" /></td>
+			<td><img src="Slike/hotel.jpg" /></td><td><h:outputText value="#{totiIndex.opis2}" /></td>
 		</tr>
 	</table>
 	<h:form><h:commandButton value="Uredi" action="urediOpis"/></h:form>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html 
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+<head>
+
+<meta charset="UTF-8" />
+<title>Domov</title>
+</head>
+<body>
+	<ui:include src="../WEB-INF/templateHeader.xhtml" />
+	<br />
+
+
+	<h1>Domov</h1>
+
+
+
+	<table align="center">
+		<tr>
+			<td><h:inputTextarea value="#{index.index.opis}" /> </td><td><img src="Slike/hotel2.jpg" width="500" /></td>		
+		</tr>
+		<tr>
+			<td><img src="Slike/hotel.jpg" /></td>
+		</tr>
+	</table>
+	<h:form><h:commandButton value="Shrani" action="index" actionListener="#{index.posodobiOpis()}"/></h:form>
+</body>
+
+</html>

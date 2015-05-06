@@ -16,13 +16,14 @@
 
 
 	<h1>Kontakt</h1>
-
+	<ui:param name="kontaktiraj" 
+            value="#{kontakt.vrni()}" />
 	<table align="center" border="1">
 		<tr>
 			<th>Telefon</th><th>Email</th>
 		</tr>
 		<tr>
-			<td><h:outputText value="#{kontakt.kontakt.telefon}"/> </td><td><h:outputText value="#{kontakt.kontakt.email}"/></td>
+			<td><h:outputText value="#{kontaktiraj.telefon}"/> </td><td><h:outputText value="#{kontaktiraj.email}"/></td>
 		</tr>
 		
 		<tr>

@@ -91,8 +91,9 @@ public class KontaktDAO {
 			con = ds.getConnection();
 
 			PreparedStatement ps = con
-					.prepareStatement("update kontakt set telefon=? where idKontakta=1");
+					.prepareStatement("UPDATE kontakt SET telefon=? WHERE idKontakta=1");
 			ps.setString(1, k.getTelefon());
+			System.out.println(k.getTelefon());
 			ps.executeUpdate();
 		} finally {
 			con.close();

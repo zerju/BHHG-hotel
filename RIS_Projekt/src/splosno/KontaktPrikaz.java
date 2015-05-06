@@ -22,33 +22,34 @@ public class KontaktPrikaz {
 
 	@Resource(lookup="java:jboss/datasources/bhhg")
 	DataSource ds;
-	private Kontakt kontakt = new Kontakt();
+	private Kontakt kontakt1 = new Kontakt();
 	
-	public Kontakt getKontakt() {
-		return kontakt;
+	public Kontakt getKontakt1() {
+		return kontakt1;
 	}
 
-	public void setKontakt(Kontakt kontakt) {
-		this.kontakt = kontakt;
+	public void setKontakt1(Kontakt kontakt1) {
+		this.kontakt1 = kontakt1;
 	}
 
 	public void shrani() throws SQLException{
 		KontaktDAO dao = new KontaktDAO(ds);
-		dao.shrani(kontakt);
+		dao.shrani(kontakt1);
 	}
 	
-	public void vrni() throws Exception{
+	public Kontakt vrni() throws Exception{
 		KontaktDAO dao = new KontaktDAO(ds);
-		kontakt = dao.vrni();
+		kontakt1 = dao.vrni();
+		return kontakt1;
 	}
 	
-	public void posodobiTelefon(Kontakt kontakt) throws Exception{
+	public void posodobiTelefon() throws Exception{
 		KontaktDAO dao = new KontaktDAO(ds);
-		dao.posodobiTelefon(kontakt);
+		dao.posodobiTelefon(kontakt1);
 	}
-	public void posodobiEmail(Kontakt kontakt) throws Exception{
+	public void posodobiEmail() throws Exception{
 		KontaktDAO dao = new KontaktDAO(ds);
-		dao.posodobiEmail(kontakt);
+		dao.posodobiEmail(kontakt1);
 	}
 	
 

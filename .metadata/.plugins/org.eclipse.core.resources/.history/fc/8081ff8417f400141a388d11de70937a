@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html 
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+<head>
+
+<meta charset="UTF-8" />
+<title>Kontakt</title>
+</head>
+<body>
+	<ui:include src="../WEB-INF/templateHeader.xhtml" />
+	<br />
+
+
+	<h1>Kontakt</h1>
+
+	<table align="center" border="1">
+		<tr>
+			<th>Telefon</th><th>Email</th>
+		</tr>
+		<tr>
+			<td><h:outputText value="#{kontakt.kontakt1.telefon}"/></td><td><h:inputText value="#{kontakt.kontakt1.email}"/> </td>
+		</tr>
+		
+		<tr>
+			<td colspan = "2">
+			Za kakršne koli informacije o hotelu, vprašanju o vaši rezervaciji sobe ali
+			mize nam lahko pišete na zgoraj napisani elektronski naslov, ali pa pokličete
+			naš center za pomoč uporabnikom na zgoraj napisano telefonsko številko.
+			</td>
+		</tr>
+	</table>
+	<h:form><h:commandButton value="Shrani" action="kontakt" actionListener="kontakt.posodobiEmail()"/></h:form>
+	
+	<br/>
+	<img src="Slike/call.jpg"  />
+
+</body>
+
+</html>

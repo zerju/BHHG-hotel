@@ -26,12 +26,13 @@ public class Index {
 		dao.shrani(index);
 	}
 	
-	public void vrni() throws Exception{
+	public OHotelu vrni() throws Exception{
 		OHoteluDAO dao = new OHoteluDAO(ds);
 		index = dao.vrni();
+		return index;
 	}
 	
-	public void posodobiOpis(OHotelu index) throws Exception{
+	public void posodobiOpis() throws Exception{
 		OHoteluDAO dao = new OHoteluDAO(ds);
 		dao.posodobiOpis(index);
 	}

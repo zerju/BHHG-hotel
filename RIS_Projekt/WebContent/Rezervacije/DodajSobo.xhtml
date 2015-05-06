@@ -23,7 +23,7 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
 	<h:inputFile value="#{rezervacijaSobe.file2}"/><br /><br />
 	<h:inputFile value="#{rezervacijaSobe.file3}"/><br /><br />
 	<h:inputFile value="#{rezervacijaSobe.file4}"/><br /><br />
-	<h:commandButton value="prekliči"/><h:commandButton value="shrani" actionListener="#{rezervacijaSobe.shrani()}"/>
+	<h:commandButton value="prekliči" action ="vseSobe"/><h:commandButton value="shrani" action ="vseSobe" actionListener="#{rezervacijaSobe.shrani()}"/>
 </h:form>
 </body>
 

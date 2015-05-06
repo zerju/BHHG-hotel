@@ -16,7 +16,9 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
 
 
 <h1>Rezervacija miz</h1>
-
+<h:form>
+		<h:commandButton value="Dodaj mizo" action="dodajMizo"/>
+		</h:form>
 Proste
 <ui:repeat value="#{rezervacijaMize.vrniProste()}" var="miza">
 

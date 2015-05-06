@@ -31,7 +31,7 @@ public class OHoteluDAO {
 			con = ds.getConnection();
 			con.createStatement()
 					.execute(
-							"create table IF NOT EXISTS hotel(idHotela INT PRIMARY KEY,opis VARCHAR(512),slika VARCHAR(100))");
+							"create table IF NOT EXISTS hotel(idHotela INT PRIMARY KEY,opis VARCHAR(512),opis2 VARCHAR(512))");
 
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -51,9 +51,10 @@ public class OHoteluDAO {
 		try {
 			con = ds.getConnection();
 			PreparedStatement ps = con
-					.prepareStatement("insert into hotel(idHotela,opis) values (?,?)");
+					.prepareStatement("insert into hotel(idHotela,opis,opis2) values (?,?,?)");
 			ps.setInt(1, h.getIdHotela());
 			ps.setString(2, h.getOpis());
+			ps.setString(3,h.getOpis2());
 			ps.executeUpdate();
 
 		} catch (Exception e) {
@@ -71,8 +72,9 @@ public class OHoteluDAO {
 			ResultSet rs = conn.createStatement().executeQuery(
 					"select * from hotel");
 			while (rs.next()) {
-								h.setIdHotela(rs.getInt("idHotela"));
+				h.setIdHotela(rs.getInt("idHotela"));
 				h.setOpis(rs.getString("opis"));
+				h.setOpis2(rs.getString("opis2"));
 				
 			}
 			rs.close();
@@ -88,8 +90,9 @@ public class OHoteluDAO {
 			con = ds.getConnection();
 
 			PreparedStatement ps = con
-					.prepareStatement("update hotel set opis=? where idHotela=1");
+					.prepareStatement("update hotel set opis=?,opis2=? where idHotela=1");
 			ps.setString(1, h.getOpis());
+			ps.setString(2,h.getOpis2());
 			ps.executeUpdate();
 		} finally {
 			con.close();

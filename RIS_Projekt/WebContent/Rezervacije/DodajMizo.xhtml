@@ -17,7 +17,7 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
 	Kapaciteta: <h:inputText id="kapaciteta" value="#{rezervacijaMize.miza.kapaciteta}"/><br />
 	Opis: <h:inputTextarea id="opis" value="#{rezervacijaMize.miza.opis}"/><br />
 	<h:inputFile value="#{rezervacijaMize.file}"/><br /><br />
-	<h:commandButton value="prekliči"/><h:commandButton value="shrani" actionListener="#{rezervacijaMize.shrani()}"/>
+	<h:commandButton value="prekliči" action ="vseMize"/><h:commandButton value="shrani" action ="vseMize" actionListener="#{rezervacijaMize.shrani()}"/>
 </h:form>
 </body>
 

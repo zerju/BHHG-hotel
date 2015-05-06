@@ -15,7 +15,9 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
 
 <br />
 <h1>Rezervacija sob</h1>
-
+<h:form>
+		<h:commandButton value="Dodaj sobo" action="dodajSobo"/>
+		</h:form>
 
 <ui:repeat value="#{rezervacijaSobe.vrniProste()}" var="s"><br />
 		<h:graphicImage value="#{s.slika1}"/><br />

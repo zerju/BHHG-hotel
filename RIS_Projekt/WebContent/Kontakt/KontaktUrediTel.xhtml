@@ -16,13 +16,13 @@
 
 
 	<h1>Kontakt</h1>
-
+<h:form>
 	<table align="center" border="1">
 		<tr>
 			<th>Telefon</th><th>Email</th>
 		</tr>
 		<tr>
-			<td><h:inputText value="#{kontakt.kontakt.telefon}"/></td><td><h:outputText value="#{kontakt.kontakt.email}"/></td>
+			<td><h:inputText value="#{kontakt.kontakt1.telefon}"/></td><td><h:outputText value="#{kontakt.kontakt1.email}"/></td>
 		</tr>
 		
 		<tr>
@@ -33,7 +33,7 @@
 			</td>
 		</tr>
 	</table>
-	<h:form><h:commandButton value="Shrani" action="kontakt" actionListener="kontakt.posodobiTelefon()"/></h:form>
+	<h:commandButton value="Shrani" action="kontakt" actionListener="#{kontakt.posodobiTelefon()}"/></h:form>
 	<br/>
 	<img src="Slike/call.jpg"  />
 

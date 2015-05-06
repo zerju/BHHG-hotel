@@ -188,5 +188,37 @@
 			<to-view-id>/Index/Index.xhtml</to-view-id>
 		</navigation-case>
 	</navigation-rule>
+	<navigation-rule>
+		<display-name>Rezervacije/DodajMizo.xhtml</display-name>
+		<from-view-id>/Rezervacije/DodajMizo.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>vseMize</from-outcome>
+			<to-view-id>/Rezervacije/RezervacijeMiz.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>Rezervacije/RezervacijeMiz.xhtml</display-name>
+		<from-view-id>/Rezervacije/RezervacijeMiz.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>dodajMizo</from-outcome>
+			<to-view-id>/Rezervacije/DodajMizo.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>Rezervacije/RezervacijeSob.xhtml</display-name>
+		<from-view-id>/Rezervacije/RezervacijeSob.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>dodajSobo</from-outcome>
+			<to-view-id>/Rezervacije/DodajSobo.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>Rezervacije/DodajSobo.xhtml</display-name>
+		<from-view-id>/Rezervacije/DodajSobo.xhtml</from-view-id>
+		<navigation-case>
+			<from-outcome>vseSobe</from-outcome>
+			<to-view-id>/Rezervacije/RezervacijeSob.xhtml</to-view-id>
+		</navigation-case>
+	</navigation-rule>
 
 </faces-config>

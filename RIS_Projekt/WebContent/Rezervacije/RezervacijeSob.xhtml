@@ -18,24 +18,24 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
 <h:form>
 		<h:commandButton value="Dodaj sobo" action="dodajSobo"/>
 		</h:form>
-
+<br />
 <ui:repeat value="#{rezervacijaSobe.vrniProste()}" var="s"><br />
-		<h:graphicImage value="#{s.slika1}"/><br />
+		<h:graphicImage value="#{s.slika1}" height="200" widht="200"/><br />
 		Kapaciteta sobe: <h:outputText value="#{s.kapaciteta}"/><br />
 		Cena na osebo: <h:outputText value="#{s.cena}"/>€<br />
 		<h:form>
 		<h:commandButton value="Rezerviraj Sobo" action="rezerviraj" actionListener="#{rezervacijaSobe.kopiraj(s)}"/>
 		<h:commandButton value="Vec.." action="vec" actionListener="#{rezervacijaSobe.kopiraj(s)}"/>
-		</h:form>
+		</h:form><br />
 </ui:repeat>
 <ui:repeat value="#{rezervacijaSobe.vrniZasedene()}" var="s"><br />
-		<h:graphicImage value="#{s.slika1}"/><br />
+		<h:graphicImage value="#{s.slika1}" height="200" widht="200"/><br />
 		<b><i>ZASEDENA</i></b><br />
 		Kapaciteta sobe: <h:outputText value="#{s.kapaciteta}"/><br />
 		Cena na osebo: <h:outputText value="#{s.cena}"/>€<br />
 		<h:form>
 		<h:commandButton value="Vec.." action="vec" actionListener="#{rezervacijaSobe.kopiraj(s)}"/>
-		</h:form>
+		</h:form><br />
 </ui:repeat>
 <h:form>
 	<h:commandButton value="zasedene" action="zasedene"/>

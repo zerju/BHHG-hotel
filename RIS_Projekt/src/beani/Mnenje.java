@@ -4,7 +4,7 @@ package beani;
 public class Mnenje {
 	
 	private int idMnenja;
-	private Oseba oseba;
+	private int idUporabnika;
 	private int sumOcena;
 	private int ocenaStoritev;
 	private int ocenaLokacije;
@@ -12,7 +12,6 @@ public class Mnenje {
 	private String vsebina;
 	private String vrstaIzleta;
 	private String letniCas;
-	private String osebaString;
 	
 	
 	public int getIdMnenja() {
@@ -21,11 +20,11 @@ public class Mnenje {
 	public void setIdMnenja(int idMnenja) {
 		this.idMnenja = idMnenja;
 	}
-	public Oseba getOseba() {
-		return oseba;
+	public int getIdUporabnika() {
+		return idUporabnika;
 	}
-	public void setOseba(Oseba oseba) {
-		this.oseba = oseba;
+	public void setIdUporabnika(int idUporabnika) {
+		this.idUporabnika = idUporabnika;
 	}
 	public int getSumOcena() {
 		return sumOcena;
@@ -68,11 +67,5 @@ public class Mnenje {
 	}
 	public void setLetniCas(String letniCas) {
 		this.letniCas = letniCas;
-	}
-	public String getOsebaString() {
-		return osebaString;
-	}
-	public void setOsebaString(String osebaString) {
-		this.osebaString = osebaString;
 	}
 }

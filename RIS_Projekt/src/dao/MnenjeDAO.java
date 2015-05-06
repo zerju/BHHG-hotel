@@ -28,7 +28,7 @@ public class MnenjeDAO {
 		
 		try {
 			con = ds.getConnection();
-			con.createStatement().execute("create table IF NOT EXISTS mnenje(idMnenja INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,oseba VARCHAR(50),sumOcena INT,ocenaStoritev INT,ocenaLokacije INT, naslov VARCHAR(30),vsebina VARCHAR(300),vrstaIzleta VARCHAR(20),letniCas VARCHAR(10) )");
+			con.createStatement().execute("create table IF NOT EXISTS mnenje(idMnenja INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,FOREIGN KEY (uporabnik) REFERENCES registriranUporabnik(idUporabnika),sumOcena INT,ocenaStoritev INT,ocenaLokacije INT,naslov VARCHAR(30),vsebina VARCHAR(500),vrstaIzleta VARCHAR(30),letniCas VARCHAR(20))");
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -48,9 +48,9 @@ public class MnenjeDAO {
 		Connection con = ds.getConnection();
 		try {
 			con = ds.getConnection();
-				PreparedStatement ps=con.prepareStatement("insert into mnenje(idMnenja,oseba,sumOcena,ocenaStoritev,ocenaLokacije,naslov,vsebina,vrstaIzleta,LetniCas ) values (?,?,?,?,?,?,?,?,?)");
+				PreparedStatement ps=con.prepareStatement("insert into mnenje(idMnenja,registriranUporabnik,sumOcena,ocenaStoritev,ocenaLokacije,naslov,vsebina,vrstaIzleta,letniCas) values (?,?,?,?,?,?,?,?,?)");
 				ps.setInt(1, m.getIdMnenja());
-				ps.setString(2, m.getOsebaString());
+				ps.setInt(2, m.getIdUporabnika());
 				ps.setInt(3, m.getSumOcena());
 				ps.setInt(4, m.getOcenaStoritev());
 				ps.setInt(5,m.getOcenaLokacije());
@@ -78,7 +78,7 @@ public class MnenjeDAO {
 			while (rs.next()) {
 				Mnenje m =new Mnenje();
 				m.setIdMnenja(rs.getInt("idMnenja"));
-				m.setOsebaString(rs.getString("oseba"));
+				m.setIdUporabnika(rs.getInt("idUporabnika"));
 				m.setSumOcena(rs.getInt("sumOcena"));
 				m.setOcenaStoritev(rs.getInt("ocenaStoritev"));
 				m.setOcenaLokacije(rs.getInt("ocenaLokacije"));
@@ -113,7 +113,7 @@ public class MnenjeDAO {
 			while (rs.next()) {
 				Mnenje l = new Mnenje();
 				l.setIdMnenja(rs.getInt("idMnenja"));
-				l.setOsebaString(rs.getString("oseba"));
+				l.setIdUporabnika(rs.getInt("idUporabnika"));
 				l.setSumOcena(rs.getInt("sumOcena"));
 				l.setOcenaStoritev(rs.getInt("ocenaStoritev"));
 				l.setOcenaLokacije(rs.getInt("ocenaLokacije"));

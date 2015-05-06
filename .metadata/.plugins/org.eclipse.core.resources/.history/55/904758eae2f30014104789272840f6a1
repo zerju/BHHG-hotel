@@ -16,7 +16,7 @@ public class LoginDAO {
 		this.ds = ds;
 	}
 
-	public boolean validacija(RegistriranUporabnik r, String uporabniskoIme, String geslo) throws Exception {
+	public static boolean validacija(RegistriranUporabnik r, String uporabniskoIme, String geslo) throws Exception {
 
 		Connection con = ds.getConnection();
 

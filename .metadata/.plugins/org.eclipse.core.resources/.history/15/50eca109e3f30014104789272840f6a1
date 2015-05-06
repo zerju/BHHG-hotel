@@ -1,0 +1,63 @@
+
+package registracija;
+import java.io.IOException; 
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import javax.annotation.Resource;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+import javax.faces.context.FacesContext;
+import javax.servlet.http.HttpSession;
+import javax.servlet.http.Part;
+import javax.sql.DataSource;
+
+import org.jboss.security.auth.spi.Users.User;
+
+import dao.LoginDAO;
+import dao.RegistriranUporabnikDAO;
+import beani.Login;
+import beani.RegistriranUporabnik;
+
+@ManagedBean(name = "login")
+@SessionScoped
+
+public class Prijava {
+	@Resource(lookup = "java:jboss/datasources/bhhg")
+	DataSource ds;
+
+	
+	public Login user = new Login();
+	public RegistriranUporabnik uporabnik = new RegistriranUporabnik();
+	
+	
+	
+	public String validiramo() {
+		
+        boolean valid = LoginDAO.validacija(uporabnik,user.getUsername(),user.getPassword());
+        if (valid) {
+            HttpSession session = SessionBean.getSession();
+            session.setAttribute("username", user);
+            return "admin";
+        } else {
+            FacesContext.getCurrentInstance().addMessage(
+                    null,
+                    new FacesMessage(FacesMessage.SEVERITY_WARN,
+                            "Incorrect Username and Passowrd",
+                            "Please enter correct username and Password"));
+            return "login";
+        }
+    }
+ 
+    //logout event, invalidate session
+    public String logout() {
+        HttpSession session = SessionBean.getSession();
+        session.invalidate();
+        return "login";
+    }
+	
+}
+
+	
+
+

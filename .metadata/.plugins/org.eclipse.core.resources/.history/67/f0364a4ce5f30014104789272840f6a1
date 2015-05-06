@@ -17,7 +17,7 @@
 		<table align="center">
 			<tr>
 				<td><h:outputText value="Uporabniško ime"></h:outputText></td>
-            	<td><h:inputText id="username" value="#{login.user.username}"></h:inputText></td>
+            	<td><h:inputText id="username" value="#{login.Login.username}"></h:inputText></td>
 			</tr>
 			<tr>
 				<td><h:outputText value="Geslo"></h:outputText></td>

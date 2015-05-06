@@ -1,17 +1,14 @@
 package beani;
 
+import registracija.Login;
+
 public class Login {
 
 	
 	private String username;
 	private String password;
 	
-	public Login(){}
-	
-	public Login (Login user){
-		this.username=user.getUsername();
-		this.password=user.getPassword();
-	}
+	private Login user = new Login();
 	
 	public String getUsername() {
 		return username;

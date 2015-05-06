@@ -4,11 +4,15 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.sql.DataSource;
 import beani.RegistriranUporabnik;;
 
 public class LoginDAO {
+
+	List<LoginDAO> najdeni = new ArrayList<LoginDAO>();
 
 	DataSource ds;
 
@@ -23,7 +27,8 @@ public class LoginDAO {
 		try {
 			con = ds.getConnection();
 
-			PreparedStatement ps = con.prepareStatement("select uporabniskoIme,geslo from registriranUporabnik where uporabniskoIme=?,geslo=?");
+			PreparedStatement ps = con.prepareStatement(
+					"select uporabniskoIme,geslo from registriranUporabnik where uporabniskoIme=?,geslo=?");
 			ps.setString(1, r.getUporabniskoIme());
 			ps.setString(2, r.getGeslo());
 			ResultSet rs = ps.executeQuery();

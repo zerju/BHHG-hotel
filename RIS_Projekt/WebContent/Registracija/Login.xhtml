@@ -23,11 +23,9 @@
             	<td><h:inputSecret id="geslo" value="#{login.user.password}"></h:inputSecret></td>
 			</tr>
 			
-			
-			
 			<tr>
-				<td><h:commandButton value="Prijavi se" actionListener="#{login.validiramo()}" action="index.xhtml" />
-					<h:commandButton value="nazaj" action="nazaj" /></td>
+				<td><h:commandButton value="Prijavi se" actionListener="#{login.validiramo()}" action="toIndex" />
+					<h:commandButton value="Nazaj" action="nazaj" /></td>
 			</tr>
 		</table>
 	</h:form>

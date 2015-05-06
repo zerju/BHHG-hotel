@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<link rel="stylesheet" href="WEB-INF/../style.css" type="text/css"
+	media="all" />
+<head>
+<meta charset="UTF-8" />
+<title>Mnenje</title>
+</head>
+
+<body>
+	<ui:include src="../WEB-INF/templateHeader.xhtml" />
+	<br />
+	<h1>Mnenje</h1>
+	<h:form>
+		<table align="center">
+			<tr>
+				<h:outputText value="Skupna ocena"></h:outputText>
+			</tr>
+			<tr>
+				<h:selectOneRadio value="#{}">
+					<f:selectItem itemValue="Zelo slabo" itemLabel="Zelo slabo" />
+					<f:selectItem itemValue="Slabo" itemLabel="Slabo" />
+					<f:selectItem itemValue="Dobro" itemLabel="Dobro" />
+					<f:selectItem itemValue="Zelo dobro" itemLabel="Zelo dobro" />
+					<f:selectItem itemValue="Odlično" itemLabel="Odlično" />
+				</h:selectOneRadio>
+			</tr>
+
+
+			<tr>
+				<h:outputText value="Naslov mnenja"></h:outputText>
+			</tr>
+			<tr>
+				<h:inputText value="#{}"></h:inputText>
+			</tr>
+
+			<tr>
+				<h:outputText value="Mnenje"></h:outputText></tr>
+            	<tr><h:inputTextarea value="#{}"></h:inputTextarea></tr>
+			
+			<tr>
+			
+			
+			<tr>
+				<h:outputText value="Katera vrsta izleta?"></h:outputText>
+			</tr>
+			<tr>
+				<h:selectOneRadio value="#{}">
+					<f:selectItem itemValue="Poslovni" itemLabel="Poslovni" />
+					<f:selectItem itemValue="V paru" itemLabel="V paru" />
+					<f:selectItem itemValue="Družinski" itemLabel="Družinski" />
+					<f:selectItem itemValue="Prijateljski" itemLabel="Prijateljski" />
+					<f:selectItem itemValue="Zasebni" itemLabel="Zasebni" />
+				</h:selectOneRadio>
+			</tr>
+			
+			
+			<tr>
+				<h:outputText value="Kdaj ste potovali?"></h:outputText>
+			</tr>
+			<tr>
+				<h:selectOneMenu value="#{}">
+					<f:selectItem itemValue="Pozimi" itemLabel="Pozimi" />
+					<f:selectItem itemValue="Spomladi" itemLabel="Spomladi" />
+					<f:selectItem itemValue="Poleti" itemLabel="Poleti" />
+					<f:selectItem itemValue="Jeseni" itemLabel="Jeseni" />
+					<f:selectItem itemValue="Novo leto" itemLabel="Novo leto" />
+				</h:selectOneRadio>
+			</tr>
+			
+			
+			<tr>
+				<h:outputText value="Ocene hotela"></h:outputText>
+			</tr>
+			
+			<tr>
+				<h:outputText value="Storitve"></h:outputText>
+			</tr>
+			<tr>
+				<h:selectOneRadio value="#{}">
+					<f:selectItem itemValue="Zelo slabo" itemLabel="Zelo slabo" />
+					<f:selectItem itemValue="Slabo" itemLabel="Slabo" />
+					<f:selectItem itemValue="Dobro" itemLabel="Dobro" />
+					<f:selectItem itemValue="Zelo dobro" itemLabel="Zelo dobro" />
+					<f:selectItem itemValue="Odlično" itemLabel="Odlično" />
+				</h:selectOneRadio>
+			</tr>
+			
+			<tr>
+				<h:outputText value="Sobe"></h:outputText>
+			</tr>
+			<tr>
+				<h:selectOneRadio value="#{}">
+					<f:selectItem itemValue="Zelo slabo" itemLabel="Zelo slabo" />
+					<f:selectItem itemValue="Slabo" itemLabel="Slabo" />
+					<f:selectItem itemValue="Dobro" itemLabel="Dobro" />
+					<f:selectItem itemValue="Zelo dobro" itemLabel="Zelo dobro" />
+					<f:selectItem itemValue="Odlično" itemLabel="Odlično" />
+				</h:selectOneRadio>
+			</tr>
+			
+			<tr>
+				<h:outputText value="Lokacija"></h:outputText>
+			</tr>
+			<tr>
+				<h:selectOneRadio value="#{}">
+					<f:selectItem itemValue="Zelo slabo" itemLabel="Zelo slabo" />
+					<f:selectItem itemValue="Slabo" itemLabel="Slabo" />
+					<f:selectItem itemValue="Dobro" itemLabel="Dobro" />
+					<f:selectItem itemValue="Zelo dobro" itemLabel="Zelo dobro" />
+					<f:selectItem itemValue="Odlično" itemLabel="Odlično" />
+				</h:selectOneRadio>
+			</tr>
+			
+			
+			<tr>
+				<td><h:commandButton value="Objavi mnenje" actionListener="#{}" />
+					<h:commandButton value="Nazaj" action="nazaj" /></td>
+			</tr>
+		</table>
+	</h:form>
+</body>
+</html>

@@ -104,9 +104,9 @@ public class RezervacijeSobe {
 		OsebaDAO oseba = new OsebaDAO(ds);
 		SobaDAO dao = new SobaDAO(ds);
 		file1.write("C:/Users/Jure/Documents/GitHub/BHHG-hotel/RIS_Projekt/WebContent/Rezervacije/Slike/"+getFilename(file1));
-		file2.write("C:/Users/Jure/Documents/GitHub/BHHG-hotel/RIS_Projekt/WebContent/Rezervacije/Slike/"+getFilename(file1));
-		file3.write("C:/Users/Jure/Documents/GitHub/BHHG-hotel/RIS_Projekt/WebContent/Rezervacije/Slike/"+getFilename(file1));
-		file4.write("C:/Users/Jure/Documents/GitHub/BHHG-hotel/RIS_Projekt/WebContent/Rezervacije/Slike/"+getFilename(file1));
+		file2.write("C:/Users/Jure/Documents/GitHub/BHHG-hotel/RIS_Projekt/WebContent/Rezervacije/Slike/"+getFilename(file2));
+		file3.write("C:/Users/Jure/Documents/GitHub/BHHG-hotel/RIS_Projekt/WebContent/Rezervacije/Slike/"+getFilename(file3));
+		file4.write("C:/Users/Jure/Documents/GitHub/BHHG-hotel/RIS_Projekt/WebContent/Rezervacije/Slike/"+getFilename(file4));
 		
 		String potSlike1 = "../Rezervacije/Slike/"+getFilename(file1);
 		String potSlike2 = "../Rezervacije/Slike/"+getFilename(file2);

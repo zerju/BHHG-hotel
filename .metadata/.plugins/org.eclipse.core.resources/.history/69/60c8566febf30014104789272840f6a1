@@ -37,7 +37,7 @@ public class FilterAvtorizacije implements Filter {
 					|| reqURI.indexOf("/public/") >= 0 || reqURI.contains("javax.faces.resource"))
 				chain.doFilter(request, response);
 			else
-				resp.sendRedirect(reqt.getContextPath() + "/faces/Login.xhtml");
+				resp.sendRedirect(reqt.getContextPath() + "/faces/login.xhtml");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}

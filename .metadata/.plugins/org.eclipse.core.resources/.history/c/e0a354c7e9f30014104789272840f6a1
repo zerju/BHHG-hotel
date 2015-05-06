@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" comment="" id="pf14290436871090" configfile="/RIS_Projekt/WebContent/WEB-INF/faces-config.xml">
-  <nodes xsi:type="pageflow:PFPage" name="Rezervacije/RezervacijeSob.xhtml" x="261" y="209" id="pf14290439749184" referenceLink="//@navigationRule.10/@navigationCase.0/@toViewId|" outlinks="pf14290439749185 pf14290458645008" inlinks="pf14290448182647 pf14306592879130" path="/Rezervacije/RezervacijeSob.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="Rezervacije/SobaPodrobno.xhtml" x="588" y="372" id="pf14290439749186" referenceLink="//@navigationRule.9/@navigationCase.0/@toViewId|" outlinks="pf14290448182647 pf14290458645009" inlinks="pf14290439749185 pf14306592879131" path="/Rezervacije/SobaPodrobno.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="Rezervacije/Rezervacija.xhtml" x="672" y="156" id="pf142904586450010" referenceLink="//@navigationRule.10/@fromViewId|" outlinks="pf14306592879131 pf14306592879130" inlinks="pf14290458645009 pf14290458645008" path="/Rezervacije/Rezervacija.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Rezervacije/RezervacijeSob.xhtml" x="261" y="209" id="pf14290439749184" referenceLink="//@navigationRule.3/@fromViewId|" outlinks="pf14290439749185 pf14290458645008" inlinks="pf14290448182647 pf14306592879130" path="/Rezervacije/RezervacijeSob.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Rezervacije/SobaPodrobno.xhtml" x="588" y="372" id="pf14290439749186" referenceLink="//@navigationRule.2/@fromViewId|" outlinks="pf14290448182647 pf14290458645009" inlinks="pf14290439749185 pf14306592879131" path="/Rezervacije/SobaPodrobno.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Rezervacije/Rezervacija.xhtml" x="672" y="156" id="pf142904586450010" referenceLink="//@navigationRule.3/@navigationCase.0/@toViewId|" outlinks="pf14306592879131 pf14306592879130" inlinks="pf14290458645009 pf14290458645008" path="/Rezervacije/Rezervacija.xhtml"/>
   <nodes xsi:type="pageflow:PFPage" name="Rezervacije/RezervirajMizo.xhtml" x="936" y="196" id="pf14298789646340" referenceLink="//@navigationRule.5/@navigationCase.0/@toViewId|" inlinks="pf14298789646343 pf14298795315337" path="/Rezervacije/RezervirajMizo.xhtml"/>
   <nodes xsi:type="pageflow:PFPage" name="Rezervacije/RezervacijeMiz.xhtml" x="1212" y="240" id="pf14298789646344" referenceLink="//@navigationRule.8/@navigationCase.0/@toViewId|" outlinks="pf14298795315337 pf14298795315338" inlinks="pf14298795315339 pf14305813570063" path="/Rezervacije/RezervacijeMiz.xhtml"/>
   <nodes xsi:type="pageflow:PFPage" name="Rezervacije/MizaPodrobno.xhtml" x="1023" y="420" id="pf14298789646346" referenceLink="//@navigationRule.7/@navigationCase.0/@toViewId|" outlinks="pf14298789646343 pf14298795315339" inlinks="pf14298795315338" path="/Rezervacije/MizaPodrobno.xhtml"/>
   <nodes xsi:type="pageflow:PFPage" name="Restavracija/Restavracija.xhtml" x="1128" y="72" id="pf14305807954551" referenceLink="//@navigationRule.8/@fromViewId|" outlinks="pf14305813570063" path="/Restavracija/Restavracija.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="Rezervacije/Login.xhtml" id="pf14309146125080" referenceLink="//@navigationRule.11/@fromViewId|" outlinks="pf14309146125081" path="Rezervacije/Login.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="Rezervacije/Admin.xhtml" id="pf14309146125082" referenceLink="//@navigationRule.11/@navigationCase.0/@toViewId|" inlinks="pf14309146125081" path="Rezervacije/Admin.xhtml"/>
   <links id="pf14290439749185" target="pf14290439749186" source="pf14290439749184" outcome="vec"/>
   <links id="pf14290448182647" target="pf14290439749184" source="pf14290439749186" outcome="vseSobe"/>
   <links id="pf14290458645009" target="pf142904586450010" source="pf14290439749186" outcome="rezerviraj"/>
@@ -20,5 +18,4 @@
   <links id="pf14305813570063" target="pf14298789646344" source="pf14305807954551" outcome="miza"/>
   <links id="pf14306592879131" target="pf14290439749186" source="pf142904586450010" outcome="nazaj"/>
   <links id="pf14306592879130" target="pf14290439749184" source="pf142904586450010" outcome="nazaj"/>
-  <links id="pf14309146125081" target="pf14309146125082" source="pf14309146125080" outcome="admin"/>
 </pageflow:Pageflow>

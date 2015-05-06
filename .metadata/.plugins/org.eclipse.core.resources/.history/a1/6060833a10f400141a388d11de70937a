@@ -23,11 +23,11 @@ public class LoginDAO {
 		try {
 			con = ds.getConnection();
 
-			PreparedStatement ps = con.prepareStatement("select uporabniskoIme,geslo from registriranUporabnik where uporabniskoIme=? AND geslo=?");
-			ps.setString(1, uporabniskoIme);
-			ps.setString(2, geslo);
+			PreparedStatement ps = con.prepareStatement("select uporabniskoIme,geslo from registriranUporabnik where uporabniskoIme=?,geslo=?");
+			ps.setString(1, r.getUporabniskoIme());
+			ps.setString(2, r.getGeslo());
 			ResultSet rs = ps.executeQuery();
-			
+
 			/*
 			 * RegistriranUporabnik l = new RegistriranUporabnik();
 			 * l.setUporabniskoIme(rs.getString("uporabniskoIme"));

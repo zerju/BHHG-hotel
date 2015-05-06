@@ -33,6 +33,7 @@ public class Prijava {
         if (valid) {
             HttpSession session = SessionBean.getSession();
             session.setAttribute("username", user.getUsername());
+            System.out.println("loginan");
             return "admin";
         } else {
             FacesContext.getCurrentInstance().addMessage(null,new FacesMessage(FacesMessage.SEVERITY_WARN,

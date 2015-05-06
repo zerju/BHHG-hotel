@@ -2,7 +2,8 @@
 <html xmlns:ui="http://java.sun.com/jsf/facelets"
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:f="http://java.sun.com/jsf/core">
-<link rel="stylesheet" href="WEB-INF/../style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="WEB-INF/../style.css" type="text/css"
+	media="all" />
 <head>
 <meta charset="UTF-8" />
 <title>Login</title>
@@ -26,7 +27,7 @@
 			
 			
 			<tr>
-				<td><h:commandButton value="Prijavi se" actionListener="#{login.validiramo()}" action="index.xhtml" />
+				<td><h:commandButton value="Prijavi se" actionListener="#{login.validiramo()}" />
 					<h:commandButton value="nazaj" action="nazaj" /></td>
 			</tr>
 		</table>

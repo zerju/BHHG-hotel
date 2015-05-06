@@ -7,10 +7,10 @@
   <nodes xsi:type="pageflow:PFPage" name="Rezervacije/RezervacijeMiz.xhtml" x="1212" y="240" id="pf14298789646344" referenceLink="//@navigationRule.21/@fromViewId|" outlinks="pf14298795315337 pf14298795315338 pf14309168382192" inlinks="pf14298795315339 pf14305813570063 pf14309168382193" path="/Rezervacije/RezervacijeMiz.xhtml"/>
   <nodes xsi:type="pageflow:PFPage" name="Rezervacije/MizaPodrobno.xhtml" x="1023" y="420" id="pf14298789646346" referenceLink="//@navigationRule.7/@navigationCase.0/@toViewId|" outlinks="pf14298789646343 pf14298795315339" inlinks="pf14298795315338" path="/Rezervacije/MizaPodrobno.xhtml"/>
   <nodes xsi:type="pageflow:PFPage" name="Restavracija/Restavracija.xhtml" x="1128" y="72" id="pf14305807954551" referenceLink="//@navigationRule.8/@fromViewId|" outlinks="pf14305813570063" path="/Restavracija/Restavracija.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="Rezervacije/Login.xhtml" x="479" y="504" id="pf14309146125080" referenceLink="//@navigationRule.11/@fromViewId|" outlinks="pf14309146125081 pf14309322804504" path="Rezervacije/Login.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Rezervacije/Login.xhtml" x="479" y="504" id="pf14309146125080" referenceLink="//@navigationRule.11/@fromViewId|" outlinks="pf14309146125081 pf14309319780630" path="Rezervacije/Login.xhtml"/>
   <nodes xsi:type="pageflow:PFPage" name="Rezervacije/Admin.xhtml" x="403" y="396" id="pf14309146125082" referenceLink="//@navigationRule.11/@navigationCase.0/@toViewId|" inlinks="pf14309146125081" path="Rezervacije/Admin.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="Index/Index.xhtml" x="36" y="545" id="pf14309168382194" referenceLink="//@navigationRule.22/@navigationCase.0/@toViewId|" outlinks="pf14309168382195" inlinks="pf14309168382196 pf14309322804504" path="/Index/Index.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="Index/IndexUrediOpis.xhtml" x="275" y="545" id="pf14309168382197" referenceLink="//@navigationRule.13/@fromViewId|" outlinks="pf14309168382196" inlinks="pf14309168382195" path="/Index/IndexUrediOpis.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Index/Index.xhtml" x="36" y="480" id="pf14309168382194" referenceLink="//@navigationRule.13/@navigationCase.0/@toViewId|" outlinks="pf14309168382195" inlinks="pf14309168382196 pf14309319780630" path="/Index/Index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Index/IndexUrediOpis.xhtml" x="249" y="545" id="pf14309168382197" referenceLink="//@navigationRule.13/@fromViewId|" outlinks="pf14309168382196" inlinks="pf14309168382195" path="/Index/IndexUrediOpis.xhtml"/>
   <nodes xsi:type="pageflow:PFPage" name="Kontakt/Kontakt.xhtml" x="60" y="305" id="pf14309168382198" referenceLink="//@navigationRule.17/@navigationCase.0/@toViewId|" outlinks="pf14309168382209 pf143091683822010" inlinks="pf143091683822011 pf143091683822012" path="/Kontakt/Kontakt.xhtml"/>
   <nodes xsi:type="pageflow:PFPage" name="Kontakt/KontaktUrediMail.xhtml" x="-13" y="137" id="pf143091683822013" referenceLink="//@navigationRule.17/@fromViewId|" outlinks="pf143091683822012" inlinks="pf14309168382209" path="/Kontakt/KontaktUrediMail.xhtml"/>
   <nodes xsi:type="pageflow:PFPage" name="Kontakt/KontaktUrediTel.xhtml" x="240" y="48" id="pf143091683822014" referenceLink="//@navigationRule.16/@fromViewId|" outlinks="pf143091683822011" inlinks="pf143091683822010" path="/Kontakt/KontaktUrediTel.xhtml"/>
@@ -38,7 +38,5 @@
   <links id="pf14309168382180" target="pf143091683822015" source="pf14290439749184" outcome="proste"/>
   <links id="pf14309168382193" target="pf14298789646344" source="pf143091683822016" outcome="proste"/>
   <links id="pf14309168382192" target="pf143091683822016" source="pf14298789646344" outcome="zasedene"/>
-  <links id="pf14309322804504" target="pf14309168382194" source="pf14309146125080" outcome="toIndex">
-    <bendPoints d1Width="-256" d1Height="-26" d2Width="203" d2Height="-67"/>
-  </links>
+  <links id="pf14309319780630" target="pf14309168382194" source="pf14309146125080" outcome="index1"/>
 </pageflow:Pageflow>

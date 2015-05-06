@@ -26,7 +26,7 @@
 			
 			
 			<tr>
-				<td><h:commandButton value="Prijavi se" actionListener="#{login.validiramo()}" action="index.xhtml" />
+				<td><h:commandButton value="Prijavi se" actionListener="#{login.validiramo()}" action="index1" />
 					<h:commandButton value="nazaj" action="nazaj" /></td>
 			</tr>
 		</table>

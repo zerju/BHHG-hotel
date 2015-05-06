@@ -32,7 +32,7 @@ public class Prijava {
         boolean valid = dao.validacija(uporabnik, user.getUsername(),user.getPassword());
         if (valid) {
             HttpSession session = SessionBean.getSession();
-            session.setAttribute("username", user.getUsername());
+            session.setAttribute("username", user);
             return "admin";
         } else {
             FacesContext.getCurrentInstance().addMessage(null,new FacesMessage(FacesMessage.SEVERITY_WARN,

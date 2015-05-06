@@ -182,7 +182,7 @@
 	</navigation-rule>
 	<navigation-rule>
 		<display-name>Rezervacije/Login.xhtml</display-name>
-		<from-view-id>Rezervacije/Login.xhtml</from-view-id>
+		<from-view-id>/Rezervacije/Login.xhtml</from-view-id>
 		<navigation-case>
 			<from-outcome>toIndex</from-outcome>
 			<to-view-id>/Index/Index.xhtml</to-view-id>

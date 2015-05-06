@@ -21,4 +21,5 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
 <fullyQualifiedTypeName name="beani.Oseba"/>
+<fullyQualifiedTypeName name="dao.LoginDAO"/>
 </qualifiedTypeNameHistroy>

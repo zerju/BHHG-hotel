@@ -29,24 +29,20 @@ List<LoginDAO> najdeni = new ArrayList<LoginDAO>();
 			
 			PreparedStatement ps = con.prepareStatement("select uporabniskoIme,geslo from registriranUporabnik where uporabniskoIme=?,geslo=?");
 			ps.setString(1, r.getUporabniskoIme());
-			ps.setString(2, r.getGeslo());
 			ResultSet rs=ps.executeQuery();
-			
-			/*
-			RegistriranUporabnik l = new RegistriranUporabnik();	
-			l.setUporabniskoIme(rs.getString("uporabniskoIme"));
-			l.setGeslo(rs.getString("geslo"));
-			*/
-			
+			while (rs.next()) {
+				RegistriranUporabnik l = new RegistriranUporabnik();
+				l.setIdUporabnika(rs.getInt("idUporabnika"));
+				l.setUporabniskoIme(rs.getString("uporabniskoIme"));
+				l.setGeslo(rs.getString("geslo"));
+				
 				if (rs.next()){
 					return true;
 				}
-		}catch (SQLException ex){
-			System.out.println("Login error-->"+ex.getMessage());
-			return false;
+			}
 		} finally {
 			con.close();
 		}
-		return false;
+		return najdeni;
 	}
 }

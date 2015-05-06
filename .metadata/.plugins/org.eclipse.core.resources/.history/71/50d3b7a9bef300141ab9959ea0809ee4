@@ -12,22 +12,22 @@
 <body>
 	<ui:include src="../WEB-INF/templateHeader.xhtml" />
 	<br />
-	<h1>Prijava</h1>
+	<h1>Prijavite se</h1>
 	<h:form>
 		<table align="center">
 			<tr>
 				<td><h:outputText value="Uporabniško ime"></h:outputText></td>
-            	<td><h:inputText id="username" value="#{login.user.username}"></h:inputText></td>
+            	<td><h:inputText id="username" value="#{login.registriranUporabnik.uporabniskoIme}"></h:inputText></td>
 			</tr>
 			<tr>
 				<td><h:outputText value="Geslo"></h:outputText></td>
-            	<td><h:inputSecret id="geslo" value="#{login.user.password}"></h:inputSecret></td>
+            	<td><h:inputSecret id="geslo" value="#{login.registriranUporabnik.geslo}"></h:inputSecret></td>
 			</tr>
 			
 			
 			
 			<tr>
-				<td><h:commandButton value="Prijavi se" actionListener="#{regBean.shrani()}" />
+				<td><h:commandButton value="Registriraj se" actionListener="#{regBean.shrani()}" />
 					<h:commandButton value="nazaj" action="nazaj" /></td>
 			</tr>
 		</table>

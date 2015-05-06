@@ -1,5 +1,6 @@
 
 package registracija;
+
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -23,14 +24,26 @@ public class Login {
 
 	private Login user = new Login();
 	private ArrayList<RegistriranUporabnik> najdeniUporabniki = new ArrayList<RegistriranUporabnik>();
+	private ArrayList<RegistriranUporabnik> vse = new ArrayList<RegistriranUporabnik>();
+	ArrayList<RegistriranUporabnik> proste = new ArrayList<RegistriranUporabnik>();
 
 	public void shrani() throws IOException, SQLException {
 		LoginDAO dao = new LoginDAO(ds);
 
-		//dao.shrani(user);
+		dao.shrani(user);
 	}
 
-}
+	public void pocisti(RegistriranUporabnik registriranUporabnik) throws SQLException {
+		RegistriranUporabnikDAO dao = new RegistriranUporabnikDAO(ds);
+
+	}
+
+	public ArrayList<RegistriranUporabnik> vrniVse() throws Exception {
+		RegistriranUporabnikDAO dao = new RegistriranUporabnikDAO(ds);
+		vse.clear();
+		vse = (ArrayList<RegistriranUporabnik>) dao.vrniVse();
+		return vse;
+	}
 
 	
 

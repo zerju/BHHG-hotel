@@ -20,7 +20,7 @@ List<LoginDAO> najdeni = new ArrayList<LoginDAO>();
 		this.ds = ds;
 	}
 	
-	public boolean validacija (RegistriranUporabnik r, String uporabniskoIme, String geslo) throws Exception {
+	public List<RegistriranUporabnik> najdi(RegistriranUporabnik r, String uporabniskoIme) throws Exception {
 		
 		Connection con=ds.getConnection();
 		
@@ -29,24 +29,18 @@ List<LoginDAO> najdeni = new ArrayList<LoginDAO>();
 			
 			PreparedStatement ps = con.prepareStatement("select uporabniskoIme,geslo from registriranUporabnik where uporabniskoIme=?,geslo=?");
 			ps.setString(1, r.getUporabniskoIme());
-			ps.setString(2, r.getGeslo());
 			ResultSet rs=ps.executeQuery();
-			
-			/*
-			RegistriranUporabnik l = new RegistriranUporabnik();	
-			l.setUporabniskoIme(rs.getString("uporabniskoIme"));
-			l.setGeslo(rs.getString("geslo"));
-			*/
-			
-				if (rs.next()){
-					return true;
-				}
-		}catch (SQLException ex){
-			System.out.println("Login error-->"+ex.getMessage());
-			return false;
+			while (rs.next()) {
+				RegistriranUporabnik l = new RegistriranUporabnik();
+				l.setIdUporabnika(rs.getInt("idUporabnika"));
+				l.setUporabniskoIme(rs.getString("uporabniskoIme"));
+				l.setGeslo(rs.getString("geslo"));
+				
+				najdeni.add(l);
+			}
 		} finally {
 			con.close();
 		}
-		return false;
+		return najdeni;
 	}
 }

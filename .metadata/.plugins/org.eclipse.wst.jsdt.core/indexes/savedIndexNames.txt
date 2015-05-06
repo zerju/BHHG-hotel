@@ -4,6 +4,5 @@ INDEX VERSION 1.3+C:\Users\Care\GitHub\BHHG-hotel\.metadata\.plugins\org.eclipse
 3663779414.index
 2912731607.index
 910661775.index
-910661775.index
 3155795036.index
 1658681466.index

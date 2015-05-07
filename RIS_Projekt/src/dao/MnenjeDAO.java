@@ -7,7 +7,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.annotation.Resource;
 import javax.sql.DataSource;
 
 import beani.Mnenje;
@@ -28,7 +27,7 @@ public class MnenjeDAO {
 		
 		try {
 			con = ds.getConnection();
-			con.createStatement().execute("create table IF NOT EXISTS mnenje(idMnenja INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,FOREIGN KEY (uporabnik) REFERENCES registriranUporabnik(idUporabnika),sumOcena INT,ocenaStoritev INT,ocenaLokacije INT,naslov VARCHAR(30),vsebina VARCHAR(500),vrstaIzleta VARCHAR(30),letniCas VARCHAR(20))");
+			con.createStatement().execute("create table IF NOT EXISTS mnenje(idMnenja INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,FOREIGN KEY (uporabnik) REFERENCES registriranUporabnik(idUporabnika),sumOcena VARCHAR(15),ocenaStoritev VARCHAR(15),ocenaSobe VARCHAR(15),ocenaLokacije VARCHAR(15),naslov VARCHAR(30),vsebina VARCHAR(500),vrstaIzleta VARCHAR(30),letniCas VARCHAR(20))");
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -48,16 +47,17 @@ public class MnenjeDAO {
 		Connection con = ds.getConnection();
 		try {
 			con = ds.getConnection();
-				PreparedStatement ps=con.prepareStatement("insert into mnenje(idMnenja,registriranUporabnik,sumOcena,ocenaStoritev,ocenaLokacije,naslov,vsebina,vrstaIzleta,letniCas) values (?,?,?,?,?,?,?,?,?)");
+				PreparedStatement ps=con.prepareStatement("insert into mnenje(idMnenja,registriranUporabnik,sumOcena,ocenaStoritev,ocenaSobe,ocenaLokacije,naslov,vsebina,vrstaIzleta,letniCas) values (?,?,?,?,?,?,?,?,?,?)");
 				ps.setInt(1, m.getIdMnenja());
 				ps.setInt(2, m.getIdUporabnika());
-				ps.setInt(3, m.getSumOcena());
-				ps.setInt(4, m.getOcenaStoritev());
-				ps.setInt(5,m.getOcenaLokacije());
-				ps.setString(6, m.getNaslov());
-				ps.setString(7,m.getVsebina());
-				ps.setString(8, m.getVrstaIzleta());
-				ps.setString(9,m.getLetniCas());
+				ps.setString(3, m.getSumOcena());
+				ps.setString(4, m.getOcenaStoritev());
+				ps.setString(5, m.getOcenaSobe());
+				ps.setString(6,m.getOcenaLokacije());
+				ps.setString(7, m.getNaslov());
+				ps.setString(8,m.getVsebina());
+				ps.setString(9, m.getVrstaIzleta());
+				ps.setString(10,m.getLetniCas());
 				ps.executeUpdate();
 			
 		} catch (Exception e) {
@@ -79,9 +79,10 @@ public class MnenjeDAO {
 				Mnenje m =new Mnenje();
 				m.setIdMnenja(rs.getInt("idMnenja"));
 				m.setIdUporabnika(rs.getInt("idUporabnika"));
-				m.setSumOcena(rs.getInt("sumOcena"));
-				m.setOcenaStoritev(rs.getInt("ocenaStoritev"));
-				m.setOcenaLokacije(rs.getInt("ocenaLokacije"));
+				m.setSumOcena(rs.getString("sumOcena"));
+				m.setOcenaStoritev(rs.getString("ocenaStoritev"));
+				m.setOcenaStoritev(rs.getString("ocenaSobe"));
+				m.setOcenaLokacije(rs.getString("ocenaLokacije"));
 				m.setNaslov(rs.getString("naslov"));
 				m.setVsebina(rs.getString("vsebina"));
 				m.setVrstaIzleta(rs.getString("vrstaIzleta"));
@@ -114,9 +115,10 @@ public class MnenjeDAO {
 				Mnenje l = new Mnenje();
 				l.setIdMnenja(rs.getInt("idMnenja"));
 				l.setIdUporabnika(rs.getInt("idUporabnika"));
-				l.setSumOcena(rs.getInt("sumOcena"));
-				l.setOcenaStoritev(rs.getInt("ocenaStoritev"));
-				l.setOcenaLokacije(rs.getInt("ocenaLokacije"));
+				l.setSumOcena(rs.getString("sumOcena"));
+				l.setOcenaStoritev(rs.getString("ocenaStoritev"));
+				l.setOcenaStoritev(rs.getString("ocenaSobe"));
+				l.setOcenaLokacije(rs.getString("ocenaLokacije"));
 				l.setNaslov(rs.getString("naslov"));
 				l.setVsebina(rs.getString("vsebina"));
 				l.setVrstaIzleta(rs.getString("vrstaIzleta"));

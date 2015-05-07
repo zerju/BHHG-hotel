@@ -1,70 +1,94 @@
 package beani;
 
-
 public class Mnenje {
-	
+
 	private int idMnenja;
 	private int idUporabnika;
-	private int sumOcena;
-	private int ocenaStoritev;
-	private int ocenaLokacije;
+	private String sumOcena;
+	private String ocenaStoritev;
+	private String ocenaSobe;
+	private String ocenaLokacije;
 	private String naslov;
 	private String vsebina;
 	private String vrstaIzleta;
 	private String letniCas;
-	
-	
+
 	public int getIdMnenja() {
 		return idMnenja;
 	}
+
 	public void setIdMnenja(int idMnenja) {
 		this.idMnenja = idMnenja;
 	}
+
 	public int getIdUporabnika() {
 		return idUporabnika;
 	}
+
 	public void setIdUporabnika(int idUporabnika) {
 		this.idUporabnika = idUporabnika;
 	}
-	public int getSumOcena() {
+
+	public String getSumOcena() {
 		return sumOcena;
 	}
-	public void setSumOcena(int sumOcena) {
+
+	public void setSumOcena(String sumOcena) {
 		this.sumOcena = sumOcena;
 	}
-	public int getOcenaStoritev() {
+
+	public String getOcenaStoritev() {
 		return ocenaStoritev;
 	}
-	public void setOcenaStoritev(int ocenaStoritev) {
+
+	public void setOcenaStoritev(String ocenaStoritev) {
 		this.ocenaStoritev = ocenaStoritev;
 	}
-	public int getOcenaLokacije() {
+
+	public String getOcenaSobe() {
+		return ocenaSobe;
+	}
+
+	public void setOcenaSobe(String ocenaSobe) {
+		this.ocenaSobe = ocenaSobe;
+	}
+
+	public String getOcenaLokacije() {
 		return ocenaLokacije;
 	}
-	public void setOcenaLokacije(int ocenaLokacije) {
+
+	public void setOcenaLokacije(String ocenaLokacije) {
 		this.ocenaLokacije = ocenaLokacije;
 	}
+
 	public String getNaslov() {
 		return naslov;
 	}
+
 	public void setNaslov(String naslov) {
 		this.naslov = naslov;
 	}
+
 	public String getVsebina() {
 		return vsebina;
 	}
+
 	public void setVsebina(String vsebina) {
 		this.vsebina = vsebina;
 	}
+
 	public String getVrstaIzleta() {
 		return vrstaIzleta;
 	}
+
 	public void setVrstaIzleta(String vrstaIzleta) {
 		this.vrstaIzleta = vrstaIzleta;
 	}
+
 	public String getLetniCas() {
 		return letniCas;
 	}
+
 	public void setLetniCas(String letniCas) {
 		this.letniCas = letniCas;
 	}

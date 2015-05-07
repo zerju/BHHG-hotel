@@ -16,109 +16,108 @@
 	<h:form>
 		<table align="center">
 			<tr>
-				<h:outputText value="Skupna ocena"></h:outputText>
+				<h:outputText value="Skupna ocena"></h:outputText><br />
 			</tr>
 			<tr>
-				<h:selectOneRadio value="#{}">
-					<f:selectItem itemValue="Zelo slabo" itemLabel="Zelo slabo" />
-					<f:selectItem itemValue="Slabo" itemLabel="Slabo" />
-					<f:selectItem itemValue="Dobro" itemLabel="Dobro" />
-					<f:selectItem itemValue="Zelo dobro" itemLabel="Zelo dobro" />
-					<f:selectItem itemValue="Odlično" itemLabel="Odlično" />
-				</h:selectOneRadio>
-			</tr>
-
-
-			<tr>
-				<h:outputText value="Naslov mnenja"></h:outputText>
-			</tr>
-			<tr>
-				<h:inputText value="#{}"></h:inputText>
+				<h:selectOneRadio value="#{vpisMnenja.mnenje.sumOcena}">
+						<f:selectItem itemValue="Zelo slabo" itemLabel="Zelo slabo" />
+						<f:selectItem itemValue="Slabo" itemLabel="Slabo" />
+						<f:selectItem itemValue="Dobro" itemLabel="Dobro" />
+						<f:selectItem itemValue="Zelo dobro" itemLabel="Zelo dobro" />
+						<f:selectItem itemValue="Odlično" itemLabel="Odlično" />
+				</h:selectOneRadio><br />
 			</tr>
 
 			<tr>
-				<h:outputText value="Mnenje"></h:outputText>
+				<h:outputText value="Naslov mnenja"></h:outputText><br />
 			</tr>
 			<tr>
-				<h:inputTextarea value="#{}"></h:inputTextarea>
+				<h:inputText value="#{vpisMnenja.mnenje.naslov}"></h:inputText><br />
 			</tr>
 
 			<tr>
-			<tr>
-				<h:outputText value="Katera vrsta izleta?"></h:outputText>
+				<h:outputText value="Mnenje"></h:outputText><br />
 			</tr>
 			<tr>
-				<h:selectOneRadio value="#{}">
+				<h:inputTextarea value="#{vpisMnenja.mnenje.vsebina}"></h:inputTextarea><br />
+			</tr>
+
+			<tr>
+				<h:outputText value="Katera vrsta izleta?"></h:outputText><br />
+			</tr>
+			<tr>
+				<h:selectOneRadio value="#{vpisMnenja.mnenje.vrstaIzleta}">
 					<f:selectItem itemValue="Poslovni" itemLabel="Poslovni" />
 					<f:selectItem itemValue="V paru" itemLabel="V paru" />
 					<f:selectItem itemValue="Družinski" itemLabel="Družinski" />
 					<f:selectItem itemValue="Prijateljski" itemLabel="Prijateljski" />
 					<f:selectItem itemValue="Zasebni" itemLabel="Zasebni" />
-				</h:selectOneRadio>
+				</h:selectOneRadio><br />
 			</tr>
 
 
 			<tr>
-				<h:outputText value="Kdaj ste potovali?"></h:outputText>
+				<h:outputText value="Kdaj ste potovali?"></h:outputText><br />
 			</tr>
 			<tr>
-				<h:selectOneMenu value="#{}">
+				<h:selectOneMenu value="#{vpisMnenja.mnenje.letniCas}">
 					<f:selectItem itemValue="Pozimi" itemLabel="Pozimi" />
 					<f:selectItem itemValue="Spomladi" itemLabel="Spomladi" />
 					<f:selectItem itemValue="Poleti" itemLabel="Poleti" />
 					<f:selectItem itemValue="Jeseni" itemLabel="Jeseni" />
 					<f:selectItem itemValue="Novo leto" itemLabel="Novo leto" />
-					</h:selectOneRadio>
+				</h:selectOneMenu><br />
 			</tr>
 
-
+			<tr><br /></tr>
 			<tr>
-				<h:outputText value="Ocene hotela"></h:outputText>
+				<h:outputText value="Ocene hotela"></h:outputText><br />
 			</tr>
-
+			<tr><br /></tr>
 			<tr>
-				<h:outputText value="Storitve"></h:outputText>
+				<h:outputText value="Storitve"></h:outputText><br />
 			</tr>
 			<tr>
-				<h:selectOneRadio value="#{}">
+				<h:selectOneRadio value="#{vpisMnenja.mnenje.ocenaStoritev}">
 					<f:selectItem itemValue="Zelo slabo" itemLabel="Zelo slabo" />
 					<f:selectItem itemValue="Slabo" itemLabel="Slabo" />
 					<f:selectItem itemValue="Dobro" itemLabel="Dobro" />
 					<f:selectItem itemValue="Zelo dobro" itemLabel="Zelo dobro" />
 					<f:selectItem itemValue="Odlično" itemLabel="Odlično" />
-				</h:selectOneRadio>
+				</h:selectOneRadio><br />
 			</tr>
 
 			<tr>
-				<h:outputText value="Sobe"></h:outputText>
+				<h:outputText value="Sobe"></h:outputText><br />
 			</tr>
 			<tr>
-				<h:selectOneRadio value="#{}">
+				<h:selectOneRadio value="#{vpisMnenja.mnenje.ocenaSobe}">
 					<f:selectItem itemValue="Zelo slabo" itemLabel="Zelo slabo" />
 					<f:selectItem itemValue="Slabo" itemLabel="Slabo" />
 					<f:selectItem itemValue="Dobro" itemLabel="Dobro" />
 					<f:selectItem itemValue="Zelo dobro" itemLabel="Zelo dobro" />
 					<f:selectItem itemValue="Odlično" itemLabel="Odlično" />
-				</h:selectOneRadio>
+				</h:selectOneRadio><br />
 			</tr>
 
 			<tr>
-				<h:outputText value="Lokacija"></h:outputText>
+				<h:outputText value="Lokacija"></h:outputText><br />
 			</tr>
 			<tr>
-				<h:selectOneRadio value="#{}">
+				<h:selectOneRadio value="#{vpisMnenja.mnenje.ocenaLokacije}">
 					<f:selectItem itemValue="Zelo slabo" itemLabel="Zelo slabo" />
 					<f:selectItem itemValue="Slabo" itemLabel="Slabo" />
 					<f:selectItem itemValue="Dobro" itemLabel="Dobro" />
 					<f:selectItem itemValue="Zelo dobro" itemLabel="Zelo dobro" />
 					<f:selectItem itemValue="Odlično" itemLabel="Odlično" />
-				</h:selectOneRadio>
+				</h:selectOneRadio><br />
 			</tr>
 
 
 			<tr>
-				<td><h:commandButton value="Objavi mnenje" actionListener="#{}" />
-					<h:commandButton value="Nazaj" action="nazaj" /></td>
+				<h:commandButton value="Objavi mnenje"
+					actionListener="#{vpisMnenja.shrani()}" />
+				<h:commandButton value="Nazaj" action="nazaj" />
 			</tr>
 		</table>
 	</h:form>

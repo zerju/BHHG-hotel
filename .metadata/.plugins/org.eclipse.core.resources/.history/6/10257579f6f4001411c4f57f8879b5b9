@@ -21,7 +21,7 @@
 	</h:panelGroup>
 
 	<ui:repeat value="#{prikazMnenja.vrniVse()}" var="m">
-		<table align="left">
+		<table align="center">
 			<tr>
 				<td><h:outputText value="#{m.uporabnik}" style="font-weight:bold; font-size:18px; "/><br /></td>
 			</tr>

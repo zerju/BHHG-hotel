@@ -38,7 +38,7 @@
 			
 			
 			<tr>
-				<td><h:commandButton value="Registriraj se" actionListener="#{regBean.shrani()}" action="Login.xhtml"/>
+				<td><h:commandButton value="Registriraj se" actionListener="#{regBean.shrani()}" />
 					<h:commandButton value="nazaj" action="nazaj" /></td>
 			</tr>
 		</table>

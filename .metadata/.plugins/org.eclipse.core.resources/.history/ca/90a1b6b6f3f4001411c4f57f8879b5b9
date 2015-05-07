@@ -16,14 +16,14 @@
 
 	<h:panelGroup rendered="#{login.isNekaj()}">
 		<h:form>
-			<h:commandButton value="vnesiMnenje" action="Mnenje.xhtml" />
+			<h:commandButton value="vnesiMnenje" action="mnenje" />
 		</h:form>
 	</h:panelGroup>
 
 	<ui:repeat value="#{prikazMnenja.vrniVse()}" var="m">
 		<table align="left">
 			<tr>
-				<td><h:outputText value="#{m.uporabnik}" style="font-weight:bold; font-size:18px; "/><br /></td>
+				<td><h:outputText value="#{m.uporabnik}" style="font-weight:bold; font-size:17px; font-color:white"/><br /></td>
 			</tr>
 
 			<tr>
@@ -42,15 +42,15 @@
 			</tr>
 
 			<tr>
-				<td><h:outputText value="Mnenje" style="font-weight:bold; font-size:15px" /></td>
+				<td><h:outputText value="Mnenje" style="font-weight:bold; font-size:15px"" /></td>
 			</tr>
 			<tr>
-				<td width="10"><h:outputText value="#{m.vsebina}" /></td>
+				<td><h:outputText value="#{m.vsebina}" /></td>
 			</tr>
 
 			<tr>
 				<td><h:outputText value="Katera vrsta izleta?"
-						style="font-weight:bold; font-size:15px" /></td>
+						style="font-weight:bold; font-size:15px"" /></td>
 			</tr>
 			<tr>
 				<td><h:outputText value="#{m.vrstaIzleta}" /></td>
@@ -58,31 +58,33 @@
 
 			<tr>
 				<td><h:outputText value="Kdaj ste potovali?"
-						style="font-weight:bold; font-size:15px" /></td>
+						style="font-weight:bold; font-size:15px"" /></td>
 			</tr>
 			<tr>
 				<td><h:outputText value="#{m.letniCas}" /></td>
 			</tr>
 
 			<tr>
-				<td><h:outputText value="Ocene hotela" style="font-weight:bold; font-size:15px"/></td>
+				<td><h:outputText value="Ocene hotela" style="font-weight:bold; font-size:15px"" /></td>
 			</tr>
 
 
 			<tr>
-				<td><h:outputText value="Storitve" style="font-weight:bold; font-size:15px"/></td>
+				<td><h:outputText value="Storitve" style="font-weight:bold; font-size:15px"" /></td>
 			</tr>
 			<tr>
 				<td><h:outputText value="#{m.ocenaStoritev}" /></td>
 			</tr>
 
-			
+			<tr>
+				<td><h:outputText value="Soba" style="font-weight:bold; font-size:15px"" /></td>
+			</tr>
 			<tr>
 				<td><h:outputText value="#{m.ocenaSobe}" /></td>
 			</tr>
 
 			<tr>
-				<td><h:outputText value="Lokacija" style="font-weight:bold; font-size:15px" /></td>
+				<td><h:outputText value="Lokacija" style="font-weight:bold; font-size:15px"" /></td>
 			</tr>
 			<tr>
 				<td><h:outputText value="#{m.ocenaLokacije}" /></td>

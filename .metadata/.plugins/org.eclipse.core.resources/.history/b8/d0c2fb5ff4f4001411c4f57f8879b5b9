@@ -22,12 +22,11 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
         <li><a href="../Mnenje/PrikazMnenj.xhtml" >Mnenja</a></li>
         <h:panelGroup rendered="#{login.isNekaj12()}">
         <li><a href="../Registracija/Login.xhtml" >Login</a></li>
-        <li><a href="../Registracija/Registracija.xhtml" class="last">Registracija</a></li>
         </h:panelGroup>
         <h:panelGroup rendered="#{login.isNekaj()}">
         <li><h:form><h:commandLink value="logout" actionListener="#{login.logout()}"/></h:form></li>
         </h:panelGroup>
-        
+        <li><a href="../Registracija/Registracija.xhtml" class="last">Registracija</a></li>
       </ul>
     </div>
 

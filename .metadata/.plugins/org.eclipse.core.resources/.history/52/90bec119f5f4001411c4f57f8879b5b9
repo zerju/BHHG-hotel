@@ -26,7 +26,7 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
 		</td></tr>
 		<tr><td>Posebne zahteve: </td><td><h:inputText value="#{rezervacijaMize.miza.posebneZahteveM}"/></td></tr>
 		<tr><td>Ura prihoda: </td><td><h:inputText value="#{rezervacijaMize.miza.uraPrihoda}"/></td></tr>
-		<tr><td><h:commandButton value="Rezerviraj" actionListener="#{rezervacijaMize.rezerviraj()}" action="RezervacijeMiz.xhtml"/></td></tr>
+		<tr><td><h:commandButton value="Rezerviraj" actionListener="#{rezervacijaMize.rezerviraj()}" action="vse"/></td></tr>
 	</table>
 </h:form>
 </body>

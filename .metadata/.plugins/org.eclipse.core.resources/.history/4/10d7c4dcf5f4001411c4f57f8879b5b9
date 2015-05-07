@@ -45,7 +45,7 @@
 			</tr>
 			<tr>
 				<td><h:commandButton value="Rezerviraj"
-						actionListener="#{rezervacijaSobe.rezerviraj()}" action="RezervacijeSob.xhtml" />
+						actionListener="#{rezervacijaSobe.rezerviraj()}" />
 					<h:commandButton value="nazaj" action="nazaj" /></td>
 			</tr>
 		</table>

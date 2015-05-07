@@ -121,7 +121,7 @@
 			</tr>
 			<tr>
 				<td><h:commandButton value="Objavi mnenje"
-						actionListener="#{vpisMnenja.shrani()}" action="PrikazMnenj.xhtml" />
+						actionListener="#{vpisMnenja.shrani()}" />
 				<h:commandButton value="Nazaj" action="PrikazMnenj.xhtml" /></td>
 			</tr>
 		</table>

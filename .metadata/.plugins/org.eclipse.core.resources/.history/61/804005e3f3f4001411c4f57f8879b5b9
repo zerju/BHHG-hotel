@@ -16,14 +16,14 @@
 
 	<h:panelGroup rendered="#{login.isNekaj()}">
 		<h:form>
-			<h:commandButton value="vnesiMnenje" action="Mnenje.xhtml" />
+			<h:commandButton value="vnesiMnenje" action="mnenje" />
 		</h:form>
 	</h:panelGroup>
 
 	<ui:repeat value="#{prikazMnenja.vrniVse()}" var="m">
 		<table align="left">
 			<tr>
-				<td><h:outputText value="#{m.uporabnik}" style="font-weight:bold; font-size:18px; "/><br /></td>
+				<td><h:outputText value="#{m.uporabnik}" style="font-weight:bold; font-size:17px; font-color:white;"/><br /></td>
 			</tr>
 
 			<tr>
@@ -45,7 +45,7 @@
 				<td><h:outputText value="Mnenje" style="font-weight:bold; font-size:15px" /></td>
 			</tr>
 			<tr>
-				<td width="10"><h:outputText value="#{m.vsebina}" /></td>
+				<td><h:outputText value="#{m.vsebina}" /></td>
 			</tr>
 
 			<tr>
@@ -76,7 +76,9 @@
 				<td><h:outputText value="#{m.ocenaStoritev}" /></td>
 			</tr>
 
-			
+			<tr>
+				<td><h:outputText value="Soba" style="font-weight:bold; font-size:15px" /></td>
+			</tr>
 			<tr>
 				<td><h:outputText value="#{m.ocenaSobe}" /></td>
 			</tr>

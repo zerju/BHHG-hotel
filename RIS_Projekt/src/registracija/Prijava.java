@@ -1,6 +1,8 @@
 
 package registracija;
 
+import java.util.ArrayList;
+
 import javax.annotation.Resource;
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
@@ -9,7 +11,7 @@ import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpSession;
 import javax.sql.DataSource;
 
-import dao.LoginDAO;
+import dao.*;
 import beani.Login;
 import beani.RegistriranUporabnik;
 
@@ -19,7 +21,7 @@ import beani.RegistriranUporabnik;
 public class Prijava {
 	@Resource(lookup = "java:jboss/datasources/bhhg")
 	DataSource ds;
-
+	int counter= 0;
 	
 	private Login user = new Login();
 	private RegistriranUporabnik uporabnik = new RegistriranUporabnik();
@@ -33,6 +35,7 @@ public class Prijava {
         if (valid) {
             HttpSession session = SessionBean.getSession();
             session.setAttribute("username", user.getUsername());
+            counter = 1;
             return "admin";
         } else {
             FacesContext.getCurrentInstance().addMessage(null,new FacesMessage(FacesMessage.SEVERITY_WARN,
@@ -41,22 +44,73 @@ public class Prijava {
             return "login";
         }
     }
- 
+	public void setSession(){
+		if(counter==0){
+		counter +=1;}
+	}
+	
+	
+	public boolean isAdmin(){
+		HttpSession session = SessionBean.getSession();
+		if(counter != 0){
+			if(session.getAttribute("username").equals("admin")){
+			return true;
+		}}
+			return false;
+		
+	}
+	
+	public boolean isNekaj() throws Exception{
+		RegistriranUporabnikDAO dao = new RegistriranUporabnikDAO(ds);
+		ArrayList<RegistriranUporabnik> vsi = (ArrayList<RegistriranUporabnik>) dao.vrniVse();
+		HttpSession session = SessionBean.getSession();
+		for(RegistriranUporabnik ru: vsi){
+			if(counter != 0){
+				if(session.getAttribute("username").equals(ru.getUporabniskoIme())){
+				return true;
+			}}
+		}
+		
+		return false;
+		
+	}
+	
+	public boolean isNekaj12() throws Exception{
+		RegistriranUporabnikDAO dao = new RegistriranUporabnikDAO(ds);
+		ArrayList<RegistriranUporabnik> vsi = (ArrayList<RegistriranUporabnik>) dao.vrniVse();
+		HttpSession session = SessionBean.getSession();
+		for(RegistriranUporabnik ru: vsi){
+			if(counter != 0){
+				if(session.getAttribute("username").equals(ru.getUporabniskoIme())){
+				return false;
+			}}
+		}
+		
+		return true;
+		
+	}
+	
     public String logout() {
         HttpSession session = SessionBean.getSession();
         session.invalidate();
         return "login";
     }
-
-    
-    
-    
 	public Login getUser() {
 		return user;
 	}
-
 	public void setUser(Login user) {
 		this.user = user;
 	}
+	public RegistriranUporabnik getUporabnik() {
+		return uporabnik;
+	}
+	public void setUporabnik(RegistriranUporabnik uporabnik) {
+		this.uporabnik = uporabnik;
+	}
+
+    
+    
+    
+
 	
 }

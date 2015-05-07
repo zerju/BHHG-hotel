@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<link rel="stylesheet" href="WEB-INF/../style.css" type="text/css"
+	media="all" />
+<head>
+<meta charset="UTF-8" />
+<title>Mnenje</title>
+</head>
+
+<body>
+	<ui:include src="../WEB-INF/templateHeader.xhtml" />
+	<br />
+	<h1>Mnenje</h1>
+	<h:form>
+		<table align="center">
+			<tr>
+				<h:outputText value="Skupna ocena"></h:outputText><br />
+			</tr>
+			<tr>
+				<h:selectOneRadio value="#{vpisMnenja.mnenje.sumOcena}">
+						<f:selectItem itemValue="Zelo slabo" itemLabel="Zelo slabo" />
+						<f:selectItem itemValue="Slabo" itemLabel="Slabo" />
+						<f:selectItem itemValue="Dobro" itemLabel="Dobro" />
+						<f:selectItem itemValue="Zelo dobro" itemLabel="Zelo dobro" />
+						<f:selectItem itemValue="Vrhunsko" itemLabel="Vrhunsko" />
+				</h:selectOneRadio><br />
+			</tr>
+
+			<tr>
+				<td><h:outputText value="Naslov mnenja"></h:outputText></td>
+			</tr>
+			<tr>
+				<td><h:inputText value="#{vpisMnenja.mnenje.naslov}"></h:inputText></td>
+			</tr>
+
+			<tr>
+				<h:outputText value="Mnenje"></h:outputText><br />
+			</tr>
+			<tr>
+				<h:inputTextarea value="#{vpisMnenja.mnenje.vsebina}"></h:inputTextarea><br />
+			</tr>
+
+			<tr>
+				<h:outputText value="Katera vrsta izleta?"></h:outputText><br />
+			</tr>
+			<tr>
+				<h:selectOneRadio value="#{vpisMnenja.mnenje.vrstaIzleta}">
+					<f:selectItem itemValue="Poslovni" itemLabel="Poslovni" />
+					<f:selectItem itemValue="V paru" itemLabel="V paru" />
+					<f:selectItem itemValue="Family" itemLabel="Family" />
+					<f:selectItem itemValue="Prijateljski" itemLabel="Prijateljski" />
+					<f:selectItem itemValue="Zasebni" itemLabel="Zasebni" />
+				</h:selectOneRadio><br />
+			</tr>
+
+
+			<tr>
+				<h:outputText value="Kdaj ste potovali?"></h:outputText><br />
+			</tr>
+			<tr>
+				<h:selectOneMenu value="#{vpisMnenja.mnenje.letniCas}">
+					<f:selectItem itemValue="Pozimi" itemLabel="Pozimi" />
+					<f:selectItem itemValue="Spomladi" itemLabel="Spomladi" />
+					<f:selectItem itemValue="Poleti" itemLabel="Poleti" />
+					<f:selectItem itemValue="Jeseni" itemLabel="Jeseni" />
+					<f:selectItem itemValue="Novo leto" itemLabel="Novo leto" />
+				</h:selectOneMenu><br />
+			</tr>
+
+			<tr><br /></tr>
+			<tr>
+				<h:outputText value="Ocene hotela" style="font-weight:bold"></h:outputText><br />
+			</tr>
+			<tr><br /></tr>
+			<tr>
+				<h:outputText value="Storitve"></h:outputText><br />
+			</tr>
+			<tr>
+				<h:selectOneRadio value="#{vpisMnenja.mnenje.ocenaStoritev}">
+					<f:selectItem itemValue="Zelo slabo" itemLabel="Zelo slabo" />
+					<f:selectItem itemValue="Slabo" itemLabel="Slabo" />
+					<f:selectItem itemValue="Dobro" itemLabel="Dobro" />
+					<f:selectItem itemValue="Zelo dobro" itemLabel="Zelo dobro" />
+					<f:selectItem itemValue="Vrhunsko" itemLabel="Vrhunsko" />
+				</h:selectOneRadio><br />
+			</tr>
+
+			<tr>
+				<h:outputText value="Sobe"></h:outputText><br />
+			</tr>
+			<tr>
+				<h:selectOneRadio value="#{vpisMnenja.mnenje.ocenaSobe}">
+					<f:selectItem itemValue="Zelo slabo" itemLabel="Zelo slabo" />
+					<f:selectItem itemValue="Slabo" itemLabel="Slabo" />
+					<f:selectItem itemValue="Dobro" itemLabel="Dobro" />
+					<f:selectItem itemValue="Zelo dobro" itemLabel="Zelo dobro" />
+					<f:selectItem itemValue="Vrhunsko" itemLabel="Vrhunsko" />
+				</h:selectOneRadio><br />
+			</tr>
+
+			<tr>
+				<h:outputText value="Lokacija"></h:outputText><br />
+			</tr>
+			<tr>
+				<h:selectOneRadio value="#{vpisMnenja.mnenje.ocenaLokacije}">
+					<f:selectItem itemValue="Zelo slabo" itemLabel="Zelo slabo" />
+					<f:selectItem itemValue="Slabo" itemLabel="Slabo" />
+					<f:selectItem itemValue="Dobro" itemLabel="Dobro" />
+					<f:selectItem itemValue="Zelo dobro" itemLabel="Zelo dobro" />
+					<f:selectItem itemValue="Vrhunsko" itemLabel="Vrhunsko" />
+				</h:selectOneRadio><br />
+			</tr>
+			<tr>
+				<h:commandButton value="Objavi mnenje"
+					actionListener="#{vpisMnenja.shrani()}" />
+				<h:commandButton value="Nazaj" action="nazaj" />
+			</tr>
+		</table>
+	</h:form>
+</body>
+</html>

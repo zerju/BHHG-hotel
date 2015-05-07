@@ -13,7 +13,6 @@
 	<ui:include src="../WEB-INF/templateHeader.xhtml" />
 	<br />
 	<h1>Mnenje</h1>
-
 	<h:form>
 		<table align="center">
 			<tr>

@@ -14,6 +14,12 @@
 	<br />
 	<h1>Mnenje</h1>
 
+	<h:panelGroup rendered="#{login.isNekaj()}">
+		<h:form>
+			<h:commandButton value="vnesiMnenje" action="mnenje" />
+		</h:form>
+	</h:panelGroup>
+
 	<h:form>
 		<table align="center">
 			<tr>

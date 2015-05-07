@@ -16,7 +16,8 @@
 
 
 	<h1>Domov</h1>
-
+<ui:param name="session" 
+            value="#{login.setSession()}" />
 
 
 	<table align="center">
@@ -29,8 +30,10 @@
 			<td><img src="Slike/hotel.jpg" /></td><td><h:outputText value="#{totiIndex.opis2}" /></td>
 		</tr>
 	</table>
-	<h:form><h:commandButton value="Uredi" action="urediOpis"/></h:form>
-
+	<h:panelGroup rendered="#{login.isAdmin()}">
+	<h:form><h:commandButton value="Uredi" action="urediOpis"/>
+			</h:form>
+	</h:panelGroup>
 </body>
 
 </html>

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html
 xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
 >
 <head>
 <meta charset="UTF-8"/>
@@ -16,7 +18,14 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
         <li><a href="../Index/Index.xhtml">Domov</a></li>
         <li><a href="../Restavracija/Restavracija.xhtml">Restavracija</a></li>
         <li><a href="../Rezervacije/RezervacijeSob.xhtml">Sobe</a></li>
-        <li><a href="../Kontakt/Kontakt.xhtml" class="last">Contact</a></li>
+        <li><a href="../Kontakt/Kontakt.xhtml" class="last">Kontakt</a></li>
+        <li><a href="../Mnenje/PrikazMnenj.xhtml" class="last">Mnenja</a></li>
+        <h:panelGroup rendered="#{login.isNekaj12()}">
+        <li><a href="../Registracija/Login.xhtml" class="last">Login</a></li>
+        </h:panelGroup>
+        <h:panelGroup rendered="#{login.isNekaj()}">
+        <li><h:form><h:commandLink value="logout" actionListener="#{login.logout()}"/></h:form></li>
+        </h:panelGroup>
       </ul>
     </div>
 

@@ -16,9 +16,11 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
 
 
 <h1>Rezervacija miz</h1>
+<h:panelGroup rendered="#{login.isAdmin()}">
 <h:form>
 		<h:commandButton value="Dodaj mizo" action="dodajMizo"/>
 		</h:form>
+		</h:panelGroup>
 		<br />
 <ui:repeat value="#{rezervacijaMize.vrniProste()}" var="miza">
 
@@ -40,7 +42,9 @@ xmlns:ui="http://java.sun.com/jsf/facelets"
 	<br /><br />
 </h:form>
 </ui:repeat>
+<h:panelGroup rendered="#{login.isAdmin()}">
 <h:form><h:commandButton value="zasedene" action="zasedene"/></h:form><br /><br />
+</h:panelGroup>
 </body>
 
 </html>

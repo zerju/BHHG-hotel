@@ -34,8 +34,10 @@
 			</td>
 		</tr>
 	</table>
+	<h:panelGroup rendered="#{login.isAdmin()}">
 	<h:form><h:commandButton value="Uredi Email" action="urediEmail"/></h:form>
 	<h:form><h:commandButton value="Uredi telefon" action="urediTelefon"/></h:form>
+	</h:panelGroup>
 	<br/>
 	<img src="Slike/call.jpg"  />
 

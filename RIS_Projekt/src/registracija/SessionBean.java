@@ -21,6 +21,7 @@ package registracija;
 	                .getExternalContext().getSession(false);
 	        return session.getAttribute("username").toString();
 	    }
+	    
 	 
 	    public static String getUserId() {
 	        HttpSession session = getSession();

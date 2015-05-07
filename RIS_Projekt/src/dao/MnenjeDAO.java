@@ -27,7 +27,7 @@ public class MnenjeDAO {
 		
 		try {
 			con = ds.getConnection();
-			con.createStatement().execute("create table IF NOT EXISTS mnenje(idMnenja INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,FOREIGN KEY (uporabnik) REFERENCES registriranUporabnik(idUporabnika),sumOcena VARCHAR(15),ocenaStoritev VARCHAR(15),ocenaSobe VARCHAR(15),ocenaLokacije VARCHAR(15),naslov VARCHAR(30),vsebina VARCHAR(500),vrstaIzleta VARCHAR(30),letniCas VARCHAR(20))");
+			con.createStatement().execute("create table IF NOT EXISTS mnenje(idMnenja INT PRIMARY KEY AUTO_INCREMENT DEFAULT NULL,sumOcena VARCHAR(15),uporabnik VARCHAR(25),ocenaStoritev VARCHAR(15),ocenaSobe VARCHAR(15),ocenaLokacije VARCHAR(15),naslov VARCHAR(30),vsebina VARCHAR(500),vrstaIzleta VARCHAR(30),letniCas VARCHAR(20))");
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -47,9 +47,9 @@ public class MnenjeDAO {
 		Connection con = ds.getConnection();
 		try {
 			con = ds.getConnection();
-				PreparedStatement ps=con.prepareStatement("insert into mnenje(idMnenja,registriranUporabnik,sumOcena,ocenaStoritev,ocenaSobe,ocenaLokacije,naslov,vsebina,vrstaIzleta,letniCas) values (?,?,?,?,?,?,?,?,?,?)");
+				PreparedStatement ps=con.prepareStatement("insert into mnenje(idMnenja,uporabnik,sumOcena,ocenaStoritev,ocenaSobe,ocenaLokacije,naslov,vsebina,vrstaIzleta,letniCas) values (?,?,?,?,?,?,?,?,?,?)");
 				ps.setInt(1, m.getIdMnenja());
-				ps.setInt(2, m.getIdUporabnika());
+				ps.setString(2, m.getUporabnik());
 				ps.setString(3, m.getSumOcena());
 				ps.setString(4, m.getOcenaStoritev());
 				ps.setString(5, m.getOcenaSobe());
@@ -78,7 +78,7 @@ public class MnenjeDAO {
 			while (rs.next()) {
 				Mnenje m =new Mnenje();
 				m.setIdMnenja(rs.getInt("idMnenja"));
-				m.setIdUporabnika(rs.getInt("idUporabnika"));
+				m.setUporabnik(rs.getString("uporabnik"));
 				m.setSumOcena(rs.getString("sumOcena"));
 				m.setOcenaStoritev(rs.getString("ocenaStoritev"));
 				m.setOcenaStoritev(rs.getString("ocenaSobe"));
@@ -114,7 +114,7 @@ public class MnenjeDAO {
 			while (rs.next()) {
 				Mnenje l = new Mnenje();
 				l.setIdMnenja(rs.getInt("idMnenja"));
-				l.setIdUporabnika(rs.getInt("idUporabnika"));
+				l.setUporabnik(rs.getString("uporabnik"));
 				l.setSumOcena(rs.getString("sumOcena"));
 				l.setOcenaStoritev(rs.getString("ocenaStoritev"));
 				l.setOcenaStoritev(rs.getString("ocenaSobe"));

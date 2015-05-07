@@ -25,6 +25,7 @@ public class PrikazMnenj {
 		MnenjeDAO dao = new MnenjeDAO(ds);
 		vse.clear();
 		vse = (ArrayList<Mnenje>) dao.vrniVse();
+		System.out.println(vse.get(0).getNaslov());
 		return vse;
 	}
 

@@ -3,7 +3,7 @@ package beani;
 public class Mnenje {
 
 	private int idMnenja;
-	private int idUporabnika;
+	private String uporabnik;
 	private String sumOcena;
 	private String ocenaStoritev;
 	private String ocenaSobe;
@@ -21,13 +21,7 @@ public class Mnenje {
 		this.idMnenja = idMnenja;
 	}
 
-	public int getIdUporabnika() {
-		return idUporabnika;
-	}
-
-	public void setIdUporabnika(int idUporabnika) {
-		this.idUporabnika = idUporabnika;
-	}
+	
 
 	public String getSumOcena() {
 		return sumOcena;
@@ -91,5 +85,13 @@ public class Mnenje {
 
 	public void setLetniCas(String letniCas) {
 		this.letniCas = letniCas;
+	}
+
+	public String getUporabnik() {
+		return uporabnik;
+	}
+
+	public void setUporabnik(String uporabnik) {
+		this.uporabnik = uporabnik;
 	}
 }

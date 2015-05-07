@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<link rel="stylesheet" href="WEB-INF/../style.css" type="text/css"
+	media="all" />
+<head>
+<meta charset="UTF-8" />
+<title>Prikaz mnenj</title>
+</head>
+
+<body>
+	<ui:include src="../WEB-INF/templateHeader.xhtml" />
+	<br />
+	<h1>Prikaz mnenj</h1>
+	
+		
+	<ui:repeat value="#{prikazMnenja.vrniVse()}" var="m">
+		<table align="center">
+		
+				<br />
+				<tr>
+				<h:outputText value="Uporabnik"/>: <h:outputText value="#{m.uporabnik}"/><br />
+				</tr>
+				<tr>
+				<td><h:outputText value="Skupna ocena"/><h:outputText value="#{m.sumOcena}"/><br /></td>
+				</tr>
+				<tr>
+				<td><h:outputText value="Naslov mnenja"/><h:outputText value="#{m.naslov}"/><br /></td>
+				</tr>
+				<tr>
+				<td><h:outputText value="Mnenje"/><h:outputText value="#{m.vsebina}"/><br /></td>
+				</tr>
+				<tr>
+				<td><h:outputText value="Katera vrsta izleta?"/><h:outputText value="#{m.vrstaIzleta}"/><br /></td>
+				</tr>
+				<tr>
+				<td><h:outputText value="Kdaj ste potovali?"/><h:outputText value="#{m.sumOcena}"/><br /></td>
+				</tr>
+				<b>Ocene hotela</b><br />
+				<tr>
+				<td><h:outputText value="Storitve"/></td><td><h:outputText value="#{m.ocenaStoritev}"/><br /></td>
+				</tr>
+				<tr>
+				<td><h:outputText value="Soba"/><h:outputText value="#{m.ocenaSobe}"/><br /></td>
+				</tr>
+				<tr>
+				<td><h:outputText value="Lokacija"/><h:outputText value="#{m.ocenaLokacije}"/><br /></td>
+				</tr>
+				
+				<br />
+			
+		</table>
+		</ui:repeat>
+	
+</body>
+</html>
